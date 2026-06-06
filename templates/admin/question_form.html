@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block title %}{% if question %}Editar{% else %}Nueva{% endif %} Pregunta{% endblock %}
+
+{% block content %}
+<div class="admin-page">
+  <div class="admin-header">
+    <h1>{% if question %}✏️ Editar Pregunta{% else %}➕ Nueva Pregunta{% endif %}</h1>
+  </div>
+
+  <div class="form-card">
+    <form method="POST" class="question-form">
+      <div class="form-group">
+        <label>Categoría</label>
+        <input type="text" name="category" list="cat-list"
+               value="{{ question.category if question else '' }}"
+               placeholder="Ej: Derecho Civil"/>
+        <datalist id="cat-list">
+          {% for cat in categories %}<option value="{{ cat }}">{% endfor %}
+        </datalist>
+      </div>
+
+      <div class="form-group">
+        <label>Pregunta <span class="req">*</span></label>
+        <textarea name="question" rows="4" required
+                  placeholder="Escriba aquí la pregunta completa…">{{ question.question if question else '' }}</textarea>
+      </div>
+
+      <div class="options-form-grid">
+        {% for letter, field in [('a','option_a'),('b','option_b'),('c','option_c'),('d','option_d')] %}
+        <div class="form-group">
+          <label>Opción {{ letter|upper }} <span class="req">*</span></label>
+          <input type="text" name="{{ field }}" required
+                 value="{{ question[field] if question else '' }}"
+                 placeholder="Opción {{ letter|upper }}…"/>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="form-group">
+        <label>Respuesta correcta <span class="req">*</span></label>
+        <select name="correct" required>
+          {% for letter in ['a','b','c','d'] %}
+            <option value="{{ letter }}"
+              {% if question and question.correct == letter %}selected{% endif %}>
+              Opción {{ letter|upper }}
+            </option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="form-actions">
+        <a href="{{ url_for('admin_questions') }}" class="btn-cancel">Cancelar</a>
+        <button type="submit" class="btn-save">
+          {% if question %}💾 Guardar cambios{% else %}➕ Agregar pregunta{% endif %}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

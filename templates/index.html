@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio – Simulador Examen Complexivo Derecho{% endblock %}
+
+{% block content %}
+<div class="hero">
+  <div class="hero-content">
+    <div class="hero-badge">UNIVERSIDAD FELIPE VILLANUEVA</div>
+    <h1 class="hero-title">⚖️ Simulador de Examen Complexivo</h1>
+    <h2 class="hero-subtitle">Carrera de Derecho</h2>
+    <p class="hero-desc">Practica, evalúa tu conocimiento y prepárate para obtener el máximo puntaje en tu examen complexivo.</p>
+
+    <!-- Stats bar -->
+    <div class="stats-bar">
+      <div class="stat-item">
+        <span class="stat-number">{{ total_q }}</span>
+        <span class="stat-label">Preguntas</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">100</span>
+        <span class="stat-label">Por examen</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">120</span>
+        <span class="stat-label">Minutos</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">70</span>
+        <span class="stat-label">Puntaje mínimo</span>
+      </div>
+    </div>
+
+    <!-- Instructions -->
+    <div class="instructions-card">
+      <h3>📋 Instrucciones del Examen</h3>
+      <ul class="instructions-list">
+        <li>✔ Lea cuidadosamente cada pregunta y sus opciones de respuesta</li>
+        <li>✔ Seleccione <strong>una</strong> respuesta por pregunta (selección múltiple)</li>
+        <li>✔ El examen se presenta en <strong>10 páginas</strong> de 10 preguntas cada una</li>
+        <li>✔ Puede navegar entre páginas sin perder sus respuestas</li>
+        <li>✔ Tiene <strong>120 minutos</strong> para completar el examen</li>
+        <li>✔ Necesita <strong>70 o más puntos</strong> para aprobar</li>
+        <li>⚠ No se permite el uso de material de apoyo ni dispositivos electrónicos</li>
+      </ul>
+    </div>
+
+    {% if total_q < 10 %}
+    <div class="alert alert-warning">
+      ⚠ Advertencia: Solo hay {{ total_q }} preguntas disponibles. El administrador debe cargar más preguntas.
+    </div>
+    {% endif %}
+
+    <!-- Start form -->
+    <div class="start-card">
+      <h3>Ingrese su nombre para comenzar</h3>
+      <form action="{{ url_for('start_exam') }}" method="POST" class="start-form">
+        <input
+          type="text"
+          name="student_name"
+          placeholder="Nombre completo del estudiante"
+          required
+          maxlength="150"
+          class="name-input"
+          autocomplete="name"
+        />
+        <button type="submit" class="btn-start">
+          🚀 INICIAR EXAMEN
+        </button>
+      </form>
+    </div>
+
+  </div><!-- /hero-content -->
+</div>
+
+<!-- Categories preview -->
+<section class="categories-section">
+  <div class="section-inner">
+    <h2 class="section-title">Áreas del Derecho Evaluadas</h2>
+    <div class="categories-grid">
+      <div class="cat-card"><span>⚖️</span><p>Derecho Constitucional</p></div>
+      <div class="cat-card"><span>📜</span><p>Derecho Civil</p></div>
+      <div class="cat-card"><span>👷</span><p>Derecho Laboral</p></div>
+      <div class="cat-card"><span>🔒</span><p>Derecho Penal</p></div>
+      <div class="cat-card"><span>🏛️</span><p>Derecho Administrativo</p></div>
+      <div class="cat-card"><span>⚓</span><p>Derecho Procesal</p></div>
+      <div class="cat-card"><span>💼</span><p>Derecho Mercantil</p></div>
+      <div class="cat-card"><span>🌎</span><p>Derecho Internacional</p></div>
+    </div>
+  </div>
+</section>
+{% endblock %}

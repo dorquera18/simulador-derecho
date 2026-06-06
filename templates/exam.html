@@ -1,0 +1,197 @@
+{% extends "base.html" %}
+{% block title %}Examen – Página {{ current_page }} de {{ total_pages }}{% endblock %}
+
+{% block content %}
+<!-- Sticky exam header -->
+<div class="exam-header">
+  <div class="exam-header-inner">
+    <div class="exam-info">
+      <span class="student-badge">👤 {{ student_name }}</span>
+      <span class="progress-label">Página <strong>{{ current_page }}</strong> de <strong>{{ total_pages }}</strong></span>
+      <span class="answered-badge" id="answered-counter">
+        Respondidas: <strong id="answered-num">{{ answered_count }}</strong> / {{ total_questions }}
+      </span>
+    </div>
+    <div class="timer-box" id="timer-box">
+      ⏱ <span id="timer">02:00:00</span>
+    </div>
+  </div>
+
+  <!-- Page navigation mini-map -->
+  <div class="page-nav-map">
+    {% for p in range(1, total_pages + 1) %}
+      <a href="{{ url_for('exam', page=p) }}"
+         class="page-dot {% if p == current_page %}active{% endif %}"
+         data-page="{{ p }}"
+         title="Página {{ p }}">{{ p }}</a>
+    {% endfor %}
+  </div>
+
+  <!-- Progress bar -->
+  <div class="progress-bar-outer">
+    <div class="progress-bar-inner" id="progress-bar"
+         style="width: {{ (answered_count / total_questions * 100)|round|int }}%"></div>
+  </div>
+</div>
+
+<!-- Questions -->
+<div class="exam-body">
+  <form id="exam-form" method="POST" action="{{ url_for('submit_exam') }}">
+
+    {% for q in questions %}
+    <div class="question-card {% if answered.get(q.global_index|string) %}answered{% endif %}" id="qcard-{{ q.global_index }}">
+      <div class="question-header">
+        <span class="q-number">Pregunta {{ q.global_index }} de {{ total_questions }}</span>
+        <span class="q-category">{{ q.category }}</span>
+      </div>
+      <p class="q-text">{{ q.question }}</p>
+      <div class="options-list">
+        {% for letter, label in [('a', q.option_a), ('b', q.option_b), ('c', q.option_c), ('d', q.option_d)] %}
+        <label class="option-label {% if answered.get(q.global_index|string) == letter %}selected{% endif %}"
+               for="q{{ q.global_index }}_{{ letter }}">
+          <input
+            type="radio"
+            name="q{{ q.global_index }}"
+            id="q{{ q.global_index }}_{{ letter }}"
+            value="{{ letter }}"
+            {% if answered.get(q.global_index|string) == letter %}checked{% endif %}
+            onchange="saveAnswer({{ q.global_index }}, '{{ letter }}', this)"
+          />
+          <span class="opt-letter">{{ letter|upper }}</span>
+          <span class="opt-text">{{ label }}</span>
+        </label>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+
+    <!-- Navigation -->
+    <div class="exam-nav">
+      {% if current_page > 1 %}
+        <a href="{{ url_for('exam', page=current_page - 1) }}" class="btn-nav btn-prev">← Anterior</a>
+      {% else %}
+        <span></span>
+      {% endif %}
+
+      {% if current_page < total_pages %}
+        <a href="{{ url_for('exam', page=current_page + 1) }}" class="btn-nav btn-next">Siguiente →</a>
+      {% else %}
+        <button type="button" class="btn-submit" onclick="confirmSubmit()">
+          🏁 ENTREGAR EXAMEN
+        </button>
+      {% endif %}
+    </div>
+
+    <!-- Always available submit (floating) -->
+    <button type="button" class="btn-float-submit" id="float-submit" onclick="confirmSubmit()" title="Entregar examen">
+      🏁
+    </button>
+
+  </form>
+</div>
+
+<!-- Confirm modal -->
+<div class="modal-overlay" id="modal" style="display:none">
+  <div class="modal-box">
+    <h2>¿Entregar el examen?</h2>
+    <p id="modal-msg">¿Está seguro de que desea entregar el examen?</p>
+    <div class="modal-actions">
+      <button class="btn-modal-cancel" onclick="closeModal()">Cancelar</button>
+      <button class="btn-modal-confirm" onclick="document.getElementById('exam-form').submit()">Sí, entregar</button>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// ── State ──────────────────────────────────────────────────────────────────
+const TOTAL_QUESTIONS = {{ total_questions }};
+const TOTAL_PAGES     = {{ total_pages }};
+const START_SECONDS   = 120 * 60; // 120 minutes
+
+// Load remaining time from sessionStorage (persists across page navigations)
+let remaining = parseInt(sessionStorage.getItem('exam_remaining') || START_SECONDS);
+let answeredCount = {{ answered_count }};
+
+// ── Timer ──────────────────────────────────────────────────────────────────
+const timerEl  = document.getElementById('timer');
+const timerBox = document.getElementById('timer-box');
+
+function formatTime(s) {
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const sec = s % 60;
+  return `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}`;
+}
+
+function tick() {
+  if (remaining <= 0) {
+    timerEl.textContent = '00:00:00';
+    alert('⏰ El tiempo ha terminado. El examen será entregado automáticamente.');
+    document.getElementById('exam-form').submit();
+    return;
+  }
+  remaining--;
+  sessionStorage.setItem('exam_remaining', remaining);
+  timerEl.textContent = formatTime(remaining);
+  if (remaining <= 600) {
+    timerBox.classList.add('urgent');
+  }
+}
+
+timerEl.textContent = formatTime(remaining);
+setInterval(tick, 1000);
+
+// ── Save answer ─────────────────────────────────────────────────────────────
+function saveAnswer(questionIndex, letter, radioEl) {
+  // Highlight selected option
+  const card = document.getElementById('qcard-' + questionIndex);
+  card.querySelectorAll('.option-label').forEach(l => l.classList.remove('selected'));
+  radioEl.closest('.option-label').classList.add('selected');
+  card.classList.add('answered');
+
+  // Send to server
+  fetch('/save_answer', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({question_index: questionIndex, answer: letter})
+  })
+  .then(r => r.json())
+  .then(data => {
+    answeredCount = data.answered;
+    document.getElementById('answered-num').textContent = answeredCount;
+    const pct = Math.round(answeredCount / TOTAL_QUESTIONS * 100);
+    document.getElementById('progress-bar').style.width = pct + '%';
+    updatePageDots();
+  });
+}
+
+// ── Page dot colors ─────────────────────────────────────────────────────────
+// We track answered questions in sessionStorage by page
+function updatePageDots() {
+  // Simple heuristic: mark current page dot based on answered count
+}
+
+// ── Submit ──────────────────────────────────────────────────────────────────
+function confirmSubmit() {
+  const unanswered = TOTAL_QUESTIONS - answeredCount;
+  const msgEl = document.getElementById('modal-msg');
+  if (unanswered > 0) {
+    msgEl.textContent = `Tiene ${unanswered} pregunta(s) sin responder. ¿Desea entregar de todas formas?`;
+  } else {
+    msgEl.textContent = '¡Ha respondido todas las preguntas! ¿Desea entregar el examen?';
+  }
+  document.getElementById('modal').style.display = 'flex';
+}
+
+function closeModal() {
+  document.getElementById('modal').style.display = 'none';
+}
+
+// Show float submit when all answered
+if (answeredCount >= TOTAL_QUESTIONS) {
+  document.getElementById('float-submit').classList.add('visible');
+}
+</script>
+{% endblock %}

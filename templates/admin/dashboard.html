@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}Dashboard Admin{% endblock %}
+
+{% block content %}
+<div class="admin-page">
+  <div class="admin-header">
+    <h1>📊 Panel Administrativo</h1>
+    <div class="admin-nav">
+      <a href="{{ url_for('admin_dashboard') }}" class="admin-link active">Dashboard</a>
+      <a href="{{ url_for('admin_questions') }}" class="admin-link">Preguntas</a>
+      <a href="{{ url_for('admin_import') }}" class="admin-link">Importar CSV</a>
+      <a href="{{ url_for('admin_stats') }}" class="admin-link">Historial</a>
+    </div>
+  </div>
+
+  <!-- Stat cards -->
+  <div class="admin-stats-grid">
+    <div class="stat-card">
+      <div class="stat-card-icon">📚</div>
+      <div class="stat-card-num">{{ total_q }}</div>
+      <div class="stat-card-label">Total Preguntas</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card-icon">📝</div>
+      <div class="stat-card-num">{{ total_exams }}</div>
+      <div class="stat-card-label">Exámenes Rendidos</div>
+    </div>
+    <div class="stat-card stat-card-pass">
+      <div class="stat-card-icon">✅</div>
+      <div class="stat-card-num">{{ passed_exams }}</div>
+      <div class="stat-card-label">Aprobados</div>
+    </div>
+    <div class="stat-card stat-card-fail">
+      <div class="stat-card-icon">❌</div>
+      <div class="stat-card-num">{{ failed_exams }}</div>
+      <div class="stat-card-label">Reprobados</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card-icon">📈</div>
+      <div class="stat-card-num">{{ avg_score }}</div>
+      <div class="stat-card-label">Promedio General</div>
+    </div>
+  </div>
+
+  <!-- Categories -->
+  <div class="admin-section">
+    <h2>Preguntas por Categoría</h2>
+    <div class="cat-bar-table">
+      {% for cat, count in categories %}
+      <div class="cat-bar-row">
+        <span class="cat-bar-name">{{ cat }}</span>
+        <div class="cat-bar-bg">
+          <div class="cat-bar-fg" style="width: {{ [(count / total_q * 100)|round|int, 5]|max }}%"></div>
+        </div>
+        <span class="cat-bar-count">{{ count }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Recent exams -->
+  <div class="admin-section">
+    <h2>Últimos Exámenes</h2>
+    <div class="table-wrap">
+      <table class="admin-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Estudiante</th>
+            <th>Puntaje</th>
+            <th>Resultado</th>
+            <th>Fecha</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for e in recent_exams %}
+          <tr>
+            <td>{{ e.id }}</td>
+            <td>{{ e.student_name }}</td>
+            <td><strong>{{ e.score }}</strong> / {{ e.total }}</td>
+            <td>
+              {% if e.passed %}
+                <span class="badge badge-pass">APROBADO</span>
+              {% else %}
+                <span class="badge badge-fail">REPROBADO</span>
+              {% endif %}
+            </td>
+            <td>{{ e.end_time.strftime('%d/%m/%Y %H:%M') if e.end_time else '–' }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+{% endblock %}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{% block title %}Simulador Examen Complexivo – Derecho{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"/>
+  {% block head %}{% endblock %}
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a class="nav-brand" href="{{ url_for('index') }}">
+      <span class="nav-icon">⚖️</span>
+      <span>Simulador Complexivo – Derecho</span>
+    </a>
+    <div class="nav-links">
+      <a href="{{ url_for('index') }}">Inicio</a>
+      {% if session.get('admin_logged_in') %}
+        <a href="{{ url_for('admin_dashboard') }}">Panel Admin</a>
+        <a href="{{ url_for('admin_logout') }}">Cerrar sesión</a>
+      {% else %}
+        <a href="{{ url_for('admin_login') }}" class="btn-nav-admin">Admin</a>
+      {% endif %}
+    </div>
+  </div>
+</nav>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <div class="flash-container">
+      {% for category, message in messages %}
+        <div class="flash flash-{{ category }}">{{ message }}</div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endwith %}
+
+<main>
+  {% block content %}{% endblock %}
+</main>
+
+<footer class="footer">
+  <p>Universidad Felipe Villanueva &nbsp;|&nbsp; Carrera de Derecho &nbsp;|&nbsp; Examen Complexivo</p>
+</footer>
+
+{% block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Importar Preguntas CSV{% endblock %}
+
+{% block content %}
+<div class="admin-page">
+  <div class="admin-header">
+    <h1>📥 Importar Preguntas desde CSV</h1>
+    <div class="admin-nav">
+      <a href="{{ url_for('admin_dashboard') }}" class="admin-link">Dashboard</a>
+      <a href="{{ url_for('admin_questions') }}" class="admin-link">Preguntas</a>
+      <a href="{{ url_for('admin_import') }}" class="admin-link active">Importar CSV</a>
+      <a href="{{ url_for('admin_stats') }}" class="admin-link">Historial</a>
+    </div>
+  </div>
+
+  <div class="form-card">
+    <div class="import-info">
+      <h3>Formato del archivo CSV</h3>
+      <p>El archivo debe tener las siguientes columnas (con encabezado):</p>
+      <div class="csv-example">
+        <code>pregunta,opcion_a,opcion_b,opcion_c,opcion_d,respuesta_correcta,categoria</code>
+      </div>
+      <p><strong>Ejemplo:</strong></p>
+      <div class="csv-example">
+        <code>¿Cuál es la capital del Ecuador?,Quito,Guayaquil,Cuenca,Loja,a,Geografía</code>
+      </div>
+      <p>La columna <code>respuesta_correcta</code> debe ser: <strong>a</strong>, <strong>b</strong>, <strong>c</strong> o <strong>d</strong></p>
+    </div>
+
+    <form method="POST" enctype="multipart/form-data" class="import-form">
+      <div class="form-group">
+        <label>Seleccione el archivo CSV</label>
+        <input type="file" name="csv_file" accept=".csv" required/>
+      </div>
+      <div class="form-actions">
+        <a href="{{ url_for('admin_questions') }}" class="btn-cancel">Cancelar</a>
+        <button type="submit" class="btn-save">📥 Importar preguntas</button>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

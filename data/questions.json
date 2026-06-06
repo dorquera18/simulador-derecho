@@ -1,0 +1,4182 @@
+[
+  {
+    "num": 1,
+    "question": "Según las definiciones de teletrabajo, ¿cómo se denomina a los trabajadores que utilizan su propio domicilio o un lugar escogido, y que solo acuden a la oficina ocasionalmente?",
+    "option_a": "Autónomos",
+    "option_b": "Móviles",
+    "option_c": "Parciales",
+    "option_d": "Ocasionales",
+    "category": "Derecho Procesal",
+    "correct": "c"
+  },
+  {
+    "num": 2,
+    "question": "¿Qué derecho tienen los trabajadores contratados para realizar trabajos cíclicos o periódicos en razón de la naturaleza discontinua de sus labores?",
+    "option_a": "Indemnización por jubilación",
+    "option_b": "Derecho a la estabilidad, es decir que deben ser llamados en cada temporada",
+    "option_c": "Derecho a vacaciones pagadas dobles",
+    "option_d": "Derecho a trabajar en feriados con recargo",
+    "category": "Derecho Procesal",
+    "correct": "b"
+  },
+  {
+    "num": 3,
+    "question": "¿Cuál de los siguientes contratos debe celebrarse obligatoriamente por escrito?",
+    "option_a": "Los que versen sobre trabajos de servicios domésticos",
+    "option_b": "Los que requieran conocimientos técnicos o de una profesión determinada",
+    "option_c": "Los contratos verbales de jornaleros",
+    "option_d": "Todos los contratos de obra cierta menores a un salario básico",
+    "category": "Derecho Procesal",
+    "correct": "b"
+  },
+  {
+    "num": 4,
+    "question": "Es obligación del empleador proporcionar oportunamente a los trabajadores:",
+    "option_a": "Los alimentos de la jornada diaria",
+    "option_b": "Útiles, instrumentos y materiales necesarios para la ejecución del trabajo",
+    "option_c": "Transporte privado desde su domicilio",
+    "option_d": "Vivienda equipada cerca del lugar de trabajo",
+    "category": "Derecho Procesal",
+    "correct": "b"
+  },
+  {
+    "num": 5,
+    "question": "¿Cuál es el tiempo máximo que un empleador debe conceder a un trabajador para el ejercicio del sufragio en elecciones populares?",
+    "option_a": "Dos horas",
+    "option_b": "La jornada completa",
+    "option_c": "Una hora",
+    "option_d": "Cuatro horas",
+    "category": "Derecho Procesal",
+    "correct": "d"
+  },
+  {
+    "num": 6,
+    "question": "¿Cuántos días de licencia con remuneración completa se conceden al trabajador por fallecimiento de su cónyuge o parientes de segundo grado?",
+    "option_a": "Un día",
+    "option_b": "Dos días",
+    "option_c": "Tres días",
+    "option_d": "Cinco días",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 7,
+    "question": "¿Cuál es la frecuencia obligatoria para suministrar ropa de trabajo (\"un vestido\") de forma gratuita?",
+    "option_a": "Cada año",
+    "option_b": "Cada seis meses",
+    "option_c": "Al inicio del contrato únicamente",
+    "option_d": "Cada dos años",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 8,
+    "question": "Una empresa con un mínimo de veinticinco trabajadores está obligada a contratar, al menos, a:",
+    "option_a": "Una persona con discapacidad",
+    "option_b": "Tres personas con discapacidad",
+    "option_c": "Un trabajador mayor de 65 años",
+    "option_d": "Cinco pasantes universitarios",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 9,
+    "question": "¿Qué ajuste debe realizar el empleador para un trabajador con una enfermedad rara o catastrófica?",
+    "option_a": "Despido inmediato con indemnización",
+    "option_b": "Ajustes razonables en el puesto de trabajo (horarios, teletrabajo, condiciones físicas)",
+    "option_c": "Jubilación anticipada obligatoria",
+    "option_d": "Reducción de sueldo proporcional a la menor productividad",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 10,
+    "question": "¿Cuál es el porcentaje máximo de la remuneración que el empleador puede retener por concepto de multas?",
+    "option_a": "5%",
+    "option_b": "10%",
+    "option_c": "20%",
+    "option_d": "50%",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 11,
+    "question": "¿Cuándo se considera que un trabajo es de \"igual valor\" a otro para efectos de remuneración?",
+    "option_a": "Cuando los trabajadores tienen la misma edad",
+    "option_b": "Cuando el horario es idéntico",
+    "option_c": "Cuando la naturaleza de las funciones, formación exigida y desempeño son equivalentes",
+    "option_d": "Solo cuando los cargos tienen el mismo nombre",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 12,
+    "question": "¿Ante qué autoridad debe celebrarse por escrito el contrato colectivo de trabajo para evitar su nulidad?",
+    "option_a": "Un Notario Público",
+    "option_b": "El Juez del Trabajo",
+    "option_c": "El Director Regional del Trabajo o un inspector del trabajo",
+    "option_d": "El Ministro de Economía",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 13,
+    "question": "¿A partir de cuántos trabajadores es obligatorio establecer comedores si el local está a más de 2km de la población más cercana?",
+    "option_a": "25 trabajadores",
+    "option_b": "50 trabajadores",
+    "option_c": "100 trabajadores",
+    "option_d": "200 trabajadores",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 14,
+    "question": "¿A partir de cuántos trabajadores es obligatorio contar con un trabajador social titulado?",
+    "option_a": "50 trabajadores",
+    "option_b": "75 trabajadores",
+    "option_c": "500 trabajadores",
+    "option_d": "100 trabajadores",
+    "category": "Derecho Laboral",
+    "correct": "d"
+  },
+  {
+    "num": 15,
+    "question": "Para efectos laborales, ¿Cuál es la edad mínima para establecer una relación laboral?",
+    "option_a": "Lo pactado voluntariamente por las partes en el contrato escrito.",
+    "option_b": "La situación real en la que el trabajador se encuentra frente a la prestación de servicios.",
+    "option_c": "El nombre o denominación que se le haya dado al contrato (ej. servicios profesionales).",
+    "option_d": "Únicamente los documentos de afiliación a la seguridad social.",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 17,
+    "question": "¿Cuál es el tiempo máximo que el empleador debe conceder a los trabajadores para el ejercicio del sufragio en elecciones populares?",
+    "option_a": "Dos horas.",
+    "option_b": "Tres horas.",
+    "option_c": "Cuatro horas.",
+    "option_d": "Seis horas.",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 18,
+    "question": "¿Cuál es el número mínimo de trabajadores que debe tener una empresa para estar obligada a contar con un trabajador social titulado?",
+    "option_a": "25 trabajadores.",
+    "option_b": "50 trabajadores.",
+    "option_c": "100 o más trabajadores.",
+    "option_d": "500 trabajadores.",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 19,
+    "question": "Según el Código de Trabajo, ¿cuál es la duración de la licencia por maternidad por el nacimiento de un solo hijo?",
+    "option_a": "Ocho semanas.",
+    "option_b": "Diez semanas.",
+    "option_c": "Doce semanas.",
+    "option_d": "Quince semanas.",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 20,
+    "question": "¿Cuántos días de licencia remunerada le corresponden al padre si el nacimiento de su hijo es por parto normal?",
+    "option_a": "Tres días.",
+    "option_b": "Diez días.",
+    "option_c": "Quince días.",
+    "option_d": "Veinte días.",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 21,
+    "question": "¿Cuál es la duración de la jornada diaria para una madre durante el período de lactancia?",
+    "option_a": "Cuatro horas.",
+    "option_b": "Seis horas.",
+    "option_c": "Siete horas.",
+    "option_d": "Ocho horas",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 22,
+    "question": "¿En qué plazo debe el empleador dar el aviso de entrada al Instituto Ecuatoriano de Seguridad Social (IESS) tras el primer día de labores?",
+    "option_a": "El mismo día de ingreso.",
+    "option_b": "Dentro de los primeros quince días.",
+    "option_c": "Al finalizar el primer mes.",
+    "option_d": "En los primeros tres días.",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 23,
+    "question": "¿Cuál de los siguientes grupos de empleados no percibe remuneración por trabajo suplementario según el Art. 58?",
+    "option_a": "Operarios de fábrica.",
+    "option_b": "Secretarias de gerencia.",
+    "option_c": "Empleados con funciones de confianza y dirección.",
+    "option_d": "Trabajadores con contratos a jornada parcial.",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 24,
+    "question": "¿Cuáles son los tres elementos configurativos de la relación laboral según el artículo 8 del Código del Trabajo?",
+    "option_a": "Horario, uniforme y sueldo.",
+    "option_b": "Prestación de servicios lícitos y personales, dependencia y remuneración.",
+    "option_c": "Contrato escrito, afiliación al IESS y jornada de ocho horas.",
+    "option_d": "Voluntad de las partes, objeto lícito y causa lícita.",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 25,
+    "question": "Quienes son los sujetos de la relación laboral?",
+    "option_a": "Empleado y Trabajador",
+    "option_b": "Empleador y Trabajador",
+    "option_c": "Trabajador y obrero",
+    "option_d": "Gerente y dirigente sindical",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 26,
+    "question": "El derecho a vacaciones forma parte del régimen de derechos laborales. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Es un derecho irrenunciable del trabajador",
+    "option_b": "Es un beneficio opcional",
+    "option_c": "Depende del empleador",
+    "option_d": "No es obligatorio",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 27,
+    "question": "La renuncia dentro de la relación laboral tiene características específicas. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Es un acto voluntario del trabajador",
+    "option_b": "Es impuesta por el empleador",
+    "option_c": "Es obligatoria",
+    "option_d": "Es unilateral del empleador",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 28,
+    "question": "El Derecho Laboral se rige por principios protectores. ¿Cuál de los siguientes se aplica en caso de duda?",
+    "option_a": "In dubio pro operario",
+    "option_b": "In dubio pro legislatore",
+    "option_c": "In dubio pro reo",
+    "option_d": "In dubio pro administrado",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 29,
+    "question": "El Derecho Laboral tiene un objeto específico de regulación. ¿Cuál de las siguientes definiciones es correcta?",
+    "option_a": "Conjunto de normas, principios y valores que regulan la relación entre empleador y trabajador",
+    "option_b": "Normas entre Estado y trabajador",
+    "option_c": "Normas de conducta general",
+    "option_d": "Normas comerciales",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 30,
+    "question": "Las formas contractuales tienen efectos distintos en la relación laboral. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "El contrato de servicios profesionales no genera estabilidad laboral",
+    "option_b": "Genera estabilidad laboral plena",
+    "option_c": "Es equivalente al contrato de trabajo",
+    "option_d": "Es obligatorio",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 31,
+    "question": "El consentimiento es un elemento esencial en los contratos. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "Error, fuerza y dolo son vicios del consentimiento",
+    "option_b": "Solo el error",
+    "option_c": "Solo el dolo",
+    "option_d": "Ninguna",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 32,
+    "question": "El principio “el contrato es ley para las partes” tiene aplicación en el ámbito laboral. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Aplica de manera limitada por el principio protector",
+    "option_b": "Aplica de forma absoluta",
+    "option_c": "No aplica en laboral",
+    "option_d": "Es opcional",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 33,
+    "question": "El contrato es una institución jurídica fundamental. ¿Cuál de las siguientes definiciones es correcta?",
+    "option_a": "Acto por el cual las partes se obligan a dar, hacer o no hacer algo",
+    "option_b": "Acto unilateral",
+    "option_c": "Acto administrativo",
+    "option_d": "Acto informal",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 34,
+    "question": "El concepto clásico de justicia tiene relevancia en el Derecho. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Es la voluntad constante de dar a cada quien lo que le corresponde",
+    "option_b": "Es una norma jurídica",
+    "option_c": "Es una ley",
+    "option_d": "Es un contrato",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 35,
+    "question": "El Derecho tiene una función reguladora en la sociedad. ¿Cuál de las siguientes definiciones es correcta?",
+    "option_a": "Conjunto de normas, principios y valores que regulan la conducta humana en sociedad",
+    "option_b": "Solo normas",
+    "option_c": "Solo principios",
+    "option_d": "Solo valores",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 36,
+    "question": "El manejo de conflictos laborales requiere habilidades específicas. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Se debe ser objetivo con los hechos y respetuoso con las personas",
+    "option_b": "Se debe ser duro con las personas",
+    "option_c": "Se debe evitar el diálogo",
+    "option_d": "Ninguna",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 37,
+    "question": "La comunicación es clave en las relaciones laborales. ¿Cuál de las siguientes opciones describe una interacción adecuada?",
+    "option_a": "Comunicación asertiva",
+    "option_b": "Comunicación unilateral",
+    "option_c": "Comunicación informal",
+    "option_d": "Ninguna",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 38,
+    "question": "Seleccione beneficios de los MASC en materia laboral: 1. Ahorro de tiempo 2. Reducción de costos 3. Mejora de relaciones 4. Eliminación de derechos Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 39,
+    "question": "La solución de conflictos puede requerir intervención externa. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Un tercero imparcial puede intervenir cuando el conflicto es insostenible",
+    "option_b": "Siempre se resuelve internamente",
+    "option_c": "No requiere intervención",
+    "option_d": "Ninguna",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 40,
+    "question": "Seleccione causas del conflicto laboral: 1. Falta de comunicación 2. Prejuicios 3. Posiciones rígidas 4. Cumplimiento contractual Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 41,
+    "question": "Los derechos laborales tienen una protección especial desde los principios de irrenunciabilidad e intangibilidad de derechos. ¿Cuál es el efecto de su renuncia?",
+    "option_a": "Nulidad",
+    "option_b": "Validez",
+    "option_c": "Eficacia parcial",
+    "option_d": "Ninguna",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 42,
+    "question": "El principio de irrenunciabilidad es esencial en Derecho Laboral. ¿Cuál de los siguientes ejemplos es correcto?",
+    "option_a": "Un trabajador no puede renunciar al seguro social",
+    "option_b": "Puede renunciar a todos sus derechos",
+    "option_c": "Puede eliminar sus beneficios",
+    "option_d": "Puede pactar condiciones inferiores",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 43,
+    "question": "El contrato a prueba tiene características específicas. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "No genera estabilidad laboral plena",
+    "option_b": "Genera estabilidad absoluta",
+    "option_c": "Es indefinido",
+    "option_d": "Es permanente",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 44,
+    "question": "Las modificaciones contractuales pueden generar efectos jurídicos. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "Cambio unilateral de condiciones puede constituir despido indirecto",
+    "option_b": "Es un derecho absoluto del empleador",
+    "option_c": "No tiene efectos",
+    "option_d": "Es obligatorio",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 45,
+    "question": "Los beneficios laborales tienen formas de pago específicas. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "No todos los beneficios se pagan mensualmente",
+    "option_b": "Todos son mensuales",
+    "option_c": "Ninguno es obligatorio",
+    "option_d": "Todos son opcionales",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 47,
+    "question": "Ordene la relación laboral: 1. Contratación 2. Prestación de servicios 3. Remuneración 4. Terminación Opciones:",
+    "option_a": "1, 2, 3, 4",
+    "option_b": "2, 1, 3, 4",
+    "option_c": "1, 3, 2, 4",
+    "option_d": "1, 2, 4, 3",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 48,
+    "question": "Seleccione principios del Derecho Laboral: 1. Intangibilidad 2. Irrenunciabilidad 3. In dubio pro operario 4. Autonomía absoluta Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 49,
+    "question": "La primacía de la realidad es un principio clave. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Prevalece lo que ocurre en la práctica sobre lo formal",
+    "option_b": "Prevalece el contrato escrito",
+    "option_c": "Prevalece la voluntad del empleador",
+    "option_d": "Ninguna",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 50,
+    "question": "El objetivo del Derecho Laboral es:",
+    "option_a": "Proteger al trabajador como parte débil de la relación",
+    "option_b": "Favorecer al empleador",
+    "option_c": "Eliminar derechos",
+    "option_d": "Ninguna",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 51,
+    "question": "¿Cuál de las siguientes definiciones describe de manera más completa el concepto de emprendimiento en el contexto del desarrollo económico?",
+    "option_a": "Iniciar un negocio propio con el único fin de obtener ganancias económicas personales.",
+    "option_b": "La capacidad de una persona para realizar un invento y patentarlo.",
+    "option_c": "Es el proceso de identificar, crear y desarrollar una oportunidad de negocio que genera valor económico y/o social, asumiendo sus riesgos.",
+    "option_d": "Trabajar de manera independiente para evitar un jefe y tener horarios flexibles.",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 52,
+    "question": "Un emprendimiento que busca principalmente resolver un problema ambiental o comunitario, reinvirtiendo sus ganancias para maximizar su impacto social, es un ejemplo claro de:",
+    "option_a": "Emprendimiento tecnológico",
+    "option_b": "Emprendimiento social",
+    "option_c": "Emprendimiento tradicional",
+    "option_d": "Emprendimiento de autoempleo",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 53,
+    "question": "De las siguientes habilidades, ¿cuál se considera una habilidad interpersonal (blanda) fundamental para un emprendedor exitoso?",
+    "option_a": "Conocimiento profundo en programación.",
+    "option_b": "Capacidad de redactar un balance financiero.",
+    "option_c": "Liderazgo y comunicación efectiva para guiar a su equipo.",
+    "option_d": "Dominio de un segundo idioma técnico.",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 54,
+    "question": "Un mito común sobre el emprendimiento es que:",
+    "option_a": "Se necesita un plan para reducir la incertidumbre.",
+    "option_b": "Los emprendedores nacen, no se hacen; es un don innato.",
+    "option_c": "Es importante identificar una oportunidad de negocio.",
+    "option_d": "La perseverancia ayuda a superar los obstáculos.",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 55,
+    "question": "¿Cuál de las siguientes NO es una característica típica de la mentalidad emprendedora?",
+    "option_a": "Resiliencia y capacidad de adaptación al cambio.",
+    "option_b": "Aversión total al riesgo y preferencia por la estabilidad absoluta.",
+    "option_c": "Iniciativa y proactividad para buscar soluciones.",
+    "option_d": "Curiosidad y aprendizaje continuo.",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 56,
+    "question": "El \"impacto en la sociedad\" de un emprendimiento se refiere a:",
+    "option_a": "Únicamente la cantidad de impuestos que paga la empresa.",
+    "option_b": "Exclusivamente al número de empleos directos que genera.",
+    "option_c": "Los cambios positivos que genera en la comunidad, economía o medio ambiente, más allá de lo económico.",
+    "option_d": "El valor de la marca en el mercado internacional.",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 57,
+    "question": "Un método eficaz para detectar oportunidades de negocio consiste en:",
+    "option_a": "Copiar exactamente el modelo de una empresa exitosa en otro país.",
+    "option_b": "Observar problemas cotidianos, tendencias de mercado y necesidades insatisfechas de los consumidores.",
+    "option_c": "Esperar a que una idea innovadora llegue de manera repentina.",
+    "option_d": "Invertir únicamente en los sectores con mayor tradición familiar.",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 58,
+    "question": "El \"análisis de la competencia\" en un nuevo negocio es importante porque permite:",
+    "option_a": "Ignorar lo que otros hacen y enfocarse solo en la idea propia.",
+    "option_b": "Fijar los precios más bajos del mercado sin importar los costos.",
+    "option_c": "Identificar las fortalezas y debilidades de los rivales para encontrar un espacio diferenciado en el mercado.",
+    "option_d": "Copiar las estrategias de marketing de la competencia directa.",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 59,
+    "question": "La \"propuesta de valor\" de un negocio se define como:",
+    "option_a": "El precio final del producto o servicio.",
+    "option_b": "El conjunto de beneficios y características que hacen que un producto o servicio sea atractivo y útil para un cliente específico.",
+    "option_c": "El eslogan publicitario más pegadizo de la empresa.",
+    "option_d": "El logotipo y la identidad visual de la marca.",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 60,
+    "question": "Un emprendimiento que vende productos artesanales a través de una tienda física y también utiliza Instagram para mostrar el proceso de elaboración y vender por encargo, combina elementos de emprendimiento:",
+    "option_a": "Tecnológico y social.",
+    "option_b": "Tradicional y tecnológico.",
+    "option_c": "Social y de autoempleo.",
+    "option_d": "De autoempleo y tradicional.",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 61,
+    "question": "¿Qué preguntas clave responde el \"Lienzo de Modelo de Negocio\" (Business Model Canvas)?",
+    "option_a": "¿Cuál es el costo de producción y el margen de ganancia exacto?",
+    "option_b": "¿Cómo redactar los estatutos legales de la empresa?",
+    "option_c": "¿Cómo la empresa crea, entrega y captura valor?",
+    "option_d": "¿Cuál es la fecha exacta de la próxima expansión internacional?",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 62,
+    "question": "Identificar una \"tendencia de mercado\" (como el aumento del consumo de productos orgánicos) es útil para un emprendedor porque:",
+    "option_a": "Le permite orientar su propuesta de valor hacia una demanda creciente y con futuro.",
+    "option_b": "Garantiza que su negocio no tendrá competencia.",
+    "option_c": "Le asegura financiamiento inmediato de bancos.",
+    "option_d": "Es un requisito obligatorio para crear una empresa.",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 63,
+    "question": "¿Cuál es la función principal de un \"plan de negocios\"?",
+    "option_a": "Es un documento estático que predice el futuro de la empresa con exactitud.",
+    "option_b": "Es una hoja de ruta dinámica que describe la estrategia, el mercado, la viabilidad financiera y la operación del negocio.",
+    "option_c": "Es un requisito legal para pagar impuestos.",
+    "option_d": "Es un contrato entre los socios fundadores únicamente.",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 64,
+    "question": "Dentro de los elementos clave de un plan de negocios, el análisis FODA (Fortalezas, Oportunidades, Debilidades y Amenazas) permite:",
+    "option_a": "Definir únicamente el presupuesto de marketing.",
+    "option_b": "Evaluar la situación interna (FOD) y externa (A) de la empresa para tomar decisiones estratégicas.",
+    "option_c": "Calcular el punto de equilibrio financiero.",
+    "option_d": "Establecer la misión y visión de la empresa.",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 65,
+    "question": "La \"validación de la idea de negocio\" mediante una encuesta tiene como objetivo principal:",
+    "option_a": "Confirmar las creencias del emprendedor sin sesgos.",
+    "option_b": "Vender el producto antes de haberlo fabricado.",
+    "option_c": "Contrastar las hipótesis del emprendedor con la opinión y necesidades reales de los potenciales clientes.",
+    "option_d": "Obtener una lista de correos para spam publicitario.",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 66,
+    "question": "Un \"prototipo\" en el proceso de validación es:",
+    "option_a": "El producto final listo para la venta masiva.",
+    "option_b": "Una versión preliminar y simplificada del producto o servicio que permite probar su funcionalidad y aceptación con usuarios reales.",
+    "option_c": "Un dibujo técnico para una patente.",
+    "option_d": "El plan de marketing detallado.",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 67,
+    "question": "¿Cuál de las siguientes opciones es una fuente de financiamiento para etapas tempranas de un emprendimiento?",
+    "option_a": "Extenso y lleno de detalles técnicos para demostrar conocimiento.",
+    "option_b": "Conciso, claro, atractivo y capaz de captar la atención del inversor en pocos minutos.",
+    "option_c": "Exclusivamente financiero, mostrando tablas de proyecciones.",
+    "option_d": "Un monólogo sin posibilidad de preguntas.",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 69,
+    "question": "Realizar una \"prueba de mercado\" o \"test de venta\" antes del lanzamiento oficial sirve para:",
+    "option_a": "Medir la respuesta real de compra de los clientes y hacer ajustes finales al producto o estrategia.",
+    "option_b": "Gastar todo el presupuesto en publicidad.",
+    "option_c": "Evitar tener que hacer un plan de negocios.",
+    "option_d": "Registrar la marca a nivel internacional.",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 70,
+    "question": "Una estrategia de \"escalabilidad\" en un negocio significa que la empresa tiene la capacidad de:",
+    "option_a": "Aumentar sus ingresos significativamente sin que sus costos aumenten en la misma proporción.",
+    "option_b": "Diversificar sus productos sin un plan definido.",
+    "option_c": "Crecer físicamente abriendo una tienda en cada ciudad.",
+    "option_d": "Reducir su plantilla de trabajadores al mínimo.",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 71,
+    "question": "La \"diversificación\" como estrategia de crecimiento implica:",
+    "option_a": "Vender el mismo producto en más tiendas del mismo barrio.",
+    "option_b": "Reducir los precios para ganar más clientes.",
+    "option_c": "Ofrecer nuevos productos o entrar en nuevos mercados, distintos a los actuales.",
+    "option_d": "Mejorar la calidad del producto estrella de la empresa.",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 72,
+    "question": "Para un emprendimiento, la \"innovación y adaptación al cambio\" son cruciales porque:",
+    "option_a": "Los mercados, la tecnología y las preferencias de los consumidores son dinámicos y cambian constantemente.",
+    "option_b": "Permiten mantener el mismo modelo de negocio por décadas.",
+    "option_c": "Son estrategias que solo aplican a las grandes corporaciones.",
+    "option_d": "Ayudan a evitar la competencia sin necesidad de esforzarse.",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 73,
+    "question": "Establecer \"alianzas estratégicas\" o \"redes de contacto\" (networking) le permite a un emprendedor:",
+    "option_a": "Acceder a nuevos recursos, conocimientos, clientes y canales de distribución de manera colaborativa.",
+    "option_b": "Depender completamente de otras empresas para sobrevivir.",
+    "option_c": "Perder el enfoque en su negocio principal.",
+    "option_d": "Asegurarse de no tener que innovar.",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 74,
+    "question": "Un enfoque en la \"sostenibilidad\" para un proyecto de emprendimiento implica que el negocio debe ser viable en tres dimensiones:",
+    "option_a": "Económica, política y religiosa.",
+    "option_b": "Económica, social y ambiental.",
+    "option_c": "Financiera, tecnológica y publicitaria.",
+    "option_d": "Legal, fiscal y administrativa.",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 75,
+    "question": "En la presentación final de un proyecto de emprendimiento, el enfoque principal debe estar en:",
+    "option_a": "Mostrar únicamente los estados financieros proyectados a 10 años.",
+    "option_b": "La biografía detallada de todos los fundadores.",
+    "option_c": "Comunicar claramente el problema que se resuelve, la propuesta de valor única y el modelo de negocio.",
+    "option_d": "Entregar un documento escrito muy extenso y sin exponer.",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 76,
+    "question": "En América Latina, la protección de derechos constitucionales ha evolucionado mediante diferentes mecanismos jurisdiccionales, entre ellos la acción de amparo, que presenta diversas características según cada ordenamiento jurídico. De acuerdo con este contexto, ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La acción de amparo es una figura exclusiva del sistema jurídico ecuatoriano",
+    "option_b": "La acción de amparo se presenta de manera uniforme en todos los países de la región",
+    "option_c": "La acción de amparo adopta diversas formas según el ordenamiento jurídico de cada país",
+    "option_d": "La acción de amparo solo protege derechos patrimoniales",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 77,
+    "question": "La Constitución ecuatoriana de 2008 introdujo nuevas garantías jurisdiccionales para la protección de derechos, reemplazando mecanismos previstos en la Constitución de 1998. En este sentido, ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La acción de protección es una figura completamente nueva sin relación con el amparo",
+    "option_b": "La acción de protección sustituye y evoluciona la acción de amparo prevista en 1998",
+    "option_c": "La acción de amparo sigue vigente con el mismo alcance que en 1998",
+    "option_d": "La acción de protección solo aplica en materia administrativa",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 78,
+    "question": "Las garantías jurisdiccionales como la acción de amparo y la acción de protección cumplen un rol fundamental en un Estado constitucional de derecho. De acuerdo con su finalidad, ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Proteger los derechos constitucionales y fundamentales, evidenciando la importancia de contar con mecanismos eficaces para garantizar el respeto a la dignidad humana.",
+    "option_b": "Imponer sanciones automáticas a quienes reclamen la protección de sus derechos fundamentales sin pruebas suficientes.",
+    "option_c": "Limitar el acceso a la justicia para evitar abusos en el uso de los derechos fundamentales.",
+    "option_d": "Priorizar los derechos constitucionales sobre los intereses del Estado para mantener el orden social.",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 79,
+    "question": "En el Estado constitucional de derechos, las garantías jurisdiccionales cumplen una función esencial en el control del poder público. ¿Cuál de las siguientes afirmaciones describe correctamente esta función?",
+    "option_a": "Permiten ampliar discrecionalmente el poder del Estado",
+    "option_b": "Actúan como límites frente al abuso del poder",
+    "option_c": "Sustituyen a las funciones legislativa y ejecutiva",
+    "option_d": "Eliminan la necesidad de control judicial",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 80,
+    "question": "En el sistema ecuatoriano, la acción de protección puede ser conocida por distintos jueces, dependiendo de la competencia establecida en la normativa constitucional y legal. En este contexto, ¿Qué jueces son competentes para conocer acciones de protección?",
+    "option_a": "Solo jueces de lo civil",
+    "option_b": "Jueces de instancia de cualquier materia",
+    "option_c": "Jueces de lo Contencioso Administrativo",
+    "option_d": "Jueces de la Corte Nacional de Justicia según el fuero",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 81,
+    "question": "La acción de protección tiene como finalidad garantizar la tutela efectiva de los derechos constitucionales frente a actos u omisiones que los vulneren. ¿Cuál de las siguientes opciones refleja correctamente una de sus finalidades?",
+    "option_a": "Restablecer el derecho vulnerado en las mismas condiciones en que lo tenía antes de su vulneración",
+    "option_b": "Revocar actos ilegales que no contengan violaciones a la Constitución",
+    "option_c": "Garantizar la tutela judicial efectiva ante los jueces constitucionales",
+    "option_d": "Ninguna",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 82,
+    "question": "La acción de protección presenta características propias dentro del sistema de garantías jurisdiccionales en Ecuador. Seleccione las que corresponden a esta garantía: 1. Protección amplia 2. Correctiva, preventiva y reparadora 3. Ágil y accesible 4. Subsidiaria y residual 5. Opciones de respuesta:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3",
+    "option_c": "2, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Laboral",
+    "correct": "a"
+  },
+  {
+    "num": 83,
+    "question": "En el sistema ecuatoriano, existen distintas competencias en relación con la acción de protección y la ejecución de sus efectos. ¿Cuál de las siguientes afirmaciones es correcta respecto a los Tribunales Distritales de lo Contencioso Administrativo?",
+    "option_a": "Conocen directamente las acciones de protección en primera instancia",
+    "option_b": "No intervienen en ningún aspecto relacionado con garantías jurisdiccionales",
+    "option_c": "Conocen la cuantificación y ejecución de reparaciones económicas derivadas de estas garantías",
+    "option_d": "Resuelven apelaciones de acciones de protección en todos los casos",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 84,
+    "question": "Dentro del proceso de la acción de protección, el juez constitucional debe garantizar una respuesta rápida y eficaz frente a la vulneración de derechos. ¿Cuál de las siguientes afirmaciones es correcta respecto a la resolución de la acción?",
+    "option_a": "Siempre y cuando no haya diferido la audiencia",
+    "option_b": "Ninguna",
+    "option_c": "Su obligación es resolver en la misma audiencia, y otorgar a las partes la oportunidad de apelar su decisión de manera oral, sin perjuicio de notificar la sentencia escrita.",
+    "option_d": "Debe notificar la sentencia de forma escrita, pudiendo apelar a la misma en el término de tres días",
+    "category": "Derecho Laboral",
+    "correct": "c"
+  },
+  {
+    "num": 85,
+    "question": "La acción de protección no solo declara la vulneración de derechos, sino que también establece mecanismos para su restitución. En este contexto, ¿cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La reparación integral es opcional en la acción de protección",
+    "option_b": "La reparación integral es un derecho del accionante dentro de la acción de protección",
+    "option_c": "La reparación integral solo aplica en materia penal",
+    "option_d": "La reparación integral depende exclusivamente de la voluntad del juez",
+    "category": "Derecho Laboral",
+    "correct": "b"
+  },
+  {
+    "num": 86,
+    "question": "En los procesos constitucionales, puede intervenir un tercero imparcial que aporta criterios técnicos o jurídicos relevantes para la resolución del caso. Este tercero es conocido como:",
+    "option_a": "Amicus curiae",
+    "option_b": "Iura novit curia",
+    "option_c": "Non bis in idem",
+    "option_d": "In dubio pro legislatore",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 87,
+    "question": "Dentro del procedimiento de la acción de protección, la audiencia constituye un momento clave para garantizar el principio de inmediación. ¿Qué ocurre si la parte accionada no comparece a la audiencia?",
+    "option_a": "La audiencia debe suspenderse obligatoriamente",
+    "option_b": "Se archiva el proceso",
+    "option_c": "La audiencia se realiza sin la presencia de la parte accionada, siempre y cuando haya sido notificada en legal y debida forma",
+    "option_d": "Se declara la nulidad del proceso",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 88,
+    "question": "En el contexto de la modernización del sistema judicial, se han incorporado mecanismos tecnológicos para la realización de audiencias. ¿De acuerdo con la normativa ecuatoriana, qué cuerpo normativo establece la prioridad de audiencias telemáticas?",
+    "option_a": "Código Orgánico General de Procesos",
+    "option_b": "Código Orgánico Administrativo",
+    "option_c": "Ley Orgánica de Transformación Digital y Audiovisual",
+    "option_d": "Ninguna",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 89,
+    "question": "Las garantías jurisdiccionales buscan facilitar el acceso a la justicia constitucional, eliminando barreras formales. En este contexto, ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Es obligatorio contar con patrocinio de abogado en todos los casos",
+    "option_b": "Solo las instituciones públicas pueden presentar la acción",
+    "option_c": "No es indispensable el patrocinio de un abogado para presentar la acción de protección",
+    "option_d": "La acción solo puede ser presentada por jueces",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 90,
+    "question": "La reparación integral se rige por varios principios que orientan la restitución de derechos vulnerados. ¿Cuál de los siguientes constituye uno de estos principios?",
+    "option_a": "Racionalidad",
+    "option_b": "Necesidad",
+    "option_c": "Proporcionalidad",
+    "option_d": "Integridad",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 91,
+    "question": "La reparación integral implica la adopción de medidas que permitan restituir los derechos vulnerados de manera efectiva. ¿Cuál es el rol del juez en la determinación de estas medidas?",
+    "option_a": "Limitarse únicamente a aplicar medidas previamente establecidas",
+    "option_b": "Actuar de manera pasiva frente a la vulneración",
+    "option_c": "Determinar de manera creativa las medidas de reparación integral",
+    "option_d": "Delegar la reparación a la administración pública",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 92,
+    "question": "Dentro del sistema de garantías jurisdiccionales, la reparación económica requiere una fase específica para su cuantificación. ¿Cuál es el órgano competente para cuantificar la reparación integral económica?",
+    "option_a": "El juez de instancia",
+    "option_b": "La Corte Constitucional del Ecuador",
+    "option_c": "El Tribunal Distrital de lo Contencioso Administrativo",
+    "option_d": "El Tribunal Distrital de lo Contencioso Tributario",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 93,
+    "question": "Dentro de las medidas de reparación integral existen aquellas orientadas a evitar que la vulneración de derechos se repita en el futuro. Estas medidas se conocen como:",
+    "option_a": "Medidas de satisfacción",
+    "option_b": "Garantías de no repetición",
+    "option_c": "Rehabilitación médica",
+    "option_d": "Medidas de restitución",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 94,
+    "question": "Algunas medidas de reparación integral buscan dar a conocer públicamente la verdad de los hechos ocurridos en el proceso. Este tipo de medidas se denominan:",
+    "option_a": "Medidas de satisfacción",
+    "option_b": "Medidas de prevención",
+    "option_c": "Medidas cautelares",
+    "option_d": "Medidas de no repetición",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 95,
+    "question": "Un ciudadano presenta una acción de protección alegando la vulneración de su derecho a igualdad y no discriminación, debido a que una institución pública emitió una resolución sin motivación suficiente. De acuerdo con la Constitución ecuatoriana, ¿Cuál es el objetivo principal de esta garantía jurisdiccional?",
+    "option_a": "Sancionar a los servidores públicos responsables",
+    "option_b": "Reparar integralmente los daños ocasionados",
+    "option_c": "Declarar la nulidad de todas las actuaciones administrativas",
+    "option_d": "Sustituir las decisiones de la administración pública",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 96,
+    "question": "Una persona interpone una acción de protección contra un particular, alegando vulneración de derechos constitucionales. ¿En qué caso procede esta acción contra particulares?",
+    "option_a": "Cuando exista un contrato civil entre las partes",
+    "option_b": "En todo acto discriminatorio cometido por cualquier persona",
+    "option_c": "Cuando exista cualquier tipo de conflicto entre particulares",
+    "option_d": "Únicamente cuando lo autorice un juez ordinario",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 97,
+    "question": "En un proceso de acción de protección, se desarrollan varias etapas procesales. ¿Cuál es el orden correcto de las siguientes actuaciones? 1. Presentación de la demanda 2. Audiencia pública 3. Sentencia 4. Calificación de la demanda Opciones de respuesta:",
+    "option_a": "1, 4, 2, 3",
+    "option_b": "4, 1, 2, 3",
+    "option_c": "1, 4, 3, 2",
+    "option_d": "1, 2, 4, 3",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 98,
+    "question": "Una acción de protección tiene como finalidad la tutela de derechos constitucionales. Seleccione los casos en los que procede esta garantía: 1. Vulneración de derechos constitucionales 2. Impugnación de sentencias judiciales 3. Actos u omisiones de autoridad pública no judicial 4. Actos de particulares en ciertos casos (discriminación) 5. Conflictos contractuales entre privados",
+    "option_a": "1, 3, 4",
+    "option_b": "2, 3, 5",
+    "option_c": "1, 2, 4",
+    "option_d": "2, 4, 5",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 99,
+    "question": "Relacione los elementos de la acción de protección con su característica: Elementos – Características 1. Legitimación activa 2. Legitimación pasiva 3. Objeto de la acción 4. Competencia",
+    "option_a": "1d, 2b, 3c, 4a",
+    "option_b": "1a, 2b, 3c, 4d",
+    "option_c": "1d, 2a, 3b, 4c",
+    "option_d": "1b, 2c, 3d, 4a",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 100,
+    "question": "Dentro de la acción de protección, la reparación integral comprende diversas medidas orientadas a restituir los derechos vulnerados y evitar su repetición. Relacione el tipo de medida de reparación integral con su finalidad: 1. Medidas - Finalidad 2. Medidas de restitución 3. Medidas de satisfacción 4. Garantías de no repetición 5. Rehabilitación",
+    "option_a": "1a, 2b, 3c, 4d",
+    "option_b": "1b, 2c, 3d, 4a",
+    "option_c": "1a, 2c, 3b, 4d",
+    "option_d": "1d, 2a, 3c, 4b",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 101,
+    "question": "En el marco epistemológico de la criminalística, ¿cuál es la implicación más relevante de afirmar que su objeto material es el indicio y no el delito en sí?",
+    "option_a": "Que la criminalística determina directamente la responsabilidad penal del sujeto",
+    "option_b": "Que la investigación se centra en la reconstrucción física verificable del hecho",
+    "option_c": "Que el delito es irrelevante dentro del proceso penal",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 102,
+    "question": "Si un investigador formula una hipótesis que explica parcialmente los indicios pero ignora otros incompatibles, ¿qué principio científico está vulnerando?",
+    "option_a": "Refutabilidad",
+    "option_b": "Correspondencia material",
+    "option_c": "Control de error",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 103,
+    "question": "¿Cuál es la principal diferencia epistemológica entre testimonio y evidencia material?",
+    "option_a": "El testimonio es verificable y la evidencia no",
+    "option_b": "La evidencia depende de la memoria humana",
+    "option_c": "El testimonio es subjetivo y la evidencia es objetivable",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 104,
+    "question": "En el método criminalístico, ¿por qué la observación es considerada la fase más crítica?",
+    "option_a": "Porque permite emitir conclusiones finales",
+    "option_b": "Porque condiciona irreversiblemente todo el proceso posterior",
+    "option_c": "Porque permite identificar al culpable",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 105,
+    "question": "Cuando se afirma que la criminalística produce “certeza racional controlada”, se hace referencia a:",
+    "option_a": "Verdad absoluta",
+    "option_b": "Inferencia científica con margen de error",
+    "option_c": "Decisión judicial",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 106,
+    "question": "¿Cuál es el mayor riesgo de formular una hipótesis única desde el inicio de la investigación?",
+    "option_a": "Aumentar la eficiencia",
+    "option_b": "Reducir el tiempo",
+    "option_c": "Generar sesgo confirmatorio",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 107,
+    "question": "En la escena del delito, ¿por qué el principio de irrepetibilidad es fundamental?",
+    "option_a": "Porque permite repetir el experimento",
+    "option_b": "Porque el estado original desaparece tras la intervención",
+    "option_c": "Porque limita la investigación",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 108,
+    "question": "¿Cuál es la finalidad principal de la fijación de la escena?",
+    "option_a": "Identificar al sospechoso",
+    "option_b": "Registrar de forma permanente el estado original",
+    "option_c": "Determinar culpabilidad",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 109,
+    "question": "Si un indicio es recolectado sin haber sido previamente documentado, ¿qué se pierde principalmente?",
+    "option_a": "Valor económico",
+    "option_b": "Contexto probatorio",
+    "option_c": "Material genético",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 110,
+    "question": "¿Cuál es la función esencial de la cadena de custodia?",
+    "option_a": "Determinar responsabilidad penal",
+    "option_b": "Garantizar autenticidad del indicio",
+    "option_c": "Analizar evidencia",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 111,
+    "question": "En términos metodológicos, la criminalística pertenece a:",
+    "option_a": "Ciencias históricas reconstructivas",
+    "option_b": "Ciencias exactas puras",
+    "option_c": "Ciencias normativas",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 112,
+    "question": "¿Qué implica que la criminalística sea interdisciplinaria?",
+    "option_a": "Uso exclusivo de derecho penal",
+    "option_b": "Integración de diversas ciencias naturales",
+    "option_c": "Dependencia del testimonio",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 113,
+    "question": "¿Cuál es la principal función de la experimentación en criminalística?",
+    "option_a": "Reproducir el delito",
+    "option_b": "Confirmar testimonios",
+    "option_c": "Verificar hipótesis mediante condiciones físicas",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 114,
+    "question": "Si varios testigos coinciden en una versión incompatible con la evidencia material:",
+    "option_a": "La coincidencia prevalece",
+    "option_b": "La evidencia material tiene mayor valor",
+    "option_c": "Se anulan ambas",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 115,
+    "question": "¿Qué tipo de razonamiento predomina en la evaluación final criminalística?",
+    "option_a": "Deductivo puro",
+    "option_b": "Inductivo simple",
+    "option_c": "Abductivo",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 116,
+    "question": "¿Cuál es el principal aporte del ADN al sistema penal?",
+    "option_a": "Determinar intencionalidad",
+    "option_b": "Introducir certeza científica",
+    "option_c": "Sustituir al juez",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 117,
+    "question": "En el caso Bloodsworth, el error judicial se debió principalmente a:",
+    "option_a": "Mala interpretación del ADN",
+    "option_b": "Dependencia excesiva de testimonios",
+    "option_c": "Ausencia de delito",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 118,
+    "question": "¿Cuál es el mayor peligro de la evidencia mal obtenida?",
+    "option_a": "Genera duda",
+    "option_b": "Retarda el proceso",
+    "option_c": "Produce certeza falsa",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 119,
+    "question": "La diferencia entre verdad judicial y verdad histórica radica en:",
+    "option_a": "Que son idénticas",
+    "option_b": "Que la judicial depende del proceso",
+    "option_c": "Que la histórica depende del juez",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 120,
+    "question": "¿Qué garantiza la planimetría en la escena?",
+    "option_a": "Precisión espacial",
+    "option_b": "Identificación genética",
+    "option_c": "Determinación de culpabilidad",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 121,
+    "question": "¿Por qué la evidencia material controla el testimonio?",
+    "option_a": "Porque lo reemplaza",
+    "option_b": "Porque permite verificación objetiva",
+    "option_c": "Porque lo invalida automáticamente",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 122,
+    "question": "El método científico en criminalística busca:",
+    "option_a": "Confirmar sospechas",
+    "option_b": "Acusar al sospechoso",
+    "option_c": "Eliminar hipótesis erróneas",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 123,
+    "question": "¿Qué ocurre si se rompe la cadena de custodia?",
+    "option_a": "Se mejora la prueba",
+    "option_b": "Se pierde validez probatoria",
+    "option_c": "Se acelera el proceso",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 124,
+    "question": "La genética forense permite principalmente:",
+    "option_a": "Determinar motivaciones",
+    "option_b": "Identificar origen biológico",
+    "option_c": "Establecer culpabilidad",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 125,
+    "question": "En términos epistemológicos, la criminalística garantiza:",
+    "option_a": "Control metodológico del error",
+    "option_b": "Verdad absoluta",
+    "option_c": "Decisión judicial",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 126,
+    "question": "El Derecho Administrativo regula la organización y funcionamiento del Estado, así como su relación con los administrados. De acuerdo con esta definición, ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "El conjunto de normas jurídicas, principios y valores que regulan la relación entre ciudadano y Estado",
+    "option_b": "El conjunto de normas jurídicas, principios y valores que regulan la conducta del ser humano que vive en sociedad",
+    "option_c": "El conjunto de normas jurídicas, principios y valores que regulan la conducta del ser humano y el órgano administrativo",
+    "option_d": "El conjunto de normas jurídicas, principios y valores que regulan la conducta del Estado y sus funciones",
+    "category": "Derecho Administrativo",
+    "correct": "a"
+  },
+  {
+    "num": 127,
+    "question": "La Administración Pública está conformada por diversos elementos que permiten el ejercicio de la función administrativa. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La Administración Pública se compone exclusivamente de personas naturales",
+    "option_b": "La Administración Pública se compone de personas naturales y jurídicas, así como órganos del Estado",
+    "option_c": "La Administración Pública se compone únicamente de instituciones privadas",
+    "option_d": "La Administración Pública se limita a los ciudadanos",
+    "category": "Derecho Administrativo",
+    "correct": "b"
+  },
+  {
+    "num": 128,
+    "question": "El acto administrativo requiere cumplir ciertos elementos para su perfeccionamiento dentro del ordenamiento jurídico. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "El acto administrativo se perfecciona únicamente con su emisión",
+    "option_b": "El acto administrativo se perfecciona con la notificación al administrado",
+    "option_c": "El acto administrativo se perfecciona con su publicación en medios de comunicación",
+    "option_d": "El acto administrativo no requiere notificación",
+    "category": "Derecho Administrativo",
+    "correct": "b"
+  },
+  {
+    "num": 129,
+    "question": "Dentro del Derecho Administrativo, ciertos principios garantizan la legalidad y legitimidad de las actuaciones de la administración pública. ¿Cuál de los siguientes constituye un requisito de fondo de los actos administrativos?",
+    "option_a": "Motivación",
+    "option_b": "Seguridad pública",
+    "option_c": "Responsabilidad extracontractual",
+    "option_d": "Orden público",
+    "category": "Derecho Administrativo",
+    "correct": "a"
+  },
+  {
+    "num": 130,
+    "question": "En el ámbito jurídico, existen argumentos que aparentan ser válidos, pero en realidad contienen errores de razonamiento. ¿Cómo se denomina este tipo de argumento?",
+    "option_a": "Falacia",
+    "option_b": "Silogismo",
+    "option_c": "Engaño",
+    "option_d": "Persuasión",
+    "category": "Derecho Administrativo",
+    "correct": "a"
+  },
+  {
+    "num": 131,
+    "question": "La función administrativa no es exclusiva de una sola función del Estado, sino que puede ser ejercida por diversas entidades públicas. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La Administración Pública pertenece únicamente a la Función Ejecutiva",
+    "option_b": "La Administración Pública puede ser ejercida por distintas funciones del Estado",
+    "option_c": "Solo la Función Judicial ejerce actividad administrativa",
+    "option_d": "La Administración Pública no pertenece al Estado",
+    "category": "Derecho Administrativo",
+    "correct": "b"
+  },
+  {
+    "num": 132,
+    "question": "La Administración Pública produce actos jurídicos con diferentes efectos dentro del ordenamiento. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La Administración Pública solo emite actos de carácter individual",
+    "option_b": "La Administración Pública solo emite actos de carácter general",
+    "option_c": "La Administración Pública emite actos con efectos individuales y generales",
+    "option_d": "La Administración Pública no emite actos jurídicos",
+    "category": "Derecho Administrativo",
+    "correct": "c"
+  },
+  {
+    "num": 133,
+    "question": "Las expresiones de la voluntad administrativa se manifiestan a través de diferentes figuras jurídicas. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "Actos administrativos, hechos administrativos, contratos administrativos, actos de simple administración",
+    "option_b": "Actos administrativos, hechos administrativos, contratos administrativos, memorandos",
+    "option_c": "Actos de inicio, hechos administrativos, contratos administrativos, actos de simple administración",
+    "option_d": "Actos administrativos, notificaciones, contratos administrativos, actos de simple administración",
+    "category": "Derecho Administrativo",
+    "correct": "a"
+  },
+  {
+    "num": 134,
+    "question": "Los actos administrativos pueden ser objeto de control mediante mecanismos establecidos en el ordenamiento jurídico. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Los actos administrativos no pueden ser impugnados",
+    "option_b": "Los actos administrativos son susceptibles de impugnación",
+    "option_c": "Solo los actos judiciales pueden ser impugnados",
+    "option_d": "Los actos administrativos solo pueden ser modificados por la misma autoridad",
+    "category": "Derecho Administrativo",
+    "correct": "b"
+  },
+  {
+    "num": 135,
+    "question": "Dentro del Derecho Administrativo existe una rama encargada de regular las sanciones impuestas por la administración. ¿Cómo se denomina esta rama?",
+    "option_a": "Derecho Administrativo Sancionador",
+    "option_b": "Derecho Administrativo Especial",
+    "option_c": "Procedimiento de ejecución coactiva",
+    "option_d": "Ninguna",
+    "category": "Derecho Administrativo",
+    "correct": "a"
+  },
+  {
+    "num": 136,
+    "question": "El Derecho Administrativo ha sido desarrollado históricamente a través de diversas fuentes. Cuando se afirma que es de creación pretoriana, ¿Qué significa?",
+    "option_a": "Que es nacido de la jurisprudencia",
+    "option_b": "Que es nacido de la Constitución",
+    "option_c": "Que es creado exclusivamente por el legislador",
+    "option_d": "Ninguna",
+    "category": "Derecho Administrativo",
+    "correct": "a"
+  },
+  {
+    "num": 137,
+    "question": "En el procedimiento administrativo sancionador intervienen diferentes sujetos con roles específicos. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "El denunciante siempre es parte del procedimiento",
+    "option_b": "El denunciante no es parte en el procedimiento administrativo sancionador",
+    "option_c": "El denunciante actúa como juez",
+    "option_d": "El denunciante reemplaza a la autoridad",
+    "category": "Derecho Administrativo",
+    "correct": "b"
+  },
+  {
+    "num": 138,
+    "question": "El Código Orgánico Administrativo establece garantías para asegurar un procedimiento administrativo sancionador imparcial. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Establece la unificación de funciones instructora y sancionadora",
+    "option_b": "Refuerza la separación entre función instructora y sancionadora",
+    "option_c": "Elimina la fase de instrucción",
+    "option_d": "Otorga funciones sancionadoras al denunciante",
+    "category": "Derecho Administrativo",
+    "correct": "b"
+  },
+  {
+    "num": 139,
+    "question": "Las actuaciones previas permiten a la administración verificar la existencia de una posible infracción antes de iniciar un procedimiento. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Son obligatorias en todos los casos",
+    "option_b": "Son facultativas y dependen de la autoridad",
+    "option_c": "Sustituyen al procedimiento sancionador",
+    "option_d": "Son realizadas por los ciudadanos",
+    "category": "Derecho Administrativo",
+    "correct": "b"
+  },
+  {
+    "num": 140,
+    "question": "Dentro del procedimiento administrativo sancionador existen etapas específicas para el ejercicio del derecho a la defensa. ¿Cuál es el momento procedimental oportuno para aportar prueba?",
+    "option_a": "Término de prueba",
+    "option_b": "Contestación al acto de inicio",
+    "option_c": "Argumentación final",
+    "option_d": "En cualquier momento",
+    "category": "Derecho Administrativo",
+    "correct": "a"
+  },
+  {
+    "num": 141,
+    "question": "El procedimiento administrativo sancionador puede adoptar distintas denominaciones según el enfoque doctrinario. ¿Cuál de las siguientes afirmaciones no es correcta?",
+    "option_a": "Solo puede denominarse procedimiento administrativo sancionador",
+    "option_b": "Puede denominarse derecho penal administrativo",
+    "option_c": "No puede denominarse proceso administrativo sancionador",
+    "option_d": "No tiene denominación jurídica",
+    "category": "Derecho Administrativo",
+    "correct": "a"
+  },
+  {
+    "num": 143,
+    "question": "En el ámbito administrativo, ciertas infracciones pueden ser detectadas de manera inmediata al momento de su comisión. ¿Cómo se denomina esta situación?",
+    "option_a": "Flagrancia",
+    "option_b": "Actuación previa",
+    "option_c": "In situ",
+    "option_d": "Ninguna",
+    "category": "Derecho Administrativo",
+    "correct": "a"
+  },
+  {
+    "num": 144,
+    "question": "La flagrancia en materia administrativa tiene particularidades propias en relación con otros ámbitos del derecho. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Se aplica exactamente igual que en materia penal",
+    "option_b": "Tiene diferencias respecto a su aplicación en materia penal",
+    "option_c": "Solo aplica en materia penal",
+    "option_d": "No existe flagrancia en materia administrativa",
+    "category": "Derecho Administrativo",
+    "correct": "b"
+  },
+  {
+    "num": 145,
+    "question": "Dentro del procedimiento administrativo sancionador, el dictamen constituye un acto relevante previo a la resolución. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "No es necesario notificar el dictamen",
+    "option_b": "El dictamen debe ser notificado para garantizar el derecho a la defensa",
+    "option_c": "El dictamen solo es interno",
+    "option_d": "El dictamen sustituye la resolución",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 146,
+    "question": "El principio de legalidad constituye uno de los pilares del Derecho Administrativo. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La administración puede actuar sin norma previa",
+    "option_b": "La administración solo puede actuar conforme a la ley",
+    "option_c": "La administración actúa según su discrecionalidad absoluta",
+    "option_d": "La administración no está sujeta a control",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 147,
+    "question": "Los actos administrativos deben cumplir ciertos requisitos para ser válidos. ¿Cuál de los siguientes es un elemento esencial?",
+    "option_a": "Competencia",
+    "option_b": "Opinión del ciudadano",
+    "option_c": "Publicidad en redes sociales",
+    "option_d": "Aprobación judicial previa",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 148,
+    "question": "Relacione el elemento del acto administrativo con su definición: 1. Competencia 2. Motivación 3. Objeto 4. Procedimiento",
+    "option_a": "1c, 2a, 3b, 4d",
+    "option_b": "1a, 2b, 3c, 4d",
+    "option_c": "1c, 2b, 3a, 4d",
+    "option_d": "1d, 2a, 3b, 4c",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 149,
+    "question": "Seleccione los principios del procedimiento administrativo: 1. Legalidad 2. Debido proceso 3. Transparencia 4. Arbitrariedad Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 150,
+    "question": "El control de la administración pública puede ejercerse a través de diferentes mecanismos. ¿Cuál de los siguientes corresponde a control jurisdiccional?",
+    "option_a": "Control político",
+    "option_b": "Control administrativo",
+    "option_c": "Control judicial",
+    "option_d": "Control social",
+    "category": "Derecho Penal",
+    "correct": "c"
+  },
+  {
+    "num": 151,
+    "question": "En el régimen jurídico ambiental ecuatoriano, la responsabilidad por daño ambiental presenta características propias que buscan garantizar la protección efectiva de la naturaleza. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "En materia ambiental se aplica el principio de responsabilidad subjetiva exclusivamente",
+    "option_b": "En materia ambiental no se aplica ningún tipo de responsabilidad",
+    "option_c": "En materia ambiental se aplica la responsabilidad objetiva",
+    "option_d": "La responsabilidad ambiental depende únicamente de la intención del autor",
+    "category": "Derecho Penal",
+    "correct": "c"
+  },
+  {
+    "num": 152,
+    "question": "Dentro de los derechos de la naturaleza, existen mecanismos orientados a revertir los efectos negativos de un daño ambiental. ¿Cuál de los siguientes conceptos describe el retorno de la naturaleza a las condiciones determinadas por la autoridad ambiental?",
+    "option_a": "Restitución",
+    "option_b": "Restauración",
+    "option_c": "Reparación integral",
+    "option_d": "Reivindicación",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 153,
+    "question": "El Derecho Internacional Ambiental incorpora instrumentos de carácter no vinculante que orientan la conducta de los Estados en materia de protección de la naturaleza. ¿Cuál de los siguientes documentos corresponde a un instrumento de soft law emitido por la ONU?",
+    "option_a": "Carta de la Naturaleza",
+    "option_b": "Constitución de 2008",
+    "option_c": "Opinión Consultiva OC-23/17",
+    "option_d": "Carta de los derechos de la Pachamama",
+    "category": "Derecho Internacional",
+    "correct": "a"
+  },
+  {
+    "num": 154,
+    "question": "Existen diferentes enfoques teóricos sobre la relación entre el ser humano y la naturaleza. ¿Cuál de las siguientes opciones describe una visión que reconoce a la naturaleza como sujeto de derechos?",
+    "option_a": "Visión antropocéntrica",
+    "option_b": "Visión biocéntrica",
+    "option_c": "Visión positivista",
+    "option_d": "Visión economicista",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 155,
+    "question": "El reconocimiento de la naturaleza como sujeto de derechos implica consecuencias jurídicas en el ámbito procesal. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La naturaleza no puede ser sujeto en procesos judiciales",
+    "option_b": "La naturaleza puede ser representada en juicio para la defensa de sus derechos",
+    "option_c": "Solo el Estado puede accionar en materia ambiental",
+    "option_d": "La naturaleza solo tiene protección administrativa",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 156,
+    "question": "El sistema jurídico ambiental ecuatoriano establece diferentes tipos de responsabilidad frente al daño ambiental. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La sanción penal excluye la obligación de restauración",
+    "option_b": "La sanción penal reemplaza la responsabilidad administrativa",
+    "option_c": "La sanción penal no excluye la obligación de restauración",
+    "option_d": "Solo existe responsabilidad civil",
+    "category": "Derecho Internacional",
+    "correct": "c"
+  },
+  {
+    "num": 157,
+    "question": "En el régimen de responsabilidad ambiental del Estado, existen etapas para la repetición contra el causante del daño. Ordene correctamente el proceso: 1. Producción del daño ambiental 2. Asunción de responsabilidad por el Estado 3. Indemnización 4. Acción de repetición contra el responsable Opciones:",
+    "option_a": "1, 2, 3, 4",
+    "option_b": "2, 1, 3, 4",
+    "option_c": "1, 3, 2, 4",
+    "option_d": "1, 2, 4, 3",
+    "category": "Derecho Internacional",
+    "correct": "a"
+  },
+  {
+    "num": 158,
+    "question": "El daño ambiental puede clasificarse según su gravedad, lo cual tiene implicaciones jurídicas relevantes. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Toda afectación a bosques nativos se considera automáticamente daño grave",
+    "option_b": "El daño grave se determina únicamente por criterios económicos",
+    "option_c": "No toda alteración en bosques nativos constituye daño grave, depende de su magnitud e impacto",
+    "option_d": "El daño ambiental no tiene clasificación",
+    "category": "Derecho Internacional",
+    "correct": "c"
+  },
+  {
+    "num": 159,
+    "question": "El Derecho Penal Ambiental tipifica conductas que afectan gravemente a los ecosistemas. ¿Cuál de los siguientes delitos corresponde a la provocación o instigación de incendios?",
+    "option_a": "Invasión de áreas protegidas",
+    "option_b": "Incendios forestales y de vegetación",
+    "option_c": "Delitos contra la fauna silvestre",
+    "option_d": "Delitos contra el suelo",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 160,
+    "question": "La protección jurídica de la naturaleza se desarrolla en distintos ámbitos del Derecho. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "Solo en el ámbito penal",
+    "option_b": "Solo en el ámbito administrativo",
+    "option_c": "En el ámbito penal y administrativo",
+    "option_d": "Exclusivamente en el ámbito privado",
+    "category": "Derecho Internacional",
+    "correct": "c"
+  },
+  {
+    "num": 161,
+    "question": "Seleccione los principios del Derecho Ambiental: 1. Precaución 2. Prevención 3. Responsabilidad objetiva 4. Libertad absoluta de explotación Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Internacional",
+    "correct": "a"
+  },
+  {
+    "num": 162,
+    "question": "Ordene las etapas de gestión ambiental de un proyecto:} 1. Evaluación de impacto ambiental 2. Ejecución del proyecto 3. Seguimiento y control 4. Obtención de licencia ambiental Opciones:",
+    "option_a": "1, 4, 2, 3",
+    "option_b": "4, 1, 2, 3",
+    "option_c": "1, 2, 4, 3",
+    "option_d": "2, 1, 4, 3",
+    "category": "Derecho Internacional",
+    "correct": "a"
+  },
+  {
+    "num": 163,
+    "question": "Relacione el principio ambiental con su contenido: 1. Precaución 2. Prevención 3. Reparación 4. Participación",
+    "option_a": "1a, 2b, 3c, 4d",
+    "option_b": "1b, 2a, 3d, 4c",
+    "option_c": "1a, 2c, 3b, 4d",
+    "option_d": "1d, 2b, 3a, 4c",
+    "category": "Derecho Internacional",
+    "correct": "a"
+  },
+  {
+    "num": 164,
+    "question": "Una empresa inicia actividades sin licencia ambiental y genera contaminación en un ecosistema. ¿Cuál es la consecuencia jurídica más adecuada?",
+    "option_a": "Solo sanción administrativa",
+    "option_b": "Solo responsabilidad civil",
+    "option_c": "Responsabilidad administrativa, civil y posible penal",
+    "option_d": "Ninguna consecuencia",
+    "category": "Derecho Internacional",
+    "correct": "c"
+  },
+  {
+    "num": 165,
+    "question": "Seleccione los mecanismos de protección de derechos de la naturaleza en Ecuador: 1. Acción de protección 2. Acción de y por incumplimiento 3. Medidas cautelares 4. Acción penal exclusivamente Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Internacional",
+    "correct": "a"
+  },
+  {
+    "num": 166,
+    "question": "En el Derecho Ambiental, el principio de precaución cumple un rol fundamental frente a riesgos ambientales. ¿Cuál de las siguientes afirmaciones describe correctamente este principio?",
+    "option_a": "Solo se aplica cuando existe certeza científica del daño",
+    "option_b": "Permite actuar ante la falta de certeza científica cuando exista riesgo de daño grave o irreversible",
+    "option_c": "Se aplica únicamente en materia penal",
+    "option_d": "Exige indemnización previa al daño",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 167,
+    "question": "Seleccione las características del daño ambiental: 1. Puede ser difuso 2. Puede afectar a generaciones futuras 3. Siempre es individualizable 4. Puede ser irreversible Opciones:",
+    "option_a": "1, 2, 4",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 3",
+    "category": "Derecho Internacional",
+    "correct": "a"
+  },
+  {
+    "num": 168,
+    "question": "Ordene correctamente las etapas del proceso de restauración ambiental: 1. Identificación del daño 2. Evaluación técnica 3. Implementación de medidas 4. Seguimiento y control Opciones:",
+    "option_a": "1, 2, 3, 4",
+    "option_b": "2, 1, 3, 4",
+    "option_c": "1, 3, 2, 4",
+    "option_d": "1, 2, 4, 3",
+    "category": "Derecho Internacional",
+    "correct": "a"
+  },
+  {
+    "num": 169,
+    "question": "En el marco constitucional ecuatoriano, la naturaleza tiene reconocimiento jurídico propio. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La naturaleza es objeto de protección, pero no sujeto de derechos",
+    "option_b": "La naturaleza es sujeto de derechos",
+    "option_c": "Solo el Estado tiene derechos sobre la naturaleza",
+    "option_d": "La naturaleza solo tiene protección internacional",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 170,
+    "question": "Relacione el tipo de responsabilidad con su característica: 1. Administrativa 2. Civil 3. Penal 4. Ambiental objetiva",
+    "option_a": "1c, 2d, 3b, 4a",
+    "option_b": "1d, 2c, 3b, 4a",
+    "option_c": "1c, 2b, 3d, 4a",
+    "option_d": "1a, 2d, 3c, 4b",
+    "category": "Derecho Internacional",
+    "correct": "a"
+  },
+  {
+    "num": 171,
+    "question": "El principio “quien contamina paga” es fundamental en Derecho Ambiental. ¿Cuál es su finalidad principal?",
+    "option_a": "Sancionar penalmente a todos los infractores",
+    "option_b": "Trasladar el costo del daño ambiental al responsable",
+    "option_c": "Evitar la intervención del Estado",
+    "option_d": "Garantizar beneficios económicos a las empresas",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 172,
+    "question": "Seleccione los mecanismos de gestión ambiental: 1. Evaluación de impacto ambiental 2. Licencia ambiental 3. Auditorías ambientales 4. Sentencias Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Internacional",
+    "correct": "a"
+  },
+  {
+    "num": 173,
+    "question": "Una actividad económica genera contaminación progresiva en un río, sin que exista certeza científica absoluta sobre sus efectos a largo plazo. ¿Qué principio debe aplicar la autoridad?",
+    "option_a": "Legalidad",
+    "option_b": "Precaución",
+    "option_c": "Seguridad jurídica",
+    "option_d": "Irretroactividad",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 174,
+    "question": "Ordene las etapas del procedimiento administrativo ambiental sancionador: 1. Inicio del procedimiento 2. Investigación 3. Resolución 4. Notificación Opciones:",
+    "option_a": "1, 2, 3, 4",
+    "option_b": "2, 1, 3, 4",
+    "option_c": "1, 3, 2, 4",
+    "option_d": "1, 2, 4, 3",
+    "category": "Derecho Internacional",
+    "correct": "a"
+  },
+  {
+    "num": 175,
+    "question": "En el marco del Derecho Ambiental ecuatoriano, la reparación integral tiene un alcance amplio. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Se limita a la indemnización económica",
+    "option_b": "Incluye medidas de restauración, compensación y garantías de no repetición",
+    "option_c": "Solo aplica en materia penal",
+    "option_d": "Depende exclusivamente del acuerdo entre las partes",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 176,
+    "question": "¿A quién se extiende la presunción de que el hijo nacido después de 180 días de la unión es hijo del conviviente?",
+    "option_a": "A cualquier pariente que viva en el mismo hogar.",
+    "option_b": "Únicamente al marido en un matrimonio eclesiástico.",
+    "option_c": "Al conviviente en casos de unión de hecho que cumpla los requisitos legales.",
+    "option_d": "Al tutor legal nombrado por un juez.",
+    "category": "Derecho Internacional",
+    "correct": "c"
+  },
+  {
+    "num": 177,
+    "question": "¿Cuál de las siguientes es una forma de establecer la filiación según el artículo 24?",
+    "option_a": "Por el simple conocimiento de los vecinos",
+    "option_b": "Por haber sido concebida una persona dentro de un matrimonio verdadero o putativo",
+    "option_c": "Por la voluntad de los abuelos",
+    "option_d": "Por un contrato privado de servicios",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 178,
+    "question": "¿Qué requisito debe tener una unión de hecho para que se establezca la filiación por concepción dentro de ella?",
+    "option_a": "Debe ser temporal y secreta",
+    "option_b": "Debe ser estable, monogámica y reconocida legalmente",
+    "option_c": "Debe tener al menos 10 años de duración",
+    "option_d": "Debe ser aprobada por la iglesia",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 179,
+    "question": "¿Cuál es otra vía para establecer la paternidad o maternidad según el artículo 24 literal c?",
+    "option_a": "Por sorteo público",
+    "option_b": "Por testamento de terceros",
+    "option_c": "Por haber sido declarada judicialmente hijo de determinado padre o madre",
+    "option_d": "Por adopción informal",
+    "category": "Derecho Internacional",
+    "correct": "c"
+  },
+  {
+    "num": 180,
+    "question": "Según el artículo 233, ¿cuándo se reputa que un hijo es concebido dentro del matrimonio?",
+    "option_a": "Si nace antes de los 100 días de casados",
+    "option_b": "Si nace después de expirados los 180 días subsiguientes al matrimonio",
+    "option_c": "Si nace exactamente al año de la boda",
+    "option_d": "Si los padres viven en la misma casa",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 181,
+    "question": "¿A quién se extiende la presunción de paternidad del artículo 233 además del marido?",
+    "option_a": "Al hermano del marido",
+    "option_b": "Al conviviente en casos de unión de hecho legalmente reconocida",
+    "option_c": "Al padrino del niño",
+    "option_d": "Al representante legal de la empresa",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 182,
+    "question": "Según el artículo 242B, ¿es posible reconocer voluntariamente a un hijo que ya ha fallecido?",
+    "option_a": "No, es imposible legalmente",
+    "option_b": "Sí, podrá reconocerse voluntariamente",
+    "option_c": "Solo si el hijo dejó herencia",
+    "option_d": "Solo si el juez lo ordena de oficio",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 183,
+    "question": "Si se reconoce a un hijo fallecido, ¿qué efecto tiene este acto respecto a la sucesión intestada para el padre declarante?",
+    "option_a": "Le otorga todos los derechos sucesorios",
+    "option_b": "No le conferirá derechos en la sucesión intestada del reconocido",
+    "option_c": "Le otorga el 50% de los bienes",
+    "option_d": "Le obliga a pagar las deudas del fallecido únicamente",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 184,
+    "question": "Según el artículo 248, ¿cuál es una característica fundamental del reconocimiento de un hijo?",
+    "option_a": "Es temporal",
+    "option_b": "Es irrevocable",
+    "option_c": "Es negociable",
+    "option_d": "Puede anularse por voluntad del padre en cualquier momento",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 185,
+    "question": "¿A quién se le debe notificar el reconocimiento de paternidad según el artículo 249?",
+    "option_a": "Al Registro Civil únicamente",
+    "option_b": "Al hijo, quien podrá impugnarlo en cualquier tiempo",
+    "option_c": "A los abuelos maternos",
+    "option_d": "Al Ministerio de Inclusión Económica y Social",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 186,
+    "question": "¿En qué momento puede el hijo impugnar el reconocimiento de paternidad?",
+    "option_a": "Solo en los primeros 30 días",
+    "option_b": "En cualquier tiempo",
+    "option_c": "Solo al cumplir la mayoría de edad",
+    "option_d": "Nunca, si el padre ya firmó",
+    "category": "Derecho Internacional",
+    "correct": "b"
+  },
+  {
+    "num": 187,
+    "question": "¿Cuál es el tiempo estimado del proceso de adopción actualmente?",
+    "option_a": "3 meses",
+    "option_b": "9 meses",
+    "option_c": "12 meses",
+    "option_d": "18 meses",
+    "category": "Derecho Internacional",
+    "correct": "d"
+  },
+  {
+    "num": 188,
+    "question": "¿Cuál es el primer paso mencionado en el cronograma del proceso de adopción?",
+    "option_a": "Entrevista inicial",
+    "option_b": "Taller de formación",
+    "option_c": "Registro web MIES",
+    "option_d": "Fase judicial",
+    "category": "Derecho Internacional",
+    "correct": "c"
+  },
+  {
+    "num": 189,
+    "question": "¿Qué artículo del Código Civil trata sobre la pensión de alimentos?",
+    "option_a": "Art. 100",
+    "option_b": "Art. 200",
+    "option_c": "Art. 349",
+    "option_d": "Art. 500",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 190,
+    "question": "Según el artículo 352 del Código Civil, ¿cómo se dividen los alimentos?",
+    "option_a": "En voluntarios y obligatorios",
+    "option_b": "En congruos y necesarios",
+    "option_c": "En básicos y suplementarios",
+    "option_d": "En mensuales y anuales",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 191,
+    "question": "¿Qué son las tutelas y curadurías?",
+    "option_a": "Contratos de trabajo",
+    "option_b": "Cargos impuestos a ciertas personas a favor de aquellos que no pueden gobernarse por sí mismos",
+    "option_c": "Penas privativas de libertad",
+    "option_d": "Títulos de propiedad inmobiliaria",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 192,
+    "question": "¿Cuál es un requisito para que una persona sea sujeta a tutela o curaduría?",
+    "option_a": "Que tenga mucha riqueza",
+    "option_b": "Que no se halle bajo potestad del padre o la madre",
+    "option_c": "Que sea mayor de 65 años obligatoriamente",
+    "option_d": "Que tenga un título universitario",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 193,
+    "question": "¿Cuál es uno de los objetivos de las tutelas y curadurías respecto a los negocios del sujeto?",
+    "option_a": "Vender todos sus bienes rápidamente",
+    "option_b": "Administrar competentemente sus negocios",
+    "option_c": "Donar sus bienes al Estado",
+    "option_d": "Disolver todas sus empresas",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 194,
+    "question": "¿Qué tema se menciona en el artículo 250 del Código Civil?",
+    "option_a": "El divorcio",
+    "option_b": "Impugnación de la Paternidad",
+    "option_c": "La herencia",
+    "option_d": "La nacionalidad",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 195,
+    "question": "¿A qué entidad pertenece el registro web mencionado para el proceso de adopción?",
+    "option_a": "Registro Civil",
+    "option_b": "MIES",
+    "option_c": "Corte Nacional de Justicia",
+    "option_d": "Policía Nacional - DINAPEN",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 196,
+    "question": "¿En qué casos la presunción de paternidad del marido se extiende al conviviente?",
+    "option_a": "En cualquier amistad cercana",
+    "option_b": "En casos de unión de hecho que reúna los requisitos previstos en el Código",
+    "option_c": "Solo si hay un contrato de arrendamiento conjunto",
+    "option_d": "Solo si el conviviente es extranjero",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 197,
+    "question": "Según el artículo 40, ¿cómo se clasifican las personas en cuanto a su condición legal?",
+    "option_a": "Por su edad y sexo",
+    "option_b": "Por su nacionalidad y domicilio",
+    "option_c": "Por su profesión y estado civil",
+    "option_d": "Por su capacidad económica",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 198,
+    "question": "¿Cuál es la definición formal de la ley?",
+    "option_a": "Una declaración de la voluntad soberana que, manifestada en la forma prescrita por la Constitución, manda, prohíbe o permite.",
+    "option_b": "Una sugerencia del Congreso para la buena convivencia social.",
+    "option_c": "Un conjunto de normas que solo obligan a los ciudadanos ecuatorianos.",
+    "option_d": "Una disposición del Presidente que regula los contratos privados.",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 199,
+    "question": "¿Cuál es la regla general sobre los efectos de la ley en el tiempo?",
+    "option_a": "La ley tiene efecto retroactivo para todos los casos de estado civil.",
+    "option_b": "Las meras expectativas de un ciudadano se consideran derechos adquiridos.",
+    "option_c": "La ley puede modificar actos válidamente ejecutados bajo una ley anterior sin restricciones.",
+    "option_d": "La ley no dispone sino para lo venidero y no tiene efecto retroactivo.",
+    "category": "Derecho Civil",
+    "correct": "d"
+  },
+  {
+    "num": 200,
+    "question": "¿Quiénes son considerados personas para la ley?",
+    "option_a": "Únicamente los ciudadanos mayores de dieciocho años.",
+    "option_b": "Solo aquellos individuos que poseen un domicilio fijo en el país.",
+    "option_c": "Todos los individuos de la especie humana, cualesquiera que sean su edad, sexo o condición.",
+    "option_d": "Solo los ecuatorianos por nacimiento o naturalización.",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 201,
+    "question": "En el análisis del Derecho Comparado, la transferencia de normas entre sistemas jurídicos requiere un enfoque crítico. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Copiar una norma de otro país garantiza resultados favorables",
+    "option_b": "La simple importación normativa no asegura resultados positivos sin considerar el contexto",
+    "option_c": "Todas las normas extranjeras son aplicables automáticamente",
+    "option_d": "El contexto no influye en la eficacia normativa",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 202,
+    "question": "El Derecho Comparado implica el estudio sistemático de diferentes ordenamientos jurídicos. ¿Cuál de las siguientes afirmaciones describe correctamente su finalidad?",
+    "option_a": "Analizar únicamente diferencias entre sistemas jurídicos",
+    "option_b": "Comparar similitudes y diferencias para encontrar soluciones a problemas jurídicos",
+    "option_c": "Unificar todos los sistemas jurídicos",
+    "option_d": "Sustituir el derecho interno",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 203,
+    "question": "El sistema de Civil Law en América Latina enfrenta diversos desafíos contemporáneos. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "Inflación legislativa",
+    "option_b": "Influencia de tratados internacionales",
+    "option_c": "Tensiones entre derecho escrito y derecho vivo",
+    "option_d": "Todas",
+    "category": "Derecho Civil",
+    "correct": "d"
+  },
+  {
+    "num": 204,
+    "question": "Los sistemas jurídicos presentan características diferenciadas en cuanto a sus fuentes del derecho. ¿Cuál de los siguientes sistemas se caracteriza por la primacía de la ley escrita?",
+    "option_a": "Civil Law",
+    "option_b": "Common Law",
+    "option_c": "Consuetudinario",
+    "option_d": "Ninguna",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 205,
+    "question": "En el sistema de Common Law, la jurisprudencia cumple un rol fundamental. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Las decisiones judiciales no tienen efectos vinculantes",
+    "option_b": "Una decisión judicial puede obligar a futuros jueces mediante precedente",
+    "option_c": "Solo la ley escrita es obligatoria",
+    "option_d": "No existe jerarquía judicial",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 206,
+    "question": "El control de constitucionalidad es un mecanismo esencial en los sistemas jurídicos contemporáneos. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Solo existe en el Common Law",
+    "option_b": "Garantiza que las normas se ajusten a la Constitución en el Civil Law",
+    "option_c": "Es exclusivo del poder legislativo",
+    "option_d": "No tiene relación con la Constitución",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 207,
+    "question": "El Civil Law enfrenta diversos retos en el contexto latinoamericano. ¿Cuál de los siguientes constituye uno de estos desafíos?",
+    "option_a": "Inflación legislativa",
+    "option_b": "Eliminación del poder judicial",
+    "option_c": "Ausencia de normas",
+    "option_d": "Supremacía absoluta del precedente",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 208,
+    "question": "Los sistemas jurídicos pueden clasificarse según sus fuentes y estructura normativa. ¿Cuál es el sistema predominante en América Latina?",
+    "option_a": "Common Law",
+    "option_b": "Civil Law",
+    "option_c": "Stare decisis",
+    "option_d": "Consuetudinario",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 209,
+    "question": "El Derecho Comparado utiliza distintos criterios para analizar sistemas jurídicos. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "Funcional",
+    "option_b": "Estructural",
+    "option_c": "Histórico",
+    "option_d": "Todas",
+    "category": "Derecho Civil",
+    "correct": "d"
+  },
+  {
+    "num": 210,
+    "question": "El desarrollo del Derecho en América Latina ha estado influenciado por tradiciones jurídicas europeas. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Los países latinoamericanos adoptaron el sistema romano-germánico por influencia ibérica",
+    "option_b": "América Latina sigue el Common Law",
+    "option_c": "No existe influencia extranjera",
+    "option_d": "Solo se aplica derecho consuetudinario",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 211,
+    "question": "En el constitucionalismo contemporáneo, existen normas que, sin estar formalmente en la Constitución, tienen rango constitucional. ¿Cómo se denomina este conjunto?",
+    "option_a": "Control de convencionalidad",
+    "option_b": "Bloque de constitucionalidad",
+    "option_c": "Jerarquía normativa",
+    "option_d": "Derecho supranacional",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 212,
+    "question": "Los jueces nacionales tienen obligaciones frente al Derecho Internacional de los Derechos Humanos. ¿Cuál de las siguientes opciones describe esta obligación?",
+    "option_a": "Control político",
+    "option_b": "Control de convencionalidad",
+    "option_c": "Control administrativo",
+    "option_d": "Control legislativo",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 213,
+    "question": "El Derecho Comparado no solo describe sistemas jurídicos, sino que promueve reflexión crítica. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "El Derecho Comparado fomenta una visión crítica y autocrítica",
+    "option_b": "Solo describe normas",
+    "option_c": "Evita el análisis",
+    "option_d": "Es exclusivamente histórico",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 214,
+    "question": "Ecuador ha realizado aportes relevantes al Derecho Comparado contemporáneo. ¿Cuál de los siguientes constituye uno de estos aportes?",
+    "option_a": "Derechos de la naturaleza",
+    "option_b": "Derechos del hombre",
+    "option_c": "Derecho municipal",
+    "option_d": "Derecho penal clásico",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 215,
+    "question": "La recepción de normas extranjeras requiere un proceso reflexivo. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Solo se debe copiar la norma",
+    "option_b": "Debe analizarse, adaptarse e incluso innovarse",
+    "option_c": "No requiere análisis",
+    "option_d": "Es automática",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 216,
+    "question": "Antes de adoptar una norma extranjera, es necesario considerar diversos factores. ¿Cuál es el criterio correcto?",
+    "option_a": "Revisar el contexto cultural, social y político",
+    "option_b": "Copiar sin análisis",
+    "option_c": "Aplicar directamente la norma",
+    "option_d": "Ninguna",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 217,
+    "question": "El Derecho Comparado enfrenta retos en el contexto actual. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "Lucha contra la corrupción",
+    "option_b": "Delincuencia organizada",
+    "option_c": "Digitalización e inteligencia artificial",
+    "option_d": "Todas",
+    "category": "Derecho Civil",
+    "correct": "d"
+  },
+  {
+    "num": 218,
+    "question": "El Derecho Internacional influye cada vez más en los sistemas jurídicos nacionales. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "No tiene influencia",
+    "option_b": "Tiene creciente influencia en el Civil Law",
+    "option_c": "Solo influye en Common Law",
+    "option_d": "Es irrelevante",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 219,
+    "question": "La jurisprudencia interamericana ha desarrollado estándares relevantes en materia de derechos. ¿Cuál de los siguientes casos se vincula con garantías laborales y motivación?",
+    "option_a": "San Miguel Sosa y otras vs. Venezuela",
+    "option_b": "Kimel vs. Argentina",
+    "option_c": "Baena Ricardo vs. Panamá",
+    "option_d": "Ninguna",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 220,
+    "question": "La evolución del constitucionalismo ha fortalecido el rol de la jurisprudencia constitucional. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La jurisprudencia no es vinculante",
+    "option_b": "Puede adquirir fuerza vinculante similar al precedente",
+    "option_c": "Solo es orientativa",
+    "option_d": "No tiene efectos jurídicos",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 221,
+    "question": "Seleccione características del Common Law: 1. Precedente judicial 2. Importancia de la jurisprudencia 3. Primacía absoluta de la ley escrita 4. Stare decisis Opciones:",
+    "option_a": "1, 2, 4",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 3",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 222,
+    "question": "Ordene el proceso de recepción de una norma extranjera: 1. Análisis del contexto 2. Identificación del problema 3. Adaptación normativa 4. Implementación Opciones:",
+    "option_a": "2, 1, 3, 4",
+    "option_b": "1, 2, 3, 4",
+    "option_c": "2, 3, 1, 4",
+    "option_d": "1, 3, 2, 4",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 223,
+    "question": "Relacione sistema jurídico con característica: 1. Civil Law 2. Common Law 3. Derecho consuetudinario 4. Sistema mixto",
+    "option_a": "1c, 2b, 3a, 4d",
+    "option_b": "1b, 2c, 3a, 4d",
+    "option_c": "1c, 2a, 3b, 4d",
+    "option_d": "1d, 2b, 3c, 4a",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 224,
+    "question": "Un país adopta una norma extranjera sin considerar su contexto social, lo que genera ineficacia normativa. ¿Cuál es el error principal?",
+    "option_a": "Falta de control judicial",
+    "option_b": "Ausencia de análisis comparado",
+    "option_c": "Exceso de legislación",
+    "option_d": "Problema constitucional",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 225,
+    "question": "Seleccione aportes del Derecho Comparado: 1. Mejora normativa 2. Análisis crítico 3. Uniformidad absoluta del derecho 4. Solución de problemas jurídicos Opciones:",
+    "option_a": "1, 2, 4",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 3",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 226,
+    "question": "La acción extraordinaria de protección es una garantía jurisdiccional que permite el control de decisiones judiciales. ¿Cuál de las siguientes constituye una característica propia de esta acción?",
+    "option_a": "Subsidiariedad",
+    "option_b": "Residualidad",
+    "option_c": "Ordinaria",
+    "option_d": "Ninguna",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 227,
+    "question": "La acción de acceso a la información pública requiere el cumplimiento de ciertos requisitos previos. ¿Cuál de los siguientes es correcto?",
+    "option_a": "Solicitud de información conforme a la LOTAIP y fe de recepción",
+    "option_b": "Solicitud verbal",
+    "option_c": "Petición simple sin respaldo",
+    "option_d": "Solicitud únicamente privada",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 228,
+    "question": "La acción de hábeas data protege el acceso y control de información personal. ¿Cuál es el requisito previo para su interposición?",
+    "option_a": "Solicitud de la información y constancia de recepción",
+    "option_b": "Solicitud genérica",
+    "option_c": "Solicitud pública",
+    "option_d": "Ninguna",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 229,
+    "question": "El constitucionalismo ecuatoriano reconoce innovaciones importantes en materia de derechos. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La naturaleza no es sujeto de derechos",
+    "option_b": "La naturaleza es sujeto de derechos",
+    "option_c": "Solo el Estado tiene derechos",
+    "option_d": "La naturaleza tiene protección administrativa únicamente",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 230,
+    "question": "Las garantías jurisdiccionales presentan características específicas según su naturaleza. ¿Cuál de las siguientes opciones describe correctamente la acción de protección?",
+    "option_a": "Es residual",
+    "option_b": "Es subsidiaria",
+    "option_c": "Es ordinaria",
+    "option_d": "Ninguna de las anteriores",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 231,
+    "question": "Las medidas cautelares constitucionales tienen una naturaleza propia dentro del sistema de garantías. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Se resuelven mediante sentencia definitiva",
+    "option_b": "Se resuelven mediante auto o resolución, no sentencia",
+    "option_c": "Son equivalentes a una acción de protección",
+    "option_d": "No requieren decisión judicial",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 232,
+    "question": "El principio de publicidad es fundamental en el acceso a la información pública. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La información estatal es pública por regla general",
+    "option_b": "Toda información estatal es reservada",
+    "option_c": "Solo es pública si lo decide la autoridad",
+    "option_d": "Ninguna",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 233,
+    "question": "Seleccione los elementos que configuran la acción de hábeas corpus: 1. Ilegalidad 2. Arbitrariedad 3. Ilegitimidad 4. Exclusivamente detención penal Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 234,
+    "question": "La Constitución cumple un rol fundamental en la organización del Estado. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "Es la norma suprema que organiza el poder del Estado",
+    "option_b": "Es una ley ordinaria",
+    "option_c": "Es un reglamento",
+    "option_d": "Es un acuerdo político",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 235,
+    "question": "Seleccione las funciones de la Constitución: 1. Limitar el poder 2. Organizar el Estado 3. Proteger derechos 4. Sustituir la ley Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 236,
+    "question": "La doctrina constitucional ha caracterizado a ciertos órganos del Estado de manera específica. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La Corte Constitucional es un ente extrapoder",
+    "option_b": "Pertenece a la Función Judicial",
+    "option_c": "Es parte del poder legislativo",
+    "option_d": "Es un órgano administrativo",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 237,
+    "question": "Según la teoría constitucional contemporánea, los principios tienen una estructura particular. ¿Qué autor sostiene que son mandatos de optimización?",
+    "option_a": "Carlos Santiago Nino",
+    "option_b": "Hans Kelsen",
+    "option_c": "Montesquieu",
+    "option_d": "Ferrajoli",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 238,
+    "question": "El Estado constitucional se basa en mecanismos que evitan la concentración del poder. ¿Cuál de las siguientes opciones corresponde a la teoría es correcta?",
+    "option_a": "Sistema de pesos y contrapesos",
+    "option_b": "Centralización absoluta",
+    "option_c": "Autoridad única",
+    "option_d": "Ninguna",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 239,
+    "question": "Seleccione las garantías jurisdiccionales de conocimiento de jueces de instancia: 1. Acción de protección 2. Acción de incumplimiento 3. Hábeas data 4. Acción de acceso a la información Opciones:",
+    "option_a": "1, 2, 3, 4",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 240,
+    "question": "Las garantías jurisdiccionales como la acción de protección tienen finalidades específicas dentro del sistema constitucional. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "La acción de protección tiene por objeto el amparo directo de derechos",
+    "option_b": "Es un proceso administrativo",
+    "option_c": "Es un recurso judicial",
+    "option_d": "Es un mecanismo legislativo",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 241,
+    "question": "El diseño institucional del Estado busca evitar la concentración del poder. ¿Cuál es el sistema que cumple esta función?",
+    "option_a": "Sistema de pesos y contrapesos",
+    "option_b": "Sistema positivo",
+    "option_c": "Centralización normativa",
+    "option_d": "Ninguna",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 242,
+    "question": "El Derecho Constitucional tiene antecedentes históricos relevantes. ¿Cuál de los siguientes es uno de los más importantes?",
+    "option_a": "Carta Magna",
+    "option_b": "Código Napoleónico",
+    "option_c": "Leyes de Indias",
+    "option_d": "Carta de los Derechos de la Naturaleza",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 243,
+    "question": "Dentro del ordenamiento jurídico, existe una jerarquía normativa. ¿Cuál es la fuente principal?",
+    "option_a": "La Constitución",
+    "option_b": "La ley",
+    "option_c": "La jurisprudencia",
+    "option_d": "Todas",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 244,
+    "question": "La Constitución se divide en parte dogmática y orgánica. ¿Qué comprende la parte dogmática?",
+    "option_a": "Derechos y garantías",
+    "option_b": "Organización del Estado",
+    "option_c": "Funciones públicas",
+    "option_d": "Competencias",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 245,
+    "question": "La estructura constitucional incluye una parte orgánica. ¿Qué comprende esta parte?",
+    "option_a": "Organización del Estado, funciones y competencias",
+    "option_b": "Derechos fundamentales",
+    "option_c": "Garantías jurisdiccionales",
+    "option_d": "Todas",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 246,
+    "question": "Relacione el tipo de garantía con su finalidad: 1. Acción de protección 2. Hábeas corpus 3. Hábeas data 4. Acción de acceso a la información",
+    "option_a": "1d, 2a, 3c, 4b",
+    "option_b": "1a, 2b, 3c, 4d",
+    "option_c": "1d, 2c, 3a, 4b",
+    "option_d": "1b, 2a, 3c, 4d",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 247,
+    "question": "Ordene el proceso de una acción de protección: 1. Presentación de la demanda 2. Calificación 3. Audiencia 4. Sentencia Opciones:",
+    "option_a": "1, 2, 3, 4",
+    "option_b": "2, 1, 3, 4",
+    "option_c": "1, 3, 2, 4",
+    "option_d": "1, 2, 4, 3",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 248,
+    "question": "Una autoridad pública niega injustificadamente el acceso a información pública. ¿Qué garantía procede?",
+    "option_a": "Hábeas data",
+    "option_b": "Acción de protección",
+    "option_c": "Acción de acceso a la información pública",
+    "option_d": "Acción extraordinaria",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 249,
+    "question": "Seleccione principios del Estado constitucional de derechos: 1. Supremacía constitucional 2. División de funciones 3. Protección de derechos 4. Discrecionalidad de las autoridades públicas Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 250,
+    "question": "La interpretación constitucional tiene características propias. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Debe ser rígida",
+    "option_b": "Debe ser evolutiva y garantista",
+    "option_c": "Debe ser literal únicamente",
+    "option_d": "No admite interpretación",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 251,
+    "question": "El control de constitucionalidad en el Ecuador tiene características específicas en cuanto a su ejercicio. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Cualquier juez puede declarar la inconstitucionalidad de una norma con efectos generales",
+    "option_b": "Los jueces pueden inaplicar normas en casos concretos mediante control difuso",
+    "option_c": "Solo el Ejecutivo ejerce control constitucional",
+    "option_d": "Ninguna autoridad puede ejercer control constitucional",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 252,
+    "question": "El sistema ecuatoriano establece un modelo específico de control concentrado de constitucionalidad. ¿Quién ejerce este control?",
+    "option_a": "Corte Suprema de Justicia",
+    "option_b": "Corte Constitucional",
+    "option_c": "Tribunal Constitucional",
+    "option_d": "Ninguna",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 253,
+    "question": "En el análisis de constitucionalidad, existen principios interpretativos relevantes. ¿Cuál de los siguientes principios establece que, en caso de duda, se debe favorecer la voluntad del legislador?",
+    "option_a": "In dubio pro homine",
+    "option_b": "In dubio pro legislatore",
+    "option_c": "In dubio pro reo",
+    "option_d": "In dubio pro operario",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 254,
+    "question": "El orden constitucional prevé mecanismos excepcionales para enfrentar situaciones extraordinarias. ¿Cuál de las siguientes opciones describe correctamente esta figura?",
+    "option_a": "Estado de excepción",
+    "option_b": "Estado de normalidad",
+    "option_c": "Estado administrativo",
+    "option_d": "Ninguna",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 255,
+    "question": "El control de las medidas adoptadas en estados de excepción requiere criterios específicos. ¿Cuál de los siguientes corresponde al test de razonabilidad?",
+    "option_a": "Idoneidad, necesidad y proporcionalidad",
+    "option_b": "Utilidad, lógica y pertinencia",
+    "option_c": "Legalidad, oportunidad y mérito",
+    "option_d": "Ninguna",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 256,
+    "question": "La Corte Constitucional ejerce control sobre los estados de excepción. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Realiza únicamente control formal",
+    "option_b": "Realiza control formal, material y automático",
+    "option_c": "Solo controla si existe demanda",
+    "option_d": "No tiene competencia",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 257,
+    "question": "Las medidas adoptadas en estados de excepción deben ser analizadas en su naturaleza jurídica. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "El toque de queda equivale jurídicamente a un estado de sitio",
+    "option_b": "El toque de queda es una medida dentro del estado de excepción, no un estado autónomo",
+    "option_c": "Es un derecho fundamental",
+    "option_d": "No tiene base constitucional",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 258,
+    "question": "Seleccione las causales constitucionales para decretar estado de excepción: 1. Agresión 2. Calamidad pública 3. Grave conmoción interna 4. Interés político Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 259,
+    "question": "La Constitución es la norma fundamental del ordenamiento jurídico. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Es la norma suprema que organiza el Estado",
+    "option_b": "Es la Carta Magna que contiene derechos y obligaciones",
+    "option_c": "Es un reglamento supremo",
+    "option_d": "Es una Carta Fundamental de derechos, delitos y deberes",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 260,
+    "question": "La supremacía constitucional implica una jerarquía normativa. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La Constitución es superior porque crea y limita el poder",
+    "option_b": "La ley es superior",
+    "option_c": "La jurisprudencia es superior",
+    "option_d": "Todas",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 261,
+    "question": "La acción pública de inconstitucionalidad tiene efectos específicos en el ordenamiento jurídico. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La norma inconstitucional es expulsada del ordenamiento",
+    "option_b": "Solo se suspende temporalmente",
+    "option_c": "Se mantiene vigente",
+    "option_d": "Ninguna",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 262,
+    "question": "El principio in dubio pro legislatore tiene un alcance específico en el control constitucional. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "En caso de duda se declara la inconstitucionalidad",
+    "option_b": "En caso de duda se presume la constitucionalidad de la norma",
+    "option_c": "Se favorece al ciudadano",
+    "option_d": "Se elimina la norma",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 263,
+    "question": "La interpretación conforme es una técnica utilizada por los jueces constitucionales. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Permite interpretar la norma en el sentido más acorde con la Constitución",
+    "option_b": "Obliga a declarar inconstitucionalidad",
+    "option_c": "Elimina la norma",
+    "option_d": "Sustituye al legislador",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 264,
+    "question": "El equilibrio entre funciones del Estado es un principio fundamental del constitucionalismo. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "Sistema de pesos y contrapesos",
+    "option_b": "Centralización del poder",
+    "option_c": "Supremacía del Ejecutivo",
+    "option_d": "Ninguna",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 265,
+    "question": "La acción pública de inconstitucionalidad permite el control abstracto de normas. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Cualquier persona puede interponerla",
+    "option_b": "Solo el Presidente",
+    "option_c": "Solo jueces",
+    "option_d": "Solo abogados",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 266,
+    "question": "La legitimación en la acción pública de inconstitucionalidad es amplia. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Requiere afectación directa",
+    "option_b": "No requiere afectación directa",
+    "option_c": "Solo aplica a funcionarios",
+    "option_d": "Es restringida",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 267,
+    "question": "El control constitucional puede recaer sobre distintos actos. ¿Sobre qué procede la acción pública de inconstitucionalidad?",
+    "option_a": "Actos normativos y administrativos de efectos generales",
+    "option_b": "Actos normativos y administrativos de efectos individuales",
+    "option_c": "Actos normativos y de simple administración con de efectos generales",
+    "option_d": "Ninguna",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 268,
+    "question": "Las decisiones en control abstracto pueden adoptar diversas formas. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Solo existe inconstitucionalidad total",
+    "option_b": "Puede existir inconstitucionalidad total, parcial o interpretación conforme",
+    "option_c": "Solo se archiva",
+    "option_d": "No produce efectos",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 269,
+    "question": "Seleccione las finalidades de la acción pública de inconstitucionalidad: 1. Defender la supremacía constitucional 2. Controlar normas 3. Garantizar coherencia normativa 4. Sustituir al legislador Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 270,
+    "question": "El acceso a la justicia es un derecho fundamental que se ejerce a través de otro derecho ¿Cuál de las siguientes opciones lo describe correctamente?",
+    "option_a": "Derecho de acción",
+    "option_b": "Derecho de petición",
+    "option_c": "Derecho de opinión",
+    "option_d": "Ninguna",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 271,
+    "question": "Relacione tipo de control con su característica: 1. Control concentrado 2. Control difuso 3. Control abstracto 4. Control concreto",
+    "option_a": "1b, 2c, 3d, 4a",
+    "option_b": "1c, 2b, 3d, 4a",
+    "option_c": "1b, 2d, 3c, 4a",
+    "option_d": "1a, 2c, 3b, 4d",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 272,
+    "question": "Un juez considera que una norma aplicable al caso concreto es inconstitucional. ¿Qué debe hacer? Opciones de respuesta:",
+    "option_a": "Inaplicarla y continuar con el caso",
+    "option_b": "Elevar una consulta de norma a la Corte Constitucional",
+    "option_c": "Aplicarla porque la Constitución lo obliga",
+    "option_d": "Ignorarla",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 273,
+    "question": "El estado de excepción tiene límites constitucionales. ¿Cuál de las siguientes afirmaciones es correcta? Opciones de respuesta:",
+    "option_a": "Permite suspender todos los derechos",
+    "option_b": "Tiene límites materiales y temporales",
+    "option_c": "No requiere control",
+    "option_d": "Es indefinido",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 274,
+    "question": "La Corte Constitucional cumple un rol fundamental en el Estado constitucional de Derechos. ¿Cuál es su función principal?",
+    "option_a": "Administrar justicia ordinaria",
+    "option_b": "Garantizar la supremacía de la Constitución",
+    "option_c": "Ejecutar políticas públicas",
+    "option_d": "Legislar",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 275,
+    "question": "Seleccione principios del control constitucional: 1. Supremacía constitucional 2. Presunción de constitucionalidad 3. Interpretación conforme 4. Discrecionalidad absoluta Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 276,
+    "question": "¿Qué constituye la familia?",
+    "option_a": "Una institución creada exclusivamente por el Estado.",
+    "option_b": "La organización esencial y primera organización social del desarrollo humano.",
+    "option_c": "Un grupo basado únicamente en intereses patrimoniales.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 277,
+    "question": "¿Qué derecho tiene la familia frente al Estado?",
+    "option_a": "El derecho a no ser regulada por ninguna ley.",
+    "option_b": "El derecho a la autonomía absoluta sin deberes sociales.",
+    "option_c": "Derecho a la protección de la sociedad y del Estado.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 278,
+    "question": "¿Cuál es la función de la \"Línea\" en el parentesco?",
+    "option_a": "Establecer la cadena de parentelas que provienen de un tronco común.",
+    "option_b": "Medir la distancia geográfica entre los miembros de la familia.",
+    "option_c": "Determinar el nivel de ingresos de los parientes.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 279,
+    "question": "En el contexto del parentesco, ¿qué define el \"Grado\"?",
+    "option_a": "El nivel académico de los integrantes.",
+    "option_b": "Las distancias o espacios existentes entre dos parientes.",
+    "option_c": "El número de hijos en una familia nuclear.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 280,
+    "question": "¿Quiénes se encuentran en el primer grado de consanguinidad?",
+    "option_a": "Abuelos y nietos.",
+    "option_b": "Padres e hijos.",
+    "option_c": "Hermanos y tíos.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 281,
+    "question": "Los hermanos pertenecen al:",
+    "option_a": "Primer grado de consanguinidad.",
+    "option_b": "Tercer grado de consanguinidad.",
+    "option_c": "Segundo grado de consanguinidad.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 282,
+    "question": "¿A qué grado de afinidad pertenecen los \"padres del cónyuge\"?",
+    "option_a": "Primer grado de afinidad.",
+    "option_b": "Segundo grado de afinidad.",
+    "option_c": "Tercer grado de afinidad.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 283,
+    "question": "¿Qué pariente se ubica en el segundo grado de afinidad?",
+    "option_a": "Los hijos del cónyuge.",
+    "option_b": "Los hermanos del cónyuge.",
+    "option_c": "Los tíos del cónyuge.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 284,
+    "question": "Según el Código Civil, la patria potestad es:",
+    "option_a": "Un castigo para los hijos no emancipados.",
+    "option_b": "El conjunto de derechos que tienen los padres sobre sus hijos no emancipados.",
+    "option_c": "La facultad de los hijos de administrar sus propios bienes.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 285,
+    "question": "¿Cómo define el Código de la Niñez y Adolescencia la patria potestad?",
+    "option_a": "Como un poder absoluto e ilimitado del padre.",
+    "option_b": "Como un deber exclusivo de la madre hasta los 12 años.",
+    "option_c": "Como un conjunto de derechos y obligaciones referentes al cuidado y desarrollo integral de los padres relativos a sus hijos",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 286,
+    "question": "¿Cuál es la diferencia fundamental entre patria potestad y tenencia?",
+    "option_a": "Son sinónimos exactos en el derecho ecuatoriano.",
+    "option_b": "La patria potestad es el conjunto global de derechos y obligaciones; la tenencia es el cuidado físico y crianza de uno de los progenitores",
+    "option_c": "La tenencia solo la ejerce el Estado.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 287,
+    "question": "¿Qué frases del artículo 106 del CONA fueron declaradas inconstitucionales por la Corte?",
+    "option_a": "\"Se respetará lo que acuerden los progenitores\".",
+    "option_b": "\"Los padres están obligados al cuidado de sus hijos\".",
+    "option_c": "\"La patria potestad de los que no han cumplido doce años se confiará a la madre\" y \"se preferirá a la madre\".,",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 288,
+    "question": "¿En qué principios se basó la Corte para declarar la inconstitucionalidad del artículo 106 del CONA?",
+    "option_a": "En el principio de soberanía nacional.",
+    "option_b": "En el interés superior del niño, la igualdad y la corresponsabilidad parental.",
+    "option_c": "En el interés superior del niño, y la identidad parental",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 289,
+    "question": "¿Hasta qué edad se extiende la pensión alimenticia para estudiantes universitarios?",
+    "option_a": "No hay límite de edad si justifica encontrase estudiando",
+    "option_b": "25 años",
+    "option_c": "21 años",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 290,
+    "question": "¿Tienen derecho a pensión alimenticia las mujeres embarazadas?",
+    "option_a": "Sí, desde la concepción para cubrir las necesidades de la madre gestante.",
+    "option_b": "No, solo después del parto.",
+    "option_c": "C) Solo si están casadas legalmente.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 291,
+    "question": "¿Qué sucede con la opinión de los adolescentes mayores de 12 años en procesos judiciales de familia?",
+    "option_a": "El Juez puede ignorarla sin justificación.",
+    "option_b": "Es obligatoria para el Juez, a menos que sea manifiestamente perjudicial para su desarrollo.,",
+    "option_c": "No se toma en cuenta hasta que cumplan 18 años.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 292,
+    "question": "Según la Corte, la preferencia materna automática vulneraba la igualdad porque:",
+    "option_a": "Impedía que las madres trabajaran.",
+    "option_b": "Obligaba a los padres a vivir con sus hijos",
+    "option_c": "Perpetuaba estereotipos de género sobre el rol de cuidado \"natural\" de la mujer",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 293,
+    "question": "¿Cuál debe ser el \"único criterio\" en las decisiones de responsabilidad parental según el Comité de los Derechos del Niño?",
+    "option_a": "La capacidad económica del padre.",
+    "option_b": "El interés superior del niño",
+    "option_c": "El bienestar emocional exclusivo de la madre y sus hijos.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 294,
+    "question": "¿Qué debe regular obligatoriamente el Juez al confiar la tenencia a uno de los progenitores?",
+    "option_a": "El régimen de visitas que el otro progenitor podrá hacer",
+    "option_b": "El pago de deudas de los padres.",
+    "option_c": "La carrera universitaria futura del menor.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 295,
+    "question": "En caso de falta de ambos progenitores, ¿quién nombra un tutor?",
+    "option_a": "La policía nacional.",
+    "option_b": "El Juez, de acuerdo a las reglas generales.",
+    "option_c": "El pariente con más estabilidad económica que garantice los derechos del niño.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 296,
+    "question": "¿Qué pariente es el \"abuelo del cónyuge\"?",
+    "option_a": "Segundo grado de consanguinidad.",
+    "option_b": "Tercer grado de afinidad.",
+    "option_c": "Segundo grado de afinidad.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 297,
+    "question": "¿Qué derecho se vulnera si se aplica una preferencia legal automática sin oír al niño?",
+    "option_a": "Derecho a la propiedad.",
+    "option_b": "Derecho a ser escuchado y a que su opinión sea valorada.",
+    "option_c": "Derecho al libre tránsito.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 298,
+    "question": "En el Régimen de visitas, existen modalidades:",
+    "option_a": "Régimen abierto y cerrado",
+    "option_b": "Régimen supervisado exclusivo",
+    "option_c": "Régimen flexible bajo supervisión parental",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 299,
+    "question": "La pensión de alimentos se debe desde:",
+    "option_a": "La resolución judicial",
+    "option_b": "LA citación al demandado",
+    "option_c": "La presentación de la demanda",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 300,
+    "question": "El incidente de rebaja de pensión surte efecto desde:",
+    "option_a": "El delincuente no tiene conocimiento de los valores honrados",
+    "option_b": "El delincuente siempre se jacta en público de sus actividades ilícitas",
+    "option_c": "El delincuente comparte los valores fundamentales de la sociedad pero decide infringirlos",
+    "option_d": "El delincuente desconoce completamente las normas sociales",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 351,
+    "question": "¿Cómo se dividen los bienes según su percepción por los sentidos?",
+    "option_a": "Corporales e incorporales",
+    "option_b": "Muebles e inmuebles",
+    "option_c": "Fungibles y no fungibles",
+    "option_d": "Principales y accesorios",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 352,
+    "question": "¿Qué nombre reciben las cosas corporales que pueden transportarse de un lugar a otro moviéndose por sí mismas?",
+    "option_a": "Inanimadas",
+    "option_b": "Semovientes",
+    "option_c": "Inmuebles",
+    "option_d": "Fungibles",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 353,
+    "question": "¿Cuál es la definición legal de bienes raíces o fincas?",
+    "option_a": "Bienes que se consumen con el primer uso",
+    "option_b": "Cosas que pueden trasladarse por una fuerza externa",
+    "option_c": "Cosas que no pueden transportarse de un lugar a otro",
+    "option_d": "Derechos personales sobre una cosa",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 354,
+    "question": "¿A qué categoría pertenecen las losas de un pavimento y los tubos de cañerías permanentemente destinados al uso de un inmueble?",
+    "option_a": "Muebles por naturaleza",
+    "option_b": "Bienes nacionales de uso público",
+    "option_c": "Inmuebles por destinación o adherencia",
+    "option_d": "Cosas incorporales",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 355,
+    "question": "¿Cómo se denominan los frutos que da la naturaleza, ayudada o no de la industria humana?",
+    "option_a": "Frutos civiles",
+    "option_b": "Frutos pendientes",
+    "option_c": "Frutos naturales",
+    "option_d": "Frutos percibidos",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 356,
+    "question": "¿Qué tipo de cosas son las que se destruyen al primer uso conveniente a su naturaleza?",
+    "option_a": "No fungibles",
+    "option_b": "Incorporales",
+    "option_c": "Inmuebles",
+    "option_d": "Fungibles",
+    "category": "Derecho Civil",
+    "correct": "d"
+  },
+  {
+    "num": 357,
+    "question": "¿Qué es un derecho real según la normativa civil?",
+    "option_a": "Aquel que solo puede reclamarse de ciertas personas",
+    "option_b": "El que se tiene sobre una cosa sin respecto a determinada persona",
+    "option_c": "La facultad de exigir una obligación de dar o hacer",
+    "option_d": "Un contrato de compraventa inscrito",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 358,
+    "question": "¿Cuál de los siguientes es un ejemplo de derecho personal o crédito?",
+    "option_a": "El derecho de hipoteca",
+    "option_b": "El derecho de servidumbre activa",
+    "option_c": "El derecho de usufructo",
+    "option_d": "El que tiene un prestamista contra su deudor",
+    "category": "Derecho Civil",
+    "correct": "d"
+  },
+  {
+    "num": 359,
+    "question": "¿Qué otro nombre recibe legalmente el derecho de dominio?",
+    "option_a": "Posesión regular",
+    "option_b": "Propiedad",
+    "option_c": "Mera tenencia",
+    "option_d": "Usufructo",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 360,
+    "question": "¿Cuál es el límite principal al ejercicio del derecho de dominio?",
+    "option_a": "Debe ejercerse conforme a las leyes y respetando el derecho ajeno",
+    "option_b": "No se puede disponer de la cosa",
+    "option_c": "Solo puede ejercerse sobre bienes muebles",
+    "option_d": "Requiere siempre la autorización del Estado",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 361,
+    "question": "¿Cómo se llaman los bienes cuyo uso pertenece a todos los habitantes de la nación, como calles y plazas?",
+    "option_a": "Bienes fiscales",
+    "option_b": "Bienes del Estado",
+    "option_c": "Bienes nacionales de uso público",
+    "option_d": "Bienes de propiedad privada",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 362,
+    "question": "¿Qué categoría reciben las tierras que, dentro del territorio nacional, carecen de otro dueño?",
+    "option_a": "Bienes comunes",
+    "option_b": "Bienes de uso público",
+    "option_c": "Bienes mostrencos",
+    "option_d": "Bienes del Estado o fiscales",
+    "category": "Derecho Civil",
+    "correct": "d"
+  },
+  {
+    "num": 363,
+    "question": "¿Cuáles son los modos de adquirir el dominio reconocidos por la ley?",
+    "option_a": "Ocupación, accesión, tradición, sucesión por causa de muerte y prescripción",
+    "option_b": "Venta, permuta, donación y arrendamiento",
+    "option_c": "Posesión, tenencia y usufructo",
+    "option_d": "Inscripción, registro y protocolización",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 364,
+    "question": "¿Qué modo de adquirir consiste en tomar cosas que no pertenecen a nadie y cuya adquisición no está prohibida?",
+    "option_a": "Accesión",
+    "option_b": "Tradición",
+    "option_c": "Prescripción",
+    "option_d": "Ocupación",
+    "category": "Derecho Civil",
+    "correct": "d"
+  },
+  {
+    "num": 365,
+    "question": "¿Bajo qué figura jurídica se adquiere el dominio de animales bravíos mediante la caza y la pesca?",
+    "option_a": "Tradición",
+    "option_b": "Ocupación",
+    "option_c": "Accesión",
+    "option_d": "Sucesión",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 366,
+    "question": "¿Cómo se define la accesión?",
+    "option_a": "Es la entrega de una cosa con intención de transferir el dominio",
+    "option_b": "Es la tenencia de una cosa con ánimo de señor y dueño",
+    "option_c": "Es el transcurso del tiempo para ganar un derecho",
+    "option_d": "Es el modo por el cual el dueño de una cosa pasa a serlo de lo que ella produce",
+    "category": "Derecho Civil",
+    "correct": "d"
+  },
+  {
+    "num": 367,
+    "question": "¿En qué consiste la tradición como modo de adquirir?",
+    "option_a": "En el hallazgo de una cosa inanimada",
+    "option_b": "En la entrega que el dueño hace de una cosa a otro, habiendo facultad e intención de transferir",
+    "option_c": "En la ocupación material de un bien raíz",
+    "option_d": "En la sentencia judicial de un juez civil",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 368,
+    "question": "¿Qué requisito es indispensable para que valga la tradición?",
+    "option_a": "Un contrato de arrendamiento previo",
+    "option_b": "Que la cosa sea un bien nacional",
+    "option_c": "Un título translativo de dominio, como venta, permuta o donación",
+    "option_d": "La mera tenencia de la cosa",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 369,
+    "question": "¿Cómo se efectúa legalmente la tradición del dominio de bienes raíces?",
+    "option_a": "La entrega de una cosa reconociendo dominio ajeno",
+    "option_b": "La tenencia de una cosa determinada con ánimo de señor o dueño",
+    "option_c": "El uso de un bien por permiso del propietario",
+    "option_d": "La propiedad inscrita de un bien mueble",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 371,
+    "question": "¿Qué presunción legal recae sobre el poseedor?",
+    "option_a": "Es reputado dueño, mientras otra persona no justifica serlo",
+    "option_b": "Se presume que es un mero tenedor",
+    "option_c": "Se presume que actúa de mala fe",
+    "option_d": "No tiene derecho a la protección de la ley",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 372,
+    "question": "¿Cuáles son los requisitos de la posesión regular?",
+    "option_a": "Fuerza y clandestinidad",
+    "option_b": "Mera tenencia y justo título",
+    "option_c": "Justo título y buena fe",
+    "option_d": "Ánimo de señor y dueño únicamente",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 373,
+    "question": "¿Qué define a la mera tenencia?",
+    "option_a": "Ejercer la tenencia reconociendo dominio ajeno",
+    "option_b": "Tener la cosa con ánimo de dueño",
+    "option_c": "Poseer la cosa con justo título",
+    "option_d": "Haber adquirido la cosa por prescripción",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 374,
+    "question": "Según Savigny, ¿qué elementos componen la posesión?",
+    "option_a": "Propiedad y dominio",
+    "option_b": "Corpus y animus",
+    "option_c": "Uso y goce",
+    "option_d": "Título y modo",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 375,
+    "question": "¿Qué es el derecho de usufructo?",
+    "option_a": "La propiedad absoluta de una cosa fungible",
+    "option_b": "La tenencia de una cosa con ánimo de dueño",
+    "option_c": "Un contrato de compraventa a plazos",
+    "option_d": "Un derecho real de gozar de una cosa con cargo de conservar su forma y sustancia",
+    "category": "Derecho Civil",
+    "correct": "d"
+  },
+  {
+    "num": 376,
+    "question": "En un Estado Constitucional de Derechos y Justicia, sostener que el Derecho Penal no es solamente un conjunto de normas represivas, sino un sistema de garantías frente al poder punitivo, implica un cambio profundo de perspectiva. ¿Cuál de las siguientes afirmaciones expresa mejor esa transformación conceptual?",
+    "option_a": "El Derecho Penal deja de proteger bienes jurídicos y pasa a ser únicamente una técnica procesal de organización judicial.",
+    "option_b": "El Derecho Penal mantiene su función de tutela de bienes jurídicos, pero su legitimidad depende de limitar racionalmente la violencia estatal mediante principios constitucionales.",
+    "option_c": "El Derecho Penal se convierte exclusivamente en un instrumento de resocialización y deja sin efecto la necesidad de sancionar conductas graves.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 377,
+    "question": "Si el poder penal es la manifestación más intensa del ius puniendi estatal porque puede afectar libertad, patrimonio, honra e incluso el proyecto de vida, ¿qué se deduce dogmáticamente sobre su ejercicio legítimo?",
+    "option_a": "Que debe operar siempre bajo filtros escalonados de legalidad, tipicidad, antijuridicidad y culpabilidad para evitar sanciones arbitrarias.",
+    "option_b": "Que su intensidad justifica que la política criminal prescinda de límites cuando exista alta percepción social de inseguridad.",
+    "option_c": "Que basta con la existencia de una ley penal formal para considerar constitucionalmente válido cualquier castigo impuesto por el Estado.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 378,
+    "question": "La función de protección de bienes jurídicos suele presentarse como justificación clásica del Derecho Penal. Sin embargo, desde una mirada garantista, esa función también limita al legislador. ¿Por qué?",
+    "option_a": "Porque el legislador solo puede criminalizar conductas que lesionen o pongan en peligro de manera significativa bienes jurídicos relevantes, y no meros comportamientos moralmente desaprobados.",
+    "option_b": "Porque toda conducta socialmente inconveniente debe ser convertida en delito si la opinión pública la percibe como ofensiva.",
+    "option_c": "Porque la noción de bien jurídico elimina toda necesidad de analizar derechos fundamentales dentro del sistema penal.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 379,
+    "question": "La prevención general negativa parte de la idea de que la amenaza de pena disuade a la colectividad. No obstante, la criminología contemporánea ha cuestionado sus alcances reales. ¿Cuál es el argumento más sólido frente a esa crítica?",
+    "option_a": "La prevención general fracasa siempre, incluso cuando existe investigación eficaz y alta probabilidad de sanción.",
+    "option_b": "La eficacia disuasoria depende más de la certeza de la aplicación de la pena que de su mera severidad, especialmente en contextos de impunidad estructural.",
+    "option_c": "La prevención general solo opera en delitos patrimoniales y carece de relevancia en cualquier otra forma de criminalidad.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "b"
+  },
+  {
+    "num": 380,
+    "question": "La prevención especial y la función resocializadora apuntan al autor concreto del delito. Sin embargo, ambas se ven gravemente afectadas en contextos de hacinamiento, violencia carcelaria y control criminal intramuros. ¿Qué consecuencia jurídica y criminológica se sigue de ello?",
+    "option_a": "La prisión mantiene intacta su legitimidad material porque la sentencia ya justificó cualquier forma posterior de ejecución penitenciaria.",
+    "option_b": "El fracaso de la rehabilitación no afecta la validez del castigo, porque la prisión solo debe entenderse como sufrimiento retributivo.",
+    "option_c": "La pena puede conservar legalidad formal, pero debilitar su legitimidad material si en la práctica reproduce violencia, reincidencia y desocialización.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "c"
+  },
+  {
+    "num": 381,
+    "question": "Cuando se afirma que la función central del Derecho Penal en el Estado constitucional es limitar el poder punitivo, se está ubicando al sistema penal dentro de una lógica garantista. ¿Cuál de las siguientes proposiciones desarrolla mejor esa idea?",
+    "option_a": "El Derecho Penal no se justifica por castigar más, sino por evitar castigos arbitrarios mediante legalidad, proporcionalidad, culpabilidad y presunción de inocencia.",
+    "option_b": "La mejor manera de limitar el poder punitivo es ampliar el catálogo de delitos para hacer más previsible la reacción estatal.",
+    "option_c": "La función garantista exige eliminar toda referencia a bienes jurídicos y concentrarse exclusivamente en la voluntad del legislador.",
+    "option_d": "",
+    "category": "Derecho Civil",
+    "correct": "a"
+  },
+  {
+    "num": 382,
+    "question": "La función simbólica del Derecho Penal se intensifica en contextos de miedo social, crisis de seguridad y presión mediática. ¿Qué caracteriza mejor esa función?",
+    "option_a": "Se orienta principalmente a comunicar control, reafirmar autoridad estatal o responder políticamente a demandas sociales, aun cuando la eficacia preventiva sea limitada.",
+    "option_b": "Sustituye por completo la función de protección de bienes jurídicos y convierte al Derecho Penal en una rama exclusivamente propagandística.",
+    "option_c": "Elimina la necesidad de control constitucional, puesto que sus efectos se ubican en el plano político y no jurídico.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 383,
+    "question": "El principio de legalidad se presenta como núcleo estructural del Estado de Derecho. En materia penal, su formulación clásica no se reduce a exigir ley previa, sino que incorpora varias dimensiones técnicas. ¿Cuál de estas combinaciones recoge correctamente ese contenido?",
+    "option_a": "Lex scripta, lex praevia, lex stricta y taxatividad suficiente frente a interpretaciones expansivas desfavorables.",
+    "option_b": "Flexibilidad judicial, analogía in malam partem y potestad reglamentaria complementaria para crear delitos urgentes.",
+    "option_c": "Irretroactividad de la ley penal favorable y facultad de la Fiscalía para suplir vacíos normativos mediante imputaciones extensivas.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 384,
+    "question": "La prohibición de analogía in malam partem protege al ciudadano frente a la expansión judicial del castigo. ¿Por qué esta garantía es tan relevante en un contexto de aparición de nuevas modalidades delictivas?",
+    "option_a": "Porque autoriza al juez a completar cualquier vacío legislativo si considera que la conducta es moralmente reprochable.",
+    "option_b": "Porque impide adaptar forzadamente tipos penales existentes a supuestos no previstos por el legislador cuando ello perjudica al procesado.",
+    "option_c": "Porque obliga a absolver toda conducta nueva incluso si luego es tipificada expresamente por el legislador.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 385,
+    "question": "El principio de mínima intervención parte de que el Derecho Penal constituye la forma más intensa de coerción estatal y, por ello, debe operar como ultima ratio. ¿Cuál de las siguientes afirmaciones refleja mejor esta lógica?",
+    "option_a": "Toda conducta socialmente lesiva debe ser criminalizada si produce malestar colectivo o amplia visibilidad mediática.",
+    "option_b": "El sistema jurídico debe agotar, cuando sea posible, mecanismos preventivos, administrativos, civiles o restaurativos antes de acudir a la sanción penal.",
+    "option_c": "La pena privativa de libertad debe ser la reacción ordinaria del Estado frente al conflicto social para evitar sensación de impunidad.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 386,
+    "question": "En el marco del principio de mínima intervención, la expansión del catálogo penal suele vincularse con el llamado Derecho Penal simbólico. ¿Qué significa esta crítica?",
+    "option_a": "Que el legislador crea nuevos delitos o agrava penas para transmitir sensación de control más que para resolver eficazmente el problema social subyacente.",
+    "option_b": "Que toda creación legislativa en materia penal es ilegítima y constituye automáticamente una violación al principio democrático.",
+    "option_c": "Que el simbolismo penal solo existe cuando los medios de comunicación comentan una sentencia de gran impacto público.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 387,
+    "question": "Dentro del propio proceso penal, la mínima intervención también exige preferir respuestas menos lesivas que la prisión cuando sean igualmente idóneas. ¿Qué implicación se desprende de ello respecto de la prisión preventiva?",
+    "option_a": "Que su uso generalizado es legítimo si la gravedad abstracta del delito produce alarma social considerable.",
+    "option_b": "Que, al tratarse de una medida cautelar, solo puede aplicarse excepcionalmente y nunca como castigo anticipado o neutralización automática del sospechoso.",
+    "option_c": "Que su carácter cautelar permite restringir la presunción de inocencia cuando el discurso político de seguridad así lo exija.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 388,
+    "question": "El principio de proporcionalidad responde a la pregunta sobre cómo y en qué medida debe sancionar el Estado. Desde esta perspectiva, una pena solo es legítima si guarda equilibrio con el hecho cometido. ¿Qué elementos deben valorarse de manera central?",
+    "option_a": "La conveniencia política de aumentar el castigo y la necesidad simbólica de transmitir autoridad estatal.",
+    "option_b": "La gravedad objetiva del hecho, la magnitud del daño al bien jurídico y el grado de culpabilidad del autor.",
+    "option_c": "La popularidad de la reforma penal y la sensibilidad mediática del caso concreto.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 389,
+    "question": "La proporcionalidad se descompone metodológicamente en adecuación, necesidad y proporcionalidad en sentido estricto. ¿Cuál es la descripción correcta del subprincipio de necesidad en materia penal?",
+    "option_a": "Exige escoger, entre varias medidas posibles, la menos lesiva para los derechos fundamentales que aún permita alcanzar el fin constitucional de protección.",
+    "option_b": "Obliga siempre a imponer prisión cuando el legislador la haya previsto como respuesta principal al delito.",
+    "option_c": "Permite al juez sacrificar garantías procesales si con ello se refuerza la confianza ciudadana en la respuesta penal.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 390,
+    "question": "Los debates sobre microtráfico o porte de armas suelen mostrar tensiones entre política criminal reactiva y principio de proporcionalidad. ¿Qué problema se presenta cuando se imponen penas muy severas a actores marginales o conductas de menor lesividad relativa?",
+    "option_a": "Se fortalece la prevención general positiva, aunque la escala de penas resulte incoherente con la estructura del bien jurídico protegido.",
+    "option_b": "Se rompe la correspondencia entre gravedad real del hecho y respuesta punitiva, castigando con intensidad desmedida sin base empírica suficiente.",
+    "option_c": "Se garantiza automáticamente la disminución del delito, pues la severidad de la pena compensa cualquier defecto institucional.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 391,
+    "question": "El principio de humanidad y dignidad no se agota en prohibir la tortura. También impone deberes positivos al Estado respecto de las personas privadas de libertad. ¿Cuál es el fundamento de esta obligación reforzada?",
+    "option_a": "Que la privación de libertad suspende la titularidad de derechos, pero mantiene obligaciones residuales mínimas de custodia.",
+    "option_b": "Que, una vez ejecutoriada la condena, el Estado solo debe asegurar el encierro, sin estar obligado a proteger salud, vida o integridad.",
+    "option_c": "Que quien se encuentra bajo custodia estatal depende del Estado para su protección, de modo que este debe garantizar condiciones compatibles con la dignidad humana.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "c"
+  },
+  {
+    "num": 392,
+    "question": "La crisis penitenciaria ecuatoriana ha puesto en cuestión la legitimidad material de la pena privativa de libertad. ¿Cuál de las siguientes afirmaciones expresa mejor el núcleo del problema constitucional?",
+    "option_a": "Si la ejecución de la pena expone sistemáticamente a las personas a violencia extrema, hacinamiento o riesgo de muerte, la privación de libertad desborda los límites del castigo constitucionalmente admisible.",
+    "option_b": "Las deficiencias penitenciarias son administrativas y, por tanto, no afectan en ningún caso la legitimidad del sistema penal ni la validez de las sentencias condenatorias.",
+    "option_c": "La dignidad humana opera como criterio político abstracto, pero no como parámetro relevante para valorar la ejecución concreta de la pena.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 393,
+    "question": "Cuando se plantea la pregunta de por qué incluso un homicida conserva derechos humanos, la respuesta garantista no minimiza el delito, sino que defiende un límite al poder del Estado. ¿Cuál es ese límite?",
+    "option_a": "El condenado pierde todos sus derechos salvo la posibilidad de presentar recursos si así lo autoriza la administración penitenciaria.",
+    "option_b": "Los derechos humanos pertenecen a la persona por su condición humana y no por su conducta moral, de modo que la pena puede restringir libertad, pero no suprimir dignidad.",
+    "option_c": "El respeto a los derechos del condenado responde exclusivamente a razones utilitarias vinculadas al ahorro de recursos penitenciarios.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 394,
+    "question": "La presunción de inocencia no se reduce a una fórmula declarativa, sino que estructura el modo en que el proceso penal debe desarrollarse. ¿Qué práctica resulta más claramente incompatible con esta garantía?",
+    "option_a": "Considerar a toda persona inocente hasta sentencia condenatoria ejecutoriada y motivar rigurosamente las restricciones de derechos durante el proceso.",
+    "option_b": "Difundir públicamente a la persona detenida como culpable consumado o usar la prisión preventiva como pena anticipada frente a la presión social.",
+    "option_c": "Exigir control judicial de la prueba y asegurar defensa técnica desde las primeras etapas del proceso penal.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 395,
+    "question": "El debido proceso penal incorpora garantías como motivación, defensa técnica, juez imparcial, publicidad, plazo razonable y prohibición de prueba ilícita. ¿Por qué estas garantías son estructuralmente relevantes y no simples formalidades?",
+    "option_a": "Porque constituyen condiciones de validez moral, jurídica y democrática del castigo, y sin ellas el ejercicio punitivo deviene arbitrario.",
+    "option_b": "Porque su única finalidad es retrasar la imposición de la pena y favorecer estratégicamente al imputado.",
+    "option_c": "Porque solo resultan exigibles en delitos de menor gravedad y pueden ser flexibilizadas en casos de conmoción social.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 396,
+    "question": "La prohibición del Derecho Penal del enemigo impide construir categorías de personas carentes de garantías por su supuesta peligrosidad. ¿Qué riesgo constitucional se busca evitar con esta prohibición?",
+    "option_a": "Que el Estado reemplace el juicio por culpabilidad por una lógica de neutralización basada en etiquetas de enemigo, con anticipación de punibilidad y supresión de derechos fundamentales.",
+    "option_b": "Que el legislador pierda la capacidad de sancionar criminalidad organizada con tipos penales específicos y técnicas de investigación complejas.",
+    "option_c": "Que el sistema procesal se vuelva excesivamente garantista y deje sin protección a las víctimas de delitos graves.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 397,
+    "question": "El populismo penal y la expansión punitiva han sido analizados en Ecuador como respuestas políticas a la inseguridad entre 2015 y 2025. ¿Cuál es la característica más representativa de este fenómeno?",
+    "option_a": "El uso del Derecho Penal como herramienta técnica basada en evidencia empírica, con fuerte prioridad preventiva y restaurativa.",
+    "option_b": "La utilización del castigo como mensaje político y mediático de seguridad inmediata, mediante aumento de penas o eliminación de beneficios sin evaluación suficiente de eficacia y constitucionalidad.",
+    "option_c": "La reducción del catálogo penal para concentrarse exclusivamente en bienes jurídicos esenciales y disminuir el uso de prisión.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 398,
+    "question": "Desde una mirada crítica, el aumento de penas para delitos altamente sensibles no necesariamente reduce la criminalidad y puede agravar la crisis penitenciaria. ¿Qué demuestra esto sobre la relación entre política criminal y principios constitucionales?",
+    "option_a": "Que la severidad normativa debe ser analizada a la luz de proporcionalidad, mínima intervención y garantías procesales, y no solo de su rentabilidad política.",
+    "option_b": "Que la legitimidad constitucional de una reforma penal depende principalmente de su aceptación inmediata por la mayoría de la opinión pública.",
+    "option_c": "Que las tensiones entre seguridad y derechos se resuelven suprimiendo el control constitucional sobre las reformas penales.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 399,
+    "question": "En la teoría del delito dominante en Ecuador, el modelo tripartito exige tipicidad, antijuridicidad y culpabilidad. ¿Cuál es la función garantista de esta estructura escalonada?",
+    "option_a": "Permitir que el juez imponga pena desde la mera sospecha, siempre que el bien jurídico afectado sea especialmente relevante.",
+    "option_b": "Reemplazar la necesidad de análisis constitucional por una mecánica puramente formal de subsunción legal.",
+    "option_c": "Actuar como filtros sucesivos que impiden sancionar si la conducta no encaja estrictamente en la ley, no lesiona injustificadamente un bien jurídico o no es personalmente reprochable.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "c"
+  },
+  {
+    "num": 400,
+    "question": "La tipicidad objetiva exige comprobar sujetos, conducta, medios, resultado, nexo causal y demás elementos externos del tipo. ¿Por qué este análisis constituye un primer filtro esencial en la dogmática penal?",
+    "option_a": "Porque permite verificar si los hechos encajan o no en una figura delictiva prevista por la ley, evitando que la pena se base en intuiciones morales o decisiones discrecionales.",
+    "option_b": "Porque sustituye por completo a la antijuridicidad y culpabilidad, haciendo innecesario el resto de la teoría del delito.",
+    "option_c": "Porque autoriza al intérprete a extender el tipo penal cuando el resultado social del hecho parezca suficientemente grave.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 401,
+    "question": "En un Estado constitucional, el legislador propone aumentar penas y crear nuevos delitos cada vez que existe alarma social por hechos violentos. Si se analiza esta reacción desde la función limitadora del Derecho Penal y desde la crítica al populismo punitivo, ¿cuál es la valoración más adecuada?",
+    "option_a": "La reacción es correcta solo porque transmite firmeza estatal, ya que la función simbólica basta por sí sola para legitimar cualquier expansión punitiva.",
+    "option_b": "La reacción solo sería legítima si, además de responder a la demanda social, respeta legalidad, proporcionalidad, mínima intervención y demuestra utilidad real en la protección de bienes jurídicos.",
+    "option_c": "La reacción debe admitirse siempre que exista mayoría política, aunque no exista evidencia empírica sobre su eficacia preventiva.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 402,
+    "question": "Un fiscal sostiene que, aunque una conducta no encaja con precisión en el tipo penal, debe sancionarse porque “afecta gravemente a la sociedad” y el juez puede extender el alcance de la norma por analogía. Desde el principio de legalidad estricta, ¿qué respuesta es más correcta?",
+    "option_a": "La analogía en perjuicio del procesado vulnera la legalidad, porque el juez no puede crear delitos ni ampliar tipos penales más allá de la previsión legal estricta.",
+    "option_b": "La analogía es válida cuando el bien jurídico lesionado sea importante y la finalidad de castigo resulte moralmente convincente.",
+    "option_c": "La analogía es procedente siempre que la Fiscalía argumente que existe una nueva modalidad delictiva no prevista por el legislador.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 403,
+    "question": "Si la prisión en la práctica no rehabilita, reproduce violencia interna y fortalece redes criminales, ¿qué razonamiento expresa mejor la tensión entre legalidad formal y legitimidad material de la pena privativa de libertad?",
+    "option_a": "Mientras exista sentencia condenatoria, la prisión conserva automáticamente toda su legitimidad constitucional sin importar sus efectos reales.",
+    "option_b": "La falta de rehabilitación carece de relevancia porque la única función constitucional de la pena es producir sufrimiento equivalente al daño causado.",
+    "option_c": "Aunque la prisión pueda seguir siendo legalmente aplicable, su legitimidad material se debilita si deja de ser idónea, necesaria y compatible con la dignidad humana.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "c"
+  },
+  {
+    "num": 404,
+    "question": "Si se afirma que el Derecho Penal solo sirve para castigar delitos ya cometidos. Otro sostiene que su función central en el Estado constitucional es también frenar abusos del poder estatal. ¿Cuál postura resulta dogmáticamente más correcta?",
+    "option_a": "La segunda postura, porque el Derecho Penal contemporáneo no solo describe castigos, sino que establece condiciones de validez y límites al ius puniendi.",
+    "option_b": "La primera postura, porque la única misión del Derecho Penal es reaccionar frente al delito mediante penas ejemplares.",
+    "option_c": "Ninguna, porque el Derecho Penal es una simple técnica procedimental sin contenido garantista propio.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 405,
+    "question": "En un debate se plantea que la protección de bienes jurídicos autoriza al legislador a criminalizar cualquier conducta socialmente desagradable. ¿Qué respuesta refleja mejor la tesis garantista sobre el bien jurídico?",
+    "option_a": "Es correcta, porque el legislador penal puede transformar toda desaprobación ética o cultural en delito.",
+    "option_b": "Es incorrecta, porque el bien jurídico funciona también como criterio material de contención y exige una afectación relevante de intereses fundamentales.",
+    "option_c": "Es correcta siempre que la conducta sea rechazada por los medios de comunicación y genere percepción de inseguridad.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 406,
+    "question": "Cuando se analiza la prevención general en Ecuador, especialmente en contextos de impunidad elevada, ¿qué afirmación es conceptualmente más sólida?",
+    "option_a": "El aumento de la severidad de la pena siempre disminuye el delito, aunque la probabilidad real de sanción sea mínima.",
+    "option_b": "La prevención general positiva solo depende del miedo irracional de la población y no de la confianza en la vigencia de la norma.",
+    "option_c": "La eficacia disuasoria depende más de la certeza de aplicación de la sanción que del simple incremento abstracto de las penas.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "c"
+  },
+  {
+    "num": 407,
+    "question": "Si una reforma penal endurece el castigo para microtráfico sin distinguir contextos, cantidades ni proporcionalidad, ¿cuál sería la objeción constitucional más fuerte?",
+    "option_a": "Que toda reforma penal es inconstitucional porque el legislador no puede modificar el COIP.",
+    "option_b": "Que una pena puede tornarse ilegítima cuando sacrifica diferenciación, proporcionalidad y racionalidad garantista en nombre de una respuesta uniforme.",
+    "option_c": "Que la Constitución solo protege a quienes nunca han sido procesados penalmente.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 408,
+    "question": "Desde la teoría tripartita del delito, ¿por qué tipicidad, antijuridicidad y culpabilidad son consideradas filtros garantistas y no simples etapas mecánicas?",
+    "option_a": "Porque cada una exige verificar un nivel específico de justificación del castigo y evita que el reproche penal sea automático o arbitrario.",
+    "option_b": "Porque permiten condenar con mayor rapidez al acusado una vez que exista sospecha policial suficiente.",
+    "option_c": "Porque sustituyen por completo el análisis de derechos fundamentales en el proceso penal.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 409,
+    "question": "Una política criminal apela constantemente al lenguaje de “enemigos”, “indeseables” y “sujetos irrecuperables”. Desde Zaffaroni, ¿cuál es el principal riesgo de esa construcción discursiva?",
+    "option_a": "Que mejora la precisión técnica de la dogmática penal al diferenciar ciudadanos valiosos de sujetos peligrosos.",
+    "option_b": "Que deshumaniza, debilita la condición de persona y abre espacio a formas inhumanas de ejercicio del poder punitivo.",
+    "option_c": "Que fortalece la igualdad material porque permite sanciones diferenciadas contra grupos considerados amenazantes.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 410,
+    "question": "Cuando el Derecho Penal asume una función simbólica intensa frente al miedo social, ¿cuál es la lectura crítica más rigurosa?",
+    "option_a": "La función simbólica puede comunicar autoridad estatal, pero se vuelve problemática si sustituye soluciones eficaces y degrada las garantías constitucionales.",
+    "option_b": "La función simbólica siempre es irrelevante porque toda norma penal produce únicamente efectos procesales.",
+    "option_c": "La función simbólica legitima cualquier reforma mientras existan campañas comunicacionales favorables.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 411,
+    "question": "Por qué la filosofía sigue siendo necesaria para el Derecho Penal. A la luz de Zaffaroni, ¿cuál respuesta es la más adecuada?",
+    "option_a": "Porque el penalista no puede construir una teoría mínimamente coherente sin una concepción de lo humano y una teoría del conocimiento.",
+    "option_b": "Porque la filosofía reemplaza por completo a la ley penal positiva y vuelve innecesaria la dogmática.",
+    "option_c": "Porque la filosofía solo sirve para la historia del pensamiento, pero no para la argumentación judicial concreta.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 412,
+    "question": "Si un operador jurídico interpreta la ley penal ignorando por completo la realidad social, penitenciaria y criminológica, privilegiando solo la coherencia lógica del sistema, ¿qué crítica recogen los materiales revisados?",
+    "option_a": "Que ese método es superior porque toda referencia a la realidad contamina la pureza del razonamiento jurídico.",
+    "option_b": "Que ese método incurre en un normativismo cerrado que corre el riesgo de legitimar un poder punitivo ilusorio y desconectado de sus efectos reales.",
+    "option_c": "Que ese método es obligatorio en todo Estado constitucional, ya que el deber ser excluye necesariamente el análisis del ser.",
+    "option_d": "",
+    "category": "Derecho Penal",
+    "correct": "b"
+  },
+  {
+    "num": 413,
+    "question": "Desde la perspectiva del Estado constitucional ecuatoriano, ¿qué diferencia mejor al Derecho Penal de un simple instrumento de gobierno autoritario?",
+    "option_a": "Que en el modelo constitucional la pena se justifica solo por la voluntad política inmediata del gobernante democráticamente elegido.",
+    "option_b": "Que el Derecho Penal constitucional está subordinado a dignidad humana, debido proceso y límites materiales al castigo.",
+    "option_c": "Que en ambos casos el castigo tiene la misma legitimidad, variando únicamente el estilo discursivo con que se presenta.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 414,
+    "question": "Cuando se dice que el COIP “norma el poder punitivo del Estado”, ¿cuál es la mejor interpretación dogmática de esa expresión?",
+    "option_a": "Que la ley penal no solo tipifica infracciones, sino que también disciplina, canaliza y contiene el ejercicio del castigo estatal.",
+    "option_b": "Que el COIP autoriza a las agencias estatales a actuar libremente mientras invoquen seguridad pública.",
+    "option_c": "Que la función principal del código consiste en desplazar a la Constitución como fuente de control del ius puniendi.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 415,
+    "question": "Si la sociedad exige respuestas inmediatas frente a la criminalidad organizada y el Estado recurre a medidas excepcionales permanentes, militarización y expansión penal continua, ¿qué tensión describe mejor el problema?",
+    "option_a": "La tensión entre seguridad y garantías, donde la urgencia puede erosionar principios estructurales del Estado de derecho.",
+    "option_b": "La tensión entre tipicidad y antijuridicidad, resuelta siempre a favor de la fuerza pública.",
+    "option_c": "La tensión entre jurisdicción ordinaria y arbitraje penal, que se supera con más estados de excepción.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 416,
+    "question": "Un jurista afirma que la voluntad mayoritaria basta para legitimar el castigo penal. Desde una concepción garantista, ¿por qué esa tesis es insuficiente?",
+    "option_a": "Porque en materia penal la mayoría puede decidir sin límites siempre que el fin sea combatir la inseguridad.",
+    "option_b": "Porque la legitimidad penal no depende solo de respaldo político, sino de conformidad con derechos fundamentales y límites constitucionales.",
+    "option_c": "Porque la democracia prohíbe toda criminalización de nuevas conductas.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 417,
+    "question": "En relación con la prevención especial, ¿qué conclusión es más correcta cuando el sistema penitenciario carece de clasificación, tratamiento y seguimiento postpenitenciario?",
+    "option_a": "La prevención especial se fortalece porque el simple encierro produce automáticamente autocontrol futuro.",
+    "option_b": "La prisión conserva intacta su eficacia resocializadora incluso en entornos dominados por estructuras criminales internas.",
+    "option_c": "La finalidad preventiva individual se debilita, pues sin condiciones institucionales adecuadas la pena puede producir efectos criminógenos.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 418,
+    "question": "¿Cuál de las siguientes afirmaciones expresa mejor la crítica a la idea de que el Derecho Penal pueda resolver por sí solo problemas estructurales como pobreza, exclusión o debilidad institucional?",
+    "option_a": "Esa idea es equivocada, porque el castigo no sustituye políticas públicas sociales, preventivas e institucionales.",
+    "option_b": "Esa idea es correcta, porque todo conflicto social puede resolverse con mayor tipificación penal.",
+    "option_c": "Esa idea es parcialmente válida solo si se amplía el uso de la prisión preventiva como herramienta de administración social.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 419,
+    "question": "Si el legislador crea tipos penales ambiguos para aparentar reacción frente a la inseguridad, ¿qué efecto jurídico-político resulta más preocupante?",
+    "option_a": "Se fortalece la taxatividad porque los operadores cuentan con mayor margen interpretativo.",
+    "option_b": "Se reduce el riesgo de arbitrariedad, dado que toda ambigüedad beneficia necesariamente al procesado.",
+    "option_c": "Se debilita la seguridad jurídica y se facilita una expansión interpretativa incompatible con la legalidad estricta.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 420,
+    "question": "A partir de la relación entre Derecho Penal y filosofía, ¿por qué no basta una lectura puramente técnica de la ley para formar operadores jurídicos democráticos?",
+    "option_a": "Porque la formación penal exige comprender también presupuestos antropológicos, políticos y epistemológicos del castigo.",
+    "option_b": "Porque toda interpretación penal debe ser sustituida por convicciones personales del juzgador.",
+    "option_c": "Porque la técnica jurídica es irrelevante frente a la intuición moral espontánea.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 421,
+    "question": "Cuando Zaffaroni advierte sobre la fabricación del enemigo, ¿cuál es la consecuencia institucional más grave para el Estado constitucional?",
+    "option_a": "La conversión de determinadas personas en no-sujetos o pseudo-sujetos, facilitando excepciones al régimen ordinario de derechos y garantías.",
+    "option_b": "La necesidad de ampliar la ciudadanía penal selectiva para responder con mayor eficiencia al miedo social.",
+    "option_c": "El perfeccionamiento de la política criminal porque el Estado puede seleccionar con más precisión a quién proteger y a quién excluir.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 422,
+    "question": "Un tribunal desea justificar una condena con base en la “peligrosidad futura” del acusado más que en el hecho probado. Desde una lectura garantista, ¿cuál objeción es la más fuerte?",
+    "option_a": "Ninguna, porque la peligrosidad sustituye de modo legítimo la prueba del hecho cuando existe alarma social.",
+    "option_b": "Es problemático, porque desplaza el juicio sobre el acto cometido hacia un reproche por condición, expectativa o perfil, debilitando responsabilidad y debido proceso.",
+    "option_c": "Es deseable, porque anticipa la defensa social y elimina la necesidad de análisis de culpabilidad.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 423,
+    "question": "Si la ciudadanía reclama “mano dura” y uso intensivo de fuerzas militares como respuesta central a la inseguridad, ¿qué planteamiento coincide mejor con el modelo penal democrático expuesto en los textos?",
+    "option_a": "Que el Estado debe proteger a la sociedad, pero no mediante la anulación de derechos fundamentales ni la sustitución del paradigma garantista por uno autoritario.",
+    "option_b": "Que la excepcionalidad militar debe convertirse en regla ordinaria porque la seguridad prevalece siempre sobre el constitucionalismo.",
+    "option_c": "Que los derechos fundamentales se suspenden automáticamente cuando la tasa de homicidios aumenta.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "a"
+  },
+  {
+    "num": 424,
+    "question": "Frente a la afirmación “todo ser humano es persona”, desarrollada en la crítica al derecho penal inhumano, ¿qué lectura es más compatible con el constitucionalismo penal?",
+    "option_a": "Que la personalidad jurídica penal puede retirarse a quienes representan un alto riesgo social permanente.",
+    "option_b": "Que la condición de persona actúa como presupuesto insuperable del trato jurídico y excluye construcciones penales basadas en la deshumanización.",
+    "option_c": "Que solo quien respeta plenamente la ley merece ser tratado como persona dentro del sistema penal.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "b"
+  },
+  {
+    "num": 425,
+    "question": "¿Cuál síntesis final refleja mejor el enfoque de los materiales de estudio sobre Derecho Penal contemporáneo en Ecuador?",
+    "option_a": "El Derecho Penal es, ante todo, una técnica neutral de castigo cuya eficacia depende exclusivamente del aumento constante de penas.",
+    "option_b": "El Derecho Penal debe asumir un rol moralizador amplio para corregir toda desviación social, aun sin lesión relevante de bienes jurídicos.",
+    "option_c": "El Derecho Penal legítimo es un derecho de límites, garantías y racionalidad crítica, orientado a proteger bienes jurídicos sin dejar desprotegida a la persona frente al Estado.",
+    "option_d": "",
+    "category": "Derecho Constitucional",
+    "correct": "c"
+  },
+  {
+    "num": 426,
+    "question": "La teoría general del proceso identifica elementos esenciales. ¿Cuál de las siguientes opciones corresponde a la trilogía del Derecho Procesal según Podetti?",
+    "option_a": "Acción, jurisdicción y proceso",
+    "option_b": "Acción, jurisdicción y audiencia",
+    "option_c": "Acción, jurisdiccional y proceso",
+    "option_d": "Demanda, jurisdicción y proceso",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 427,
+    "question": "El proceso y el procedimiento son conceptos distintos en Derecho Procesal. ¿Cuál de las siguientes definiciones es correcta?",
+    "option_a": "El proceso es el conjunto de actos sistemáticos regulados por la norma procesal",
+    "option_b": "El procedimiento es el fin del proceso",
+    "option_c": "La audiencia es el proceso",
+    "option_d": "Ninguna",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 428,
+    "question": "La jurisdicción tiene una función específica en el Estado. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Es la potestad pública de juzgar y ejecutar lo juzgado",
+    "option_b": "Es facultad de las partes",
+    "option_c": "Es función administrativa",
+    "option_d": "Ninguna",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 429,
+    "question": "La dirección del proceso responde a principios de orden público. ¿A quién corresponde dirigir el proceso?",
+    "option_a": "Juez",
+    "option_b": "Actor",
+    "option_c": "Demandado",
+    "option_d": "Secretario",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 430,
+    "question": "La práctica probatoria en audiencia se rige por principios fundamentales. ¿Cuál de los siguientes es esencial?",
+    "option_a": "Contradicción",
+    "option_b": "Objeción",
+    "option_c": "Impugnación",
+    "option_d": "Dispositivo",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 431,
+    "question": "El proceso judicial debe garantizar transparencia. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "Principio de publicidad",
+    "option_b": "Principio de intimidad",
+    "option_c": "Principio de discrecionalidad",
+    "option_d": "Ninguna",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 432,
+    "question": "El debido proceso es un eje central del sistema jurídico. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Es un derecho humano fundamental",
+    "option_b": "Es una facultad opcional",
+    "option_c": "Es una norma secundaria",
+    "option_d": "Ninguna",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 433,
+    "question": "El concepto de sujeto procesal se ha ampliado en el constitucionalismo moderno. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "La naturaleza puede ser sujeto procesal",
+    "option_b": "Solo las personas naturales",
+    "option_c": "Solo personas jurídicas",
+    "option_d": "Ninguna",
+    "category": "Derecho Penal",
+    "correct": "a"
+  },
+  {
+    "num": 434,
+    "question": "El acceso a la justicia implica mecanismos jurídicos específicos. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "Derecho de acción",
+    "option_b": "Demanda",
+    "option_c": "Acto de proposición",
+    "option_d": "Tutela judicial efectiva",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 435,
+    "question": "El proceso requiere condiciones para su validez. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "Citación válida como presupuesto procesal",
+    "option_b": "Ser mayor de edad",
+    "option_c": "No ser interdicto",
+    "option_d": "Todas",
+    "category": "Derecho Procesal",
+    "correct": "d"
+  },
+  {
+    "num": 436,
+    "question": "El proceso también protege derechos personales. ¿Cuál de los siguientes principios se relaciona con datos personales?",
+    "option_a": "Intimidad",
+    "option_b": "Inmediación",
+    "option_c": "Dispositivo",
+    "option_d": "Celeridad",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 437,
+    "question": "El principio dispositivo tiene subprincipios creados desde la doctrina procesal. ¿Cuál de las siguientes opciones es correcta según Véscovi?",
+    "option_a": "El proceso inicia por iniciativa de parte",
+    "option_b": "El juez inicia de oficio siempre",
+    "option_c": "Las pruebas solo de oficio",
+    "option_d": "Ninguna",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 438,
+    "question": "La competencia es una categoría jurídica aplicable en distintas funciones del Estado. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "Puede existir en sede administrativa y judicial",
+    "option_b": "Solo judicial",
+    "option_c": "Solo administrativa",
+    "option_d": "Ninguna",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 439,
+    "question": "Existe analogía entre estructuras procesales. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "Proceso corresponde a sede judicial y procedimiento a sede administrativa",
+    "option_b": "Ambos son iguales",
+    "option_c": "No tienen relación",
+    "option_d": "Ninguna",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 440,
+    "question": "La técnica de litigación incluye herramientas específicas. ¿Cuál de las siguientes se utiliza en interrogatorio?",
+    "option_a": "Objeción",
+    "option_b": "Repercusión",
+    "option_c": "Sugestión",
+    "option_d": "Impugnación",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 442,
+    "question": "La jurisdicción puede suspenderse en ciertos casos. ¿Cuál de las siguientes opciones es correcta?",
+    "option_a": "Por licencia del juez",
+    "option_b": "Por voluntad de las partes",
+    "option_c": "Por cualquier causa",
+    "option_d": "Ninguna",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 443,
+    "question": "La competencia tiene reglas específicas. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "No puede delegarse salvo casos previstos en la ley",
+    "option_b": "Siempre se delega",
+    "option_c": "Es libre",
+    "option_d": "Ninguna",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 444,
+    "question": "Existen reglas especiales en materia de violencia. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "option_a": "No se reconoce fuero en casos de violencia contra la mujer",
+    "option_b": "Siempre hay fuero",
+    "option_c": "Es opcional",
+    "option_d": "Ninguna",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 445,
+    "question": "La terminología jurídica tiene distintas acepciones. ¿Cuál de las siguientes opciones es correcta según Cabanellas?",
+    "option_a": "Fuero como sinónimo de jurisdicción",
+    "option_b": "Fuero como sinónimo competencia",
+    "option_c": "Fuero como sinónimo privilegio",
+    "option_d": "Ninguna",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 447,
+    "question": "Ordene el desarrollo del proceso: 1. Contestación 2. Citación 3. Demanda 4. Sentencia Opciones:",
+    "option_a": "3, 2, 1, 4",
+    "option_b": "2, 1, 3, 4",
+    "option_c": "1, 3, 2, 4",
+    "option_d": "1, 2, 4, 3",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 448,
+    "question": "Un proceso se desarrolla sin que el demandado haya sido citado. ¿Qué ocurre?",
+    "option_a": "Se vulnera el debido proceso",
+    "option_b": "Es válido",
+    "option_c": "No tiene efectos",
+    "option_d": "Es nulo",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 449,
+    "question": "Seleccione principios procesales: 1. Publicidad 2. Contradicción 3. Inmediación 4. Discrecionalidad Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 450,
+    "question": "La tutela judicial efectiva garantiza:",
+    "option_a": "Acceso a la justicia y decisiones motivadas",
+    "option_b": "Solo acceso",
+    "option_c": "Solo sentencia",
+    "option_d": "Ninguna",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 451,
+    "question": "Durante la Edad Moderna, el absolutismo monárquico se consolidó como forma de gobierno en Europa. Este sistema se caracterizaba por la concentración del poder en el monarca, quien no estaba sujeto a control institucional. ¿Qué principio justificaba esta forma de poder?",
+    "option_a": "Soberanía popular",
+    "option_b": "División de poderes",
+    "option_c": "Derecho divino de los reyes",
+    "option_d": "Contrato social",
+    "category": "Derecho Procesal",
+    "correct": "c"
+  },
+  {
+    "num": 452,
+    "question": "La Revolución Francesa marcó un cambio fundamental en la organización del Estado y los derechos ciudadanos. ¿Cuál de los siguientes documentos estableció por primera vez los derechos fundamentales del hombre?",
+    "option_a": "Carta Magna",
+    "option_b": "Declaración de los Derechos del Hombre y del Ciudadano",
+    "option_c": "Código Napoleónico",
+    "option_d": "Tratado de Versalles",
+    "category": "Derecho Procesal",
+    "correct": "b"
+  },
+  {
+    "num": 453,
+    "question": "En la Antigua Roma, el desarrollo del derecho fue fundamental para la organización del Estado. ¿Qué cuerpo normativo es considerado la base del derecho romano?",
+    "option_a": "Código Justiniano",
+    "option_b": "Ley de las XII Tablas",
+    "option_c": "Edicto de Milán",
+    "option_d": "Corpus Iuris Civilis (parcial)",
+    "category": "Derecho Procesal",
+    "correct": "b"
+  },
+  {
+    "num": 454,
+    "question": "Durante la Edad Media, la organización social se estructuró bajo el sistema feudal. ¿Cuál era la base de este sistema?",
+    "option_a": "Comercio internacional",
+    "option_b": "Propiedad de la tierra y relaciones de vasallaje",
+    "option_c": "Industrialización",
+    "option_d": "Democracia representativa",
+    "category": "Derecho Procesal",
+    "correct": "b"
+  },
+  {
+    "num": 455,
+    "question": "El pensamiento ilustrado influyó en la transformación de los sistemas políticos. ¿Cuál de los siguientes autores propuso la división de poderes?",
+    "option_a": "Rousseau",
+    "option_b": "Hobbes",
+    "option_c": "Montesquieu",
+    "option_d": "Locke",
+    "category": "Derecho Procesal",
+    "correct": "c"
+  },
+  {
+    "num": 456,
+    "question": "La Revolución Industrial transformó profundamente las estructuras económicas y sociales. ¿Cuál fue una de sus principales consecuencias?",
+    "option_a": "Disminución de la población",
+    "option_b": "Surgimiento del proletariado urbano",
+    "option_c": "Eliminación del comercio",
+    "option_d": "Desaparición del Estado",
+    "category": "Derecho Procesal",
+    "correct": "b"
+  },
+  {
+    "num": 457,
+    "question": "El contrato social es una teoría fundamental en la filosofía política. ¿Qué plantea esta teoría?",
+    "option_a": "El poder del rey es absoluto",
+    "option_b": "La sociedad surge de un acuerdo entre individuos",
+    "option_c": "El poder es hereditario",
+    "option_d": "La ley depende de la religión",
+    "category": "Derecho Procesal",
+    "correct": "b"
+  },
+  {
+    "num": 458,
+    "question": "En el contexto de la Segunda Guerra Mundial, se produjeron graves violaciones a los derechos humanos. ¿Qué organismo internacional se creó posteriormente para promover la paz?",
+    "option_a": "OTAN",
+    "option_b": "ONU",
+    "option_c": "Unión Europea",
+    "option_d": "Corte Penal Internacional",
+    "category": "Derecho Procesal",
+    "correct": "b"
+  },
+  {
+    "num": 459,
+    "question": "El Código Napoleónico tuvo gran influencia en los sistemas jurídicos modernos. ¿Cuál fue su principal aporte?",
+    "option_a": "Establecer monarquías",
+    "option_b": "Uniformar leyes civiles y garantizar igualdad jurídica",
+    "option_c": "Eliminar el derecho escrito",
+    "option_d": "Promover el feudalismo",
+    "category": "Derecho Procesal",
+    "correct": "b"
+  },
+  {
+    "num": 460,
+    "question": "El Tratado de Versalles puso fin a:",
+    "option_a": "Primera Guerra Mundial",
+    "option_b": "Segunda Guerra Mundial",
+    "option_c": "Guerra Fría",
+    "option_d": "Revolución Francesa",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 461,
+    "question": "Las revoluciones burguesas marcaron el desarrollo del constitucionalismo moderno. ¿Cuál es el orden cronológico correcto? 1. Revolución Francesa 2. Independencia de Estados Unidos 3. Revolución Industrial 4. Ilustración",
+    "option_a": "4, 2, 1, 3",
+    "option_b": "2, 4, 1, 3",
+    "option_c": "4, 1, 2, 3",
+    "option_d": "2, 1, 4, 3",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 462,
+    "question": "Ordene los periodos históricos: 1. Edad Media 2. Edad Antigua 3. Edad Moderna 4. Edad Contemporánea",
+    "option_a": "2, 1, 3, 4",
+    "option_b": "1, 2, 3, 4",
+    "option_c": "2, 3, 1, 4",
+    "option_d": "3, 2, 1, 4",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 463,
+    "question": "Ordene cronológicamente los siguientes hechos: 1. Revolución Francesa 2. Segunda Guerra Mundial 3. Primera Guerra Mundial 4. Revolución Industrial",
+    "option_a": "4, 1, 3, 2",
+    "option_b": "1, 4, 3, 2",
+    "option_c": "4, 3, 1, 2",
+    "option_d": "1, 3, 2, 4",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 464,
+    "question": "Ordene el desarrollo del Estado moderno: 1. Absolutismo 2. Estado liberal 3. Estado constitucional Ilustración",
+    "option_a": "1, 4, 2, 3",
+    "option_b": "4, 1, 2, 3",
+    "option_c": "1, 2, 4, 3",
+    "option_d": "4, 2, 1, 3",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 465,
+    "question": "Ordene los documentos jurídicos: 1. Carta Magna 2. Declaración de Derechos del Hombre 3. Constitución de EE.UU. 4. Código Napoleónico",
+    "option_a": "1, 3, 2, 4",
+    "option_b": "1, 2, 3, 4",
+    "option_c": "2, 1, 3, 4",
+    "option_d": "3, 1, 2, 4",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 466,
+    "question": "Seleccione características del Estado moderno: 1. Soberanía 2. Territorio 3. Población 4. Feudalismo 5. Poder político",
+    "option_a": "1, 2, 3, 5",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 4, 5",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 467,
+    "question": "Seleccione pensadores ilustrados: 1. Montesquieu 2. Rousseau 3. Voltaire 4. Marx 5. Hobbes",
+    "option_a": "1, 2, 3",
+    "option_b": "2, 3, 4",
+    "option_c": "1, 3, 5",
+    "option_d": "2, 4, 5",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 468,
+    "question": "Seleccione causas de la Revolución Francesa: 1. Desigualdad social 2. Crisis económica 3. Poder absoluto del rey 4. Industrialización 5. Privilegios del clero",
+    "option_a": "1, 2, 3, 5",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 4, 5",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 469,
+    "question": "Seleccione consecuencias de la Revolución Industrial: 1. Urbanización 2. Proletariado 3. Desarrollo tecnológico 4. Feudalismo 5. Artesanía dominante",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 4, 5",
+    "option_d": "1, 4, 5",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 470,
+    "question": "Seleccione características del feudalismo: 1. Vasallaje 2. Economía agraria 3. Centralización del poder 4. Jerarquía social 5. Comercio libre",
+    "option_a": "1, 2, 4",
+    "option_b": "1, 3, 5",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 4, 5",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 471,
+    "question": "Relacione autor con teoría: 1. Hobbes 2. Locke 3. Rousseau",
+    "option_a": "1b, 2c, 3a",
+    "option_b": "1a, 2b, 3c",
+    "option_c": "1c, 2a, 3b",
+    "option_d": "1b, 2a, 3c",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 472,
+    "question": "Relacione periodo con característica: 1. Edad Media 2. Edad Moderna 3. Edad Contemporánea",
+    "option_a": "1b, 2c, 3a",
+    "option_b": "1a, 2b, 3c",
+    "option_c": "1c, 2a, 3b",
+    "option_d": "1b, 2a, 3c",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 473,
+    "question": "Relacione documento con aporte: 1. Carta Magna 2. Código Napoleónico 3. Declaración de Derechos",
+    "option_a": "1b, 2c, 3a",
+    "option_b": "1a, 2b, 3c",
+    "option_c": "1c, 2a, 3b",
+    "option_d": "1b, 2a, 3c",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 474,
+    "question": "Relacione revolución con consecuencia: 1. Francesa 2. Industrial 3. Americana",
+    "option_a": "1b, 2c, 3a",
+    "option_b": "1a, 2b, 3c",
+    "option_c": "1c, 2a, 3b",
+    "option_d": "1b, 2a, 3c",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  },
+  {
+    "num": 475,
+    "question": "Relacione concepto con definición: 1. Estado 2. Nación 3. Soberanía",
+    "option_a": "La reparación patrimonial del daño causado a la víctima",
+    "option_b": "La privación de un bien con la finalidad principal de anular el acto jurídico.",
+    "option_c": "La privación de un bien con una finalidad de prevención individual o especial, y social o general",
+    "option_d": "La imposición de trabajos forzados o tormentos.",
+    "category": "Derecho Procesal",
+    "correct": "a"
+  }
+]
