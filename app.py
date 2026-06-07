@@ -1,63 +1,58 @@
 import os
 import json
 import random
-import hashlib
 from datetime import datetime
 from flask import Flask, render_template, request, jsonify, session, redirect, url_for, flash
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__)
-app.secret_key = os.environ.get('SECRET_KEY', 'simulador-derecho-ufv-2024-secret')
 
-# Database config
+# ─── CONFIG ───────────────────────────────────────────────────────────────────
+app.secret_key = os.environ.get('SECRET_KEY', 'simulador-derecho-ufv-2024-secret-key')
+app.config['SESSION_COOKIE_SAMESITE'] = 'Lax'
+app.config['SESSION_COOKIE_SECURE'] = False
+
 basedir = os.path.abspath(os.path.dirname(__file__))
-db_path = os.environ.get('DATABASE_URL', f'sqlite:///{os.path.join(basedir, "simulador.db")}')
-app.config['SQLALCHEMY_DATABASE_URI'] = db_path
+db_path = os.path.join(basedir, 'simulador.db')
+app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{db_path}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
 
 # ─── MODELS ───────────────────────────────────────────────────────────────────
-
 class Question(db.Model):
     __tablename__ = 'questions'
-    id          = db.Column(db.Integer, primary_key=True)
-    num         = db.Column(db.Integer)
-    question    = db.Column(db.Text, nullable=False)
-    option_a    = db.Column(db.Text, nullable=False)
-    option_b    = db.Column(db.Text, nullable=False)
-    option_c    = db.Column(db.Text, nullable=False)
-    option_d    = db.Column(db.Text, nullable=False)
-    correct     = db.Column(db.String(1), nullable=False)
-    category    = db.Column(db.String(100), default='General')
-    created_at  = db.Column(db.DateTime, default=datetime.utcnow)
+    id         = db.Column(db.Integer, primary_key=True)
+    num        = db.Column(db.Integer)
+    question   = db.Column(db.Text, nullable=False)
+    option_a   = db.Column(db.Text, nullable=False)
+    option_b   = db.Column(db.Text, nullable=False)
+    option_c   = db.Column(db.Text, nullable=False)
+    option_d   = db.Column(db.Text, default='')
+    correct    = db.Column(db.String(1), nullable=False)
+    category   = db.Column(db.String(100), default='General')
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
     def to_dict(self):
         return {
-            'id': self.id,
-            'num': self.num,
+            'id': self.id, 'num': self.num,
             'question': self.question,
-            'option_a': self.option_a,
-            'option_b': self.option_b,
-            'option_c': self.option_c,
-            'option_d': self.option_d,
-            'correct': self.correct,
-            'category': self.category,
+            'option_a': self.option_a, 'option_b': self.option_b,
+            'option_c': self.option_c, 'option_d': self.option_d,
+            'correct': self.correct, 'category': self.category,
         }
-
 
 class ExamSession(db.Model):
     __tablename__ = 'exam_sessions'
-    id            = db.Column(db.Integer, primary_key=True)
-    student_name  = db.Column(db.String(200))
-    start_time    = db.Column(db.DateTime, default=datetime.utcnow)
-    end_time      = db.Column(db.DateTime)
-    score         = db.Column(db.Integer)
-    total         = db.Column(db.Integer)
-    passed        = db.Column(db.Boolean)
-    answers_json  = db.Column(db.Text)  # JSON
-
+    id           = db.Column(db.Integer, primary_key=True)
+    student_name = db.Column(db.String(200))
+    start_time   = db.Column(db.DateTime, default=datetime.utcnow)
+    end_time     = db.Column(db.DateTime)
+    score        = db.Column(db.Integer)
+    total        = db.Column(db.Integer)
+    passed       = db.Column(db.Boolean)
+    answers_json = db.Column(db.Text)
 
 class AdminUser(db.Model):
     __tablename__ = 'admin_users'
@@ -66,43 +61,36 @@ class AdminUser(db.Model):
     password_hash = db.Column(db.String(256), nullable=False)
 
 # ─── DB INIT ──────────────────────────────────────────────────────────────────
-
 def init_db():
     db.create_all()
-
-    # Create default admin
     if not AdminUser.query.filter_by(username='admin').first():
         admin_pass = os.environ.get('ADMIN_PASSWORD', 'derecho2024')
-        admin = AdminUser(
+        db.session.add(AdminUser(
             username='admin',
             password_hash=generate_password_hash(admin_pass)
-        )
-        db.session.add(admin)
+        ))
         db.session.commit()
 
-    # Load questions from JSON if DB is empty
     if Question.query.count() == 0:
         data_path = os.path.join(basedir, 'data', 'questions.json')
         if os.path.exists(data_path):
             with open(data_path, encoding='utf-8') as f:
-                questions_data = json.load(f)
-            for q in questions_data:
-                question = Question(
+                qs = json.load(f)
+            for q in qs:
+                db.session.add(Question(
                     num=q.get('num'),
                     question=q['question'],
                     option_a=q['option_a'],
                     option_b=q['option_b'],
                     option_c=q['option_c'],
-                    option_d=q['option_d'],
+                    option_d=q.get('option_d', ''),
                     correct=q['correct'],
                     category=q.get('category', 'General'),
-                )
-                db.session.add(question)
+                ))
             db.session.commit()
-            print(f"[DB] Loaded {len(questions_data)} questions from JSON.")
+            print(f"[DB] Cargadas {len(qs)} preguntas.")
 
 # ─── HELPERS ──────────────────────────────────────────────────────────────────
-
 def admin_required(f):
     from functools import wraps
     @wraps(f)
@@ -112,7 +100,7 @@ def admin_required(f):
         return f(*args, **kwargs)
     return decorated
 
-# ─── PUBLIC ROUTES ────────────────────────────────────────────────────────────
+# ─── RUTAS PÚBLICAS ───────────────────────────────────────────────────────────
 
 @app.route('/')
 def index():
@@ -120,36 +108,37 @@ def index():
     return render_template('index.html', total_q=total_q)
 
 
-@app.route('/start', methods=['POST'])
+@app.route('/start', methods=['GET', 'POST'])
 def start_exam():
+    if request.method == 'GET':
+        return redirect(url_for('index'))
+
     name = request.form.get('student_name', '').strip()
     if not name:
         flash('Por favor ingrese su nombre para continuar.', 'error')
         return redirect(url_for('index'))
 
     all_questions = Question.query.all()
-    if len(all_questions) < 10:
-        flash('No hay suficientes preguntas en la base de datos.', 'error')
+    if len(all_questions) < 5:
+        flash('No hay suficientes preguntas en la base de datos. Contacte al administrador.', 'error')
         return redirect(url_for('index'))
 
-    # Select up to 100 random questions
+    # Seleccionar hasta 100 preguntas aleatorias
     selected = random.sample(all_questions, min(100, len(all_questions)))
 
-    # Shuffle options for each question
     exam_questions = []
     for q in selected:
-        options = [
-            ('a', q.option_a),
-            ('b', q.option_b),
-            ('c', q.option_c),
-            ('d', q.option_d),
-        ]
-        correct_text = dict(options)[q.correct]
+        # Construir lista de opciones disponibles
+        options = [('a', q.option_a), ('b', q.option_b), ('c', q.option_c)]
+        if q.option_d:
+            options.append(('d', q.option_d))
+
+        correct_text = dict(options).get(q.correct, q.option_a)
         random.shuffle(options)
-        # Remap correct answer letter after shuffle
+
         new_letters = ['a', 'b', 'c', 'd']
         remapped = {}
-        new_correct = None
+        new_correct = 'a'
         for idx, (orig_letter, text) in enumerate(options):
             new_l = new_letters[idx]
             remapped[new_l] = text
@@ -160,19 +149,21 @@ def start_exam():
             'id': q.id,
             'question': q.question,
             'category': q.category,
-            'option_a': remapped['a'],
-            'option_b': remapped['b'],
-            'option_c': remapped['c'],
-            'option_d': remapped['d'],
+            'option_a': remapped.get('a', ''),
+            'option_b': remapped.get('b', ''),
+            'option_c': remapped.get('c', ''),
+            'option_d': remapped.get('d', ''),
             'correct': new_correct,
         })
 
+    session.clear()
     session['exam'] = {
         'student_name': name,
         'questions': exam_questions,
         'start_time': datetime.utcnow().isoformat(),
         'answers': {},
     }
+    session.modified = True
     return redirect(url_for('exam', page=1))
 
 
@@ -186,19 +177,15 @@ def exam(page=1):
 
     questions = exam_data['questions']
     per_page = 10
-    total_pages = (len(questions) + per_page - 1) // per_page
+    total_pages = max(1, (len(questions) + per_page - 1) // per_page)
     page = max(1, min(page, total_pages))
 
     start = (page - 1) * per_page
-    end = start + per_page
-    page_questions = questions[start:end]
-
-    # Attach index (1-based global) to each question
+    page_questions = questions[start:start + per_page]
     for i, q in enumerate(page_questions):
         q['global_index'] = start + i + 1
 
     answered = exam_data.get('answers', {})
-    answered_count = len(answered)
 
     return render_template(
         'exam.html',
@@ -206,7 +193,7 @@ def exam(page=1):
         current_page=page,
         total_pages=total_pages,
         total_questions=len(questions),
-        answered_count=answered_count,
+        answered_count=len(answered),
         student_name=exam_data['student_name'],
         answered=answered,
     )
@@ -217,15 +204,12 @@ def save_answer():
     exam_data = session.get('exam')
     if not exam_data:
         return jsonify({'error': 'No exam active'}), 400
-
     data = request.get_json()
     q_index = str(data.get('question_index'))
-    answer = data.get('answer')
-
+    answer  = data.get('answer')
     exam_data['answers'][q_index] = answer
     session['exam'] = exam_data
     session.modified = True
-
     answered_count = len(exam_data['answers'])
     total = len(exam_data['questions'])
     return jsonify({'answered': answered_count, 'total': total})
@@ -237,50 +221,39 @@ def submit_exam():
     if not exam_data:
         return redirect(url_for('index'))
 
-    questions = exam_data['questions']
-    answers = exam_data.get('answers', {})
+    questions    = exam_data['questions']
+    answers      = exam_data.get('answers', {})
     student_name = exam_data['student_name']
 
-    # Grade
-    score = 0
+    score   = 0
     results = []
     for i, q in enumerate(questions):
-        given = answers.get(str(i + 1))
-        correct = q['correct']
+        given      = answers.get(str(i + 1))
+        correct    = q['correct']
         is_correct = (given == correct)
         if is_correct:
             score += 1
         results.append({
-            'num': i + 1,
-            'question': q['question'],
-            'category': q['category'],
-            'given': given,
-            'correct': correct,
-            'is_correct': is_correct,
-            'option_a': q['option_a'],
-            'option_b': q['option_b'],
-            'option_c': q['option_c'],
-            'option_d': q['option_d'],
+            'num': i + 1, 'question': q['question'], 'category': q['category'],
+            'given': given, 'correct': correct, 'is_correct': is_correct,
+            'option_a': q['option_a'], 'option_b': q['option_b'],
+            'option_c': q['option_c'], 'option_d': q['option_d'],
         })
 
-    total = len(questions)
+    total  = len(questions)
     passed = score >= 70
     end_time = datetime.utcnow()
 
-    # Save to DB
-    session_record = ExamSession(
+    record = ExamSession(
         student_name=student_name,
         start_time=datetime.fromisoformat(exam_data['start_time']),
         end_time=end_time,
-        score=score,
-        total=total,
-        passed=passed,
-        answers_json=json.dumps(results),
+        score=score, total=total, passed=passed,
+        answers_json=json.dumps(results, ensure_ascii=False),
     )
-    db.session.add(session_record)
+    db.session.add(record)
     db.session.commit()
 
-    # Category breakdown
     by_category = {}
     for r in results:
         cat = r['category']
@@ -290,18 +263,14 @@ def submit_exam():
         if r['is_correct']:
             by_category[cat]['correct'] += 1
 
-    # Store results in session for display
     session['results'] = {
         'student_name': student_name,
-        'score': score,
-        'total': total,
-        'passed': passed,
-        'results': results,
-        'by_category': by_category,
-        'session_id': session_record.id,
+        'score': score, 'total': total, 'passed': passed,
+        'results': results, 'by_category': by_category,
+        'session_id': record.id,
     }
     session.pop('exam', None)
-
+    session.modified = True
     return redirect(url_for('results'))
 
 
@@ -313,7 +282,7 @@ def results():
     return render_template('results.html', **result_data)
 
 
-# ─── ADMIN ROUTES ─────────────────────────────────────────────────────────────
+# ─── RUTAS ADMIN ──────────────────────────────────────────────────────────────
 
 @app.route('/admin/login', methods=['GET', 'POST'])
 def admin_login():
@@ -332,7 +301,6 @@ def admin_login():
 @app.route('/admin/logout')
 def admin_logout():
     session.pop('admin_logged_in', None)
-    session.pop('admin_user', None)
     return redirect(url_for('admin_login'))
 
 
@@ -340,76 +308,52 @@ def admin_logout():
 @app.route('/admin/dashboard')
 @admin_required
 def admin_dashboard():
-    total_q = Question.query.count()
-    total_exams = ExamSession.query.count()
+    total_q      = Question.query.count()
+    total_exams  = ExamSession.query.count()
     passed_exams = ExamSession.query.filter_by(passed=True).count()
     failed_exams = ExamSession.query.filter_by(passed=False).count()
-
-    avg_score = db.session.query(db.func.avg(ExamSession.score)).scalar()
-    avg_score = round(avg_score, 1) if avg_score else 0
-
+    avg_score    = db.session.query(db.func.avg(ExamSession.score)).scalar()
+    avg_score    = round(avg_score, 1) if avg_score else 0
     recent_exams = ExamSession.query.order_by(ExamSession.end_time.desc()).limit(20).all()
-
-    from collections import Counter
     cats = db.session.query(Question.category, db.func.count(Question.id)).group_by(Question.category).all()
-
-    return render_template(
-        'admin/dashboard.html',
-        total_q=total_q,
-        total_exams=total_exams,
-        passed_exams=passed_exams,
-        failed_exams=failed_exams,
-        avg_score=avg_score,
-        recent_exams=recent_exams,
-        categories=cats,
-    )
+    return render_template('admin/dashboard.html',
+        total_q=total_q, total_exams=total_exams,
+        passed_exams=passed_exams, failed_exams=failed_exams,
+        avg_score=avg_score, recent_exams=recent_exams, categories=cats)
 
 
 @app.route('/admin/questions')
 @admin_required
 def admin_questions():
-    page = request.args.get('page', 1, type=int)
-    search = request.args.get('search', '')
+    page       = request.args.get('page', 1, type=int)
+    search     = request.args.get('search', '')
     cat_filter = request.args.get('category', '')
-
     q = Question.query
     if search:
         q = q.filter(Question.question.ilike(f'%{search}%'))
     if cat_filter:
         q = q.filter(Question.category == cat_filter)
-
-    questions = q.order_by(Question.num).paginate(page=page, per_page=20, error_out=False)
-    categories = db.session.query(Question.category).distinct().all()
-    categories = [c[0] for c in categories]
-
-    return render_template(
-        'admin/questions.html',
-        questions=questions,
-        search=search,
-        cat_filter=cat_filter,
-        categories=categories,
-    )
+    questions  = q.order_by(Question.num).paginate(page=page, per_page=20, error_out=False)
+    categories = [c[0] for c in db.session.query(Question.category).distinct().all()]
+    return render_template('admin/questions.html',
+        questions=questions, search=search, cat_filter=cat_filter, categories=categories)
 
 
 @app.route('/admin/questions/add', methods=['GET', 'POST'])
 @admin_required
 def admin_add_question():
     if request.method == 'POST':
-        q = Question(
+        db.session.add(Question(
             question=request.form['question'],
-            option_a=request.form['option_a'],
-            option_b=request.form['option_b'],
-            option_c=request.form['option_c'],
-            option_d=request.form['option_d'],
+            option_a=request.form['option_a'], option_b=request.form['option_b'],
+            option_c=request.form['option_c'], option_d=request.form.get('option_d', ''),
             correct=request.form['correct'],
             category=request.form.get('category', 'General'),
-        )
-        db.session.add(q)
+        ))
         db.session.commit()
         flash('Pregunta agregada exitosamente.', 'success')
         return redirect(url_for('admin_questions'))
-    categories = db.session.query(Question.category).distinct().all()
-    categories = [c[0] for c in categories]
+    categories = [c[0] for c in db.session.query(Question.category).distinct().all()]
     return render_template('admin/question_form.html', question=None, categories=categories)
 
 
@@ -419,25 +363,21 @@ def admin_edit_question(qid):
     q = Question.query.get_or_404(qid)
     if request.method == 'POST':
         q.question = request.form['question']
-        q.option_a = request.form['option_a']
-        q.option_b = request.form['option_b']
-        q.option_c = request.form['option_c']
-        q.option_d = request.form['option_d']
-        q.correct = request.form['correct']
+        q.option_a = request.form['option_a']; q.option_b = request.form['option_b']
+        q.option_c = request.form['option_c']; q.option_d = request.form.get('option_d', '')
+        q.correct  = request.form['correct']
         q.category = request.form.get('category', 'General')
         db.session.commit()
         flash('Pregunta actualizada.', 'success')
         return redirect(url_for('admin_questions'))
-    categories = db.session.query(Question.category).distinct().all()
-    categories = [c[0] for c in categories]
+    categories = [c[0] for c in db.session.query(Question.category).distinct().all()]
     return render_template('admin/question_form.html', question=q, categories=categories)
 
 
 @app.route('/admin/questions/delete/<int:qid>', methods=['POST'])
 @admin_required
 def admin_delete_question(qid):
-    q = Question.query.get_or_404(qid)
-    db.session.delete(q)
+    db.session.delete(Question.query.get_or_404(qid))
     db.session.commit()
     flash('Pregunta eliminada.', 'success')
     return redirect(url_for('admin_questions'))
@@ -451,28 +391,24 @@ def admin_import():
         if not file:
             flash('No se seleccionó ningún archivo.', 'error')
             return redirect(url_for('admin_import'))
-
         import csv, io
-        content = file.read().decode('utf-8')
-        reader = csv.DictReader(io.StringIO(content))
+        reader = csv.DictReader(io.StringIO(file.read().decode('utf-8')))
         count = 0
         for row in reader:
             q = Question(
-                question=row.get('pregunta', '').strip(),
-                option_a=row.get('opcion_a', '').strip(),
-                option_b=row.get('opcion_b', '').strip(),
-                option_c=row.get('opcion_c', '').strip(),
-                option_d=row.get('opcion_d', '').strip(),
-                correct=row.get('respuesta_correcta', 'a').strip().lower(),
-                category=row.get('categoria', 'General').strip(),
+                question=row.get('pregunta','').strip(),
+                option_a=row.get('opcion_a','').strip(),
+                option_b=row.get('opcion_b','').strip(),
+                option_c=row.get('opcion_c','').strip(),
+                option_d=row.get('opcion_d','').strip(),
+                correct=row.get('respuesta_correcta','a').strip().lower(),
+                category=row.get('categoria','General').strip(),
             )
             if q.question and q.option_a:
-                db.session.add(q)
-                count += 1
+                db.session.add(q); count += 1
         db.session.commit()
-        flash(f'{count} preguntas importadas exitosamente.', 'success')
+        flash(f'{count} preguntas importadas.', 'success')
         return redirect(url_for('admin_questions'))
-
     return render_template('admin/import.html')
 
 
@@ -483,10 +419,12 @@ def admin_stats():
     return render_template('admin/stats.html', sessions=sessions)
 
 
-# ─── RUN ──────────────────────────────────────────────────────────────────────
+# ─── INICIO ───────────────────────────────────────────────────────────────────
+with app.app_context():
+    init_db()
 
 if __name__ == '__main__':
-    with app.app_context():
-        init_db()
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=False)
+
+             
