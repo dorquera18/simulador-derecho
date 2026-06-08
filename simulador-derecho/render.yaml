@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: simulador-derecho
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 2
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ADMIN_PASSWORD
+        value: derecho2024
+    disk:
+      name: data
+      mountPath: /opt/render/project/src
+      sizeGB: 1

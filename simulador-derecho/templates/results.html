@@ -1,0 +1,177 @@
+{% extends "base.html" %}
+{% block title %}Resultados – {{ student_name }}{% endblock %}
+
+{% block content %}
+<div class="results-page">
+
+  <!-- Score Hero -->
+  <div class="score-hero {% if passed %}score-pass{% else %}score-fail{% endif %}">
+    {% if passed %}
+      <div class="confetti" id="confetti"></div>
+    {% endif %}
+    <div class="score-hero-inner">
+      <h1 class="student-name-result">{{ student_name }}</h1>
+      <div class="score-circle {% if passed %}circle-pass{% else %}circle-fail{% endif %}">
+        <span class="score-number" id="score-anim" data-target="{{ score }}">0</span>
+        <span class="score-total">/ {{ total }}</span>
+      </div>
+
+      {% if passed %}
+        <div class="result-badge pass-badge">🎓 ¡APROBADO!</div>
+        <p class="result-msg">¡Felicitaciones! Has superado el Examen Complexivo de Derecho con <strong>{{ score }} puntos</strong>.</p>
+      {% else %}
+        <div class="result-badge fail-badge">📚 NO APROBADO</div>
+        <p class="result-msg">Obtuviste <strong>{{ score }} puntos</strong>. Necesitas al menos 70 para aprobar. ¡Sigue practicando!</p>
+      {% endif %}
+
+      <!-- Score bar -->
+      <div class="score-bar-outer">
+        <div class="score-bar-fill {% if passed %}bar-pass{% else %}bar-fail{% endif %}"
+             id="score-bar"
+             style="width: 0%"
+             data-pct="{{ (score / total * 100)|round|int }}"></div>
+        <span class="score-bar-label">Mínimo: 70%</span>
+        <div class="score-bar-min-mark"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Category breakdown -->
+  <div class="results-section">
+    <h2 class="section-heading">📊 Resultados por Área</h2>
+    <div class="category-grid">
+      {% for cat, data in by_category.items() %}
+      <div class="cat-result-card">
+        <div class="cat-result-name">{{ cat }}</div>
+        <div class="cat-result-score">{{ data.correct }} / {{ data.total }}</div>
+        <div class="cat-bar-outer">
+          <div class="cat-bar-fill {% if data.correct / data.total >= 0.7 %}bar-good{% else %}bar-bad{% endif %}"
+               style="width: {{ (data.correct / data.total * 100)|round|int }}%"></div>
+        </div>
+        <div class="cat-pct">{{ (data.correct / data.total * 100)|round|int }}%</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div class="results-actions">
+    <a href="{{ url_for('index') }}" class="btn-retry">🔄 Realizar otro examen</a>
+    <button onclick="window.print()" class="btn-print">🖨️ Imprimir resultados</button>
+  </div>
+
+  <!-- Detailed review -->
+  <div class="results-section">
+    <h2 class="section-heading">📝 Revisión Detallada</h2>
+    <p class="review-hint">Haga clic en cada pregunta para ver el detalle.</p>
+
+    <div class="review-list">
+      {% for r in results %}
+      <details class="review-item {% if r.is_correct %}review-correct{% else %}review-wrong{% endif %}">
+        <summary class="review-summary">
+          <span class="review-icon">{% if r.is_correct %}✅{% else %}❌{% endif %}</span>
+          <span class="review-qnum">Pregunta {{ r.num }}</span>
+          <span class="review-cat">{{ r.category }}</span>
+          <span class="review-qtext">{{ r.question[:90] }}{% if r.question|length > 90 %}…{% endif %}</span>
+        </summary>
+        <div class="review-detail">
+          <p class="review-full-q">{{ r.question }}</p>
+          <div class="review-options">
+            {% for letter, opt_text in [('a', r.option_a), ('b', r.option_b), ('c', r.option_c), ('d', r.option_d)] %}
+            <div class="review-option
+              {% if letter == r.correct %}opt-correct{% endif %}
+              {% if letter == r.given and not r.is_correct %}opt-wrong-given{% endif %}
+            ">
+              <span class="opt-mark">
+                {% if letter == r.correct %}✔{% elif letter == r.given %}✘{% else %}&nbsp;{% endif %}
+              </span>
+              <span class="opt-letter">{{ letter|upper }})</span>
+              <span>{{ opt_text }}</span>
+            </div>
+            {% endfor %}
+          </div>
+          {% if not r.is_correct %}
+          <p class="review-note">
+            Tu respuesta: <strong>{{ r.given|upper if r.given else '(sin responder)' }}</strong> &nbsp;|&nbsp;
+            Respuesta correcta: <strong>{{ r.correct|upper }}</strong>
+          </p>
+          {% endif %}
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+
+</div><!-- /results-page -->
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Animate score number
+const scoreEl = document.getElementById('score-anim');
+const target = parseInt(scoreEl.dataset.target);
+let current = 0;
+const duration = 1500;
+const steps = 60;
+const increment = target / steps;
+const interval = duration / steps;
+
+const counter = setInterval(() => {
+  current = Math.min(current + increment, target);
+  scoreEl.textContent = Math.round(current);
+  if (current >= target) clearInterval(counter);
+}, interval);
+
+// Animate score bar
+setTimeout(() => {
+  const bar = document.getElementById('score-bar');
+  if (bar) bar.style.width = bar.dataset.pct + '%';
+}, 300);
+
+// Confetti for pass
+{% if passed %}
+(function() {
+  const canvas = document.createElement('canvas');
+  canvas.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999';
+  document.body.appendChild(canvas);
+  const ctx = canvas.getContext('2d');
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  const pieces = Array.from({length: 120}, () => ({
+    x: Math.random() * canvas.width,
+    y: Math.random() * -canvas.height,
+    w: Math.random() * 10 + 5,
+    h: Math.random() * 6 + 4,
+    color: ['#f9a825','#1a237e','#4caf50','#e91e63','#03a9f4'][Math.floor(Math.random()*5)],
+    speed: Math.random() * 3 + 2,
+    angle: Math.random() * 360,
+    spin: (Math.random() - 0.5) * 5,
+  }));
+
+  let frame = 0;
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    pieces.forEach(p => {
+      ctx.save();
+      ctx.translate(p.x, p.y);
+      ctx.rotate(p.angle * Math.PI / 180);
+      ctx.fillStyle = p.color;
+      ctx.fillRect(-p.w/2, -p.h/2, p.w, p.h);
+      ctx.restore();
+      p.y += p.speed;
+      p.angle += p.spin;
+      if (p.y > canvas.height) {
+        p.y = -20;
+        p.x = Math.random() * canvas.width;
+      }
+    });
+    frame++;
+    if (frame < 300) requestAnimationFrame(draw);
+    else { canvas.remove(); }
+  }
+  draw();
+})();
+{% endif %}
+</script>
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Historial de Exámenes{% endblock %}
+{% block content %}
+<div class="admin-page">
+  <div class="admin-header">
+    <h1>📋 Historial de Exámenes</h1>
+    <div class="admin-nav">
+      <a href="{{ url_for('admin_dashboard') }}" class="admin-link">Dashboard</a>
+      <a href="{{ url_for('admin_questions') }}" class="admin-link">Preguntas</a>
+      <a href="{{ url_for('admin_import') }}" class="admin-link">Importar CSV</a>
+      <a href="{{ url_for('admin_stats') }}" class="admin-link active">Historial</a>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table class="admin-table">
+      <thead>
+        <tr>
+          <th>#</th><th>Estudiante</th><th>Puntaje</th><th>%</th>
+          <th>Resultado</th><th>Fecha</th><th>Detalle</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for e in sessions %}
+        <tr>
+          <td>{{ e.id }}</td>
+          <td><strong>{{ e.student_name }}</strong></td>
+          <td>{{ e.score }} / {{ e.total }}</td>
+          <td>{{ (e.score / e.total * 100)|round|int }}%</td>
+          <td>
+            {% if e.passed %}<span class="badge badge-pass">✅ APROBADO</span>
+            {% else %}<span class="badge badge-fail">❌ REPROBADO</span>{% endif %}
+          </td>
+          <td>{{ e.end_time.strftime('%d/%m/%Y %H:%M') if e.end_time else '–' }}</td>
+          <td><a href="{{ url_for('admin_exam_detail', session_id=e.id) }}" class="btn-edit">📊 Ver detalle</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

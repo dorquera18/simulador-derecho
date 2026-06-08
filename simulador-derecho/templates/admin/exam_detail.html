@@ -1,0 +1,154 @@
+{% extends "base.html" %}
+{% block title %}Detalle Examen – {{ exam.student_name }}{% endblock %}
+{% block content %}
+<div class="admin-page">
+  <div class="admin-header">
+    <h1>📊 Detalle del Examen #{{ exam.id }}</h1>
+    <div class="admin-nav">
+      <a href="{{ url_for('admin_stats') }}" class="admin-link">← Volver al historial</a>
+    </div>
+  </div>
+
+  <!-- Resumen -->
+  <div class="detail-summary {% if exam.passed %}detail-pass{% else %}detail-fail{% endif %}">
+    <div class="detail-info">
+      <div class="detail-item"><span>👤 Estudiante</span><strong>{{ exam.student_name }}</strong></div>
+      <div class="detail-item"><span>📅 Fecha</span><strong>{{ exam.end_time.strftime('%d/%m/%Y %H:%M') if exam.end_time else '–' }}</strong></div>
+      <div class="detail-item"><span>📝 Puntaje</span><strong>{{ exam.score }} / {{ exam.total }}</strong></div>
+      <div class="detail-item"><span>📈 Porcentaje</span><strong>{{ (exam.score / exam.total * 100)|round|int }}%</strong></div>
+      <div class="detail-item"><span>🎯 Resultado</span>
+        <strong>{% if exam.passed %}✅ APROBADO{% else %}❌ REPROBADO{% endif %}</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- Resumen por categoría -->
+  {% if by_category %}
+  <div class="admin-section">
+    <h2>📊 Resultados por Área</h2>
+    <div class="table-wrap">
+      <table class="admin-table">
+        <thead><tr><th>Área</th><th>Correctas</th><th>Total</th><th>%</th><th>Estado</th></tr></thead>
+        <tbody>
+          {% for cat, data in by_category.items() %}
+          <tr>
+            <td>{{ cat }}</td>
+            <td>{{ data.correct }}</td>
+            <td>{{ data.total }}</td>
+            <td>{{ (data.correct / data.total * 100)|round|int }}%</td>
+            <td>
+              {% if data.correct / data.total >= 0.7 %}
+                <span class="badge badge-pass">Bueno</span>
+              {% else %}
+                <span class="badge badge-fail">Mejorar</span>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Filtros -->
+  <div class="admin-section">
+    <h2>📝 Respuestas Detalladas</h2>
+    <div class="detail-filters">
+      <button onclick="filterAnswers('all')" class="btn-filter active" id="btn-all">Todas ({{ answers|length }})</button>
+      <button onclick="filterAnswers('wrong')" class="btn-filter btn-filter-wrong" id="btn-wrong">
+        ❌ Incorrectas ({{ answers|selectattr('is_correct','equalto',false)|list|length }})
+      </button>
+      <button onclick="filterAnswers('correct')" class="btn-filter btn-filter-ok" id="btn-correct">
+        ✅ Correctas ({{ answers|selectattr('is_correct')|list|length }})
+      </button>
+    </div>
+
+    <div class="review-list" id="answers-list">
+      {% for r in answers %}
+      <div class="review-item {% if r.is_correct %}review-correct{% else %}review-wrong{% endif %}"
+           data-correct="{{ r.is_correct|lower }}">
+        <div class="review-summary-admin">
+          <span class="review-icon">{% if r.is_correct %}✅{% else %}❌{% endif %}</span>
+          <span class="review-qnum">Pregunta {{ r.num }}</span>
+          <span class="review-cat">{{ r.category }}</span>
+          <span class="review-qtext">{{ r.question[:100] }}{% if r.question|length > 100 %}…{% endif %}</span>
+          <button class="btn-expand" onclick="toggleDetail(this)">▼</button>
+        </div>
+        <div class="review-detail" style="display:none">
+          <p class="review-full-q">{{ r.question }}</p>
+          <div class="review-options">
+            {% for letter, opt_text in [('a', r.option_a), ('b', r.option_b), ('c', r.option_c), ('d', r.option_d)] %}
+            {% if opt_text %}
+            <div class="review-option
+              {% if letter == r.correct %}opt-correct{% endif %}
+              {% if letter == r.given and not r.is_correct %}opt-wrong-given{% endif %}">
+              <span class="opt-mark">
+                {% if letter == r.correct %}✔{% elif letter == r.given %}✘{% else %}&nbsp;{% endif %}
+              </span>
+              <span class="opt-letter">{{ letter|upper }})</span>
+              <span>{{ opt_text }}</span>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+          {% if not r.is_correct %}
+          <div class="review-note">
+            <span class="wrong-ans">Tu respuesta: <strong>{{ r.given|upper if r.given else '(sin responder)' }}</strong></span>
+            &nbsp;|&nbsp;
+            <span class="correct-ans">Respuesta correcta: <strong>{{ r.correct|upper }}</strong></span>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div style="text-align:center;padding:1.5rem">
+    <a href="{{ url_for('admin_stats') }}" class="btn-retry">← Volver al historial</a>
+    <button onclick="window.print()" class="btn-print">🖨️ Imprimir</button>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<style>
+.detail-summary { padding:1.5rem; border-radius:12px; margin-bottom:2rem; }
+.detail-pass { background:linear-gradient(135deg,#2e7d32,#43a047); color:#fff; }
+.detail-fail { background:linear-gradient(135deg,#c62828,#e53935); color:#fff; }
+.detail-info { display:flex; flex-wrap:wrap; gap:1.5rem; }
+.detail-item { display:flex; flex-direction:column; gap:.2rem; }
+.detail-item span { font-size:.8rem; opacity:.8; }
+.detail-item strong { font-size:1.1rem; }
+.detail-filters { display:flex; gap:.8rem; flex-wrap:wrap; margin-bottom:1.2rem; }
+.btn-filter { padding:.5rem 1.2rem; border-radius:8px; border:2px solid #ddd; background:#fff; cursor:pointer; font-weight:600; transition:all .2s; }
+.btn-filter.active { background:var(--navy); color:#fff; border-color:var(--navy); }
+.btn-filter-wrong.active { background:var(--red2); border-color:var(--red2); }
+.btn-filter-ok.active { background:var(--green2); border-color:var(--green2); }
+.review-summary-admin { display:flex; align-items:center; gap:.8rem; padding:.9rem 1.2rem; cursor:default; flex-wrap:wrap; }
+.btn-expand { margin-left:auto; background:none; border:1px solid #ddd; border-radius:6px; cursor:pointer; padding:.2rem .5rem; }
+.wrong-ans { color:#b91c1c; }
+.correct-ans { color:#065f46; }
+</style>
+<script>
+function toggleDetail(btn) {
+  const detail = btn.closest('.review-item').querySelector('.review-detail');
+  const open = detail.style.display !== 'none';
+  detail.style.display = open ? 'none' : 'block';
+  btn.textContent = open ? '▼' : '▲';
+}
+function filterAnswers(type) {
+  document.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
+  const items = document.querySelectorAll('#answers-list .review-item');
+  items.forEach(item => {
+    const isCorrect = item.dataset.correct === 'true';
+    if (type === 'all') item.style.display = '';
+    else if (type === 'wrong') item.style.display = isCorrect ? 'none' : '';
+    else if (type === 'correct') item.style.display = isCorrect ? '' : 'none';
+  });
+  const btn = document.getElementById('btn-' + type);
+  if(btn) btn.classList.add('active');
+}
+</script>
+{% endblock %}
