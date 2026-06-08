@@ -443,3 +443,25 @@ with app.app_context():
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=False)
+
+
+@app.route('/admin/exams/<int:session_id>')
+@admin_required
+def admin_exam_detail(session_id):
+    exam = ExamSession.query.get_or_404(session_id)
+    answers = []
+    by_category = {}
+    if exam.answers_json:
+        try:
+            answers = json.loads(exam.answers_json)
+            for r in answers:
+                cat = r.get('category','General')
+                if cat not in by_category:
+                    by_category[cat] = {'correct':0,'total':0}
+                by_category[cat]['total'] += 1
+                if r.get('is_correct'):
+                    by_category[cat]['correct'] += 1
+        except:
+            pass
+    return render_template('admin/exam_detail.html',
+        exam=exam, answers=answers, by_category=by_category)

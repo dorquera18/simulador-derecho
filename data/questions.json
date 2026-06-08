@@ -6,8 +6,8 @@
     "option_b": "Móviles",
     "option_c": "Parciales",
     "option_d": "Ocasionales",
-    "category": "Derecho Procesal",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Laboral"
   },
   {
     "num": 2,
@@ -16,8 +16,8 @@
     "option_b": "Derecho a la estabilidad, es decir que deben ser llamados en cada temporada",
     "option_c": "Derecho a vacaciones pagadas dobles",
     "option_d": "Derecho a trabajar en feriados con recargo",
-    "category": "Derecho Procesal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Laboral"
   },
   {
     "num": 3,
@@ -26,8 +26,8 @@
     "option_b": "Los que requieran conocimientos técnicos o de una profesión determinada",
     "option_c": "Los contratos verbales de jornaleros",
     "option_d": "Todos los contratos de obra cierta menores a un salario básico",
-    "category": "Derecho Procesal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Laboral"
   },
   {
     "num": 4,
@@ -36,8 +36,8 @@
     "option_b": "Útiles, instrumentos y materiales necesarios para la ejecución del trabajo",
     "option_c": "Transporte privado desde su domicilio",
     "option_d": "Vivienda equipada cerca del lugar de trabajo",
-    "category": "Derecho Procesal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Laboral"
   },
   {
     "num": 5,
@@ -46,8 +46,8 @@
     "option_b": "La jornada completa",
     "option_c": "Una hora",
     "option_d": "Cuatro horas",
-    "category": "Derecho Procesal",
-    "correct": "d"
+    "correct": "d",
+    "category": "Derecho Laboral"
   },
   {
     "num": 6,
@@ -56,8 +56,8 @@
     "option_b": "Dos días",
     "option_c": "Tres días",
     "option_d": "Cinco días",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Laboral"
   },
   {
     "num": 7,
@@ -66,8 +66,8 @@
     "option_b": "Cada seis meses",
     "option_c": "Al inicio del contrato únicamente",
     "option_d": "Cada dos años",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 8,
@@ -76,8 +76,8 @@
     "option_b": "Tres personas con discapacidad",
     "option_c": "Un trabajador mayor de 65 años",
     "option_d": "Cinco pasantes universitarios",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 9,
@@ -86,8 +86,8 @@
     "option_b": "Ajustes razonables en el puesto de trabajo (horarios, teletrabajo, condiciones físicas)",
     "option_c": "Jubilación anticipada obligatoria",
     "option_d": "Reducción de sueldo proporcional a la menor productividad",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Laboral"
   },
   {
     "num": 10,
@@ -96,8 +96,8 @@
     "option_b": "10%",
     "option_c": "20%",
     "option_d": "50%",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Laboral"
   },
   {
     "num": 11,
@@ -106,8 +106,8 @@
     "option_b": "Cuando el horario es idéntico",
     "option_c": "Cuando la naturaleza de las funciones, formación exigida y desempeño son equivalentes",
     "option_d": "Solo cuando los cargos tienen el mismo nombre",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Laboral"
   },
   {
     "num": 12,
@@ -116,8 +116,8 @@
     "option_b": "El Juez del Trabajo",
     "option_c": "El Director Regional del Trabajo o un inspector del trabajo",
     "option_d": "El Ministro de Economía",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Laboral"
   },
   {
     "num": 13,
@@ -126,8 +126,8 @@
     "option_b": "50 trabajadores",
     "option_c": "100 trabajadores",
     "option_d": "200 trabajadores",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Laboral"
   },
   {
     "num": 14,
@@ -136,8 +136,8 @@
     "option_b": "75 trabajadores",
     "option_c": "500 trabajadores",
     "option_d": "100 trabajadores",
-    "category": "Derecho Laboral",
-    "correct": "d"
+    "correct": "d",
+    "category": "Derecho Laboral"
   },
   {
     "num": 15,
@@ -146,8 +146,18 @@
     "option_b": "La situación real en la que el trabajador se encuentra frente a la prestación de servicios.",
     "option_c": "El nombre o denominación que se le haya dado al contrato (ej. servicios profesionales).",
     "option_d": "Únicamente los documentos de afiliación a la seguridad social.",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Laboral"
+  },
+  {
+    "num": 16,
+    "question": "De acuerdo con el principio de primacía de la realidad, ¿qué elemento prevalece para determinar la existencia de una relación laboral?",
+    "option_a": "Lo pactado voluntariamente por las partes en el contrato escrito.",
+    "option_b": "La situación real en la que el trabajador se encuentra frente a la prestación de servicios.",
+    "option_c": "El nombre o denominación que se le haya dado al contrato (ej. servicios profesionales).",
+    "option_d": "Únicamente los documentos de afiliación a la seguridad social.",
+    "correct": "b",
+    "category": "Derecho Laboral"
   },
   {
     "num": 17,
@@ -156,8 +166,8 @@
     "option_b": "Tres horas.",
     "option_c": "Cuatro horas.",
     "option_d": "Seis horas.",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Laboral"
   },
   {
     "num": 18,
@@ -166,8 +176,8 @@
     "option_b": "50 trabajadores.",
     "option_c": "100 o más trabajadores.",
     "option_d": "500 trabajadores.",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Laboral"
   },
   {
     "num": 19,
@@ -176,8 +186,8 @@
     "option_b": "Diez semanas.",
     "option_c": "Doce semanas.",
     "option_d": "Quince semanas.",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Laboral"
   },
   {
     "num": 20,
@@ -186,8 +196,8 @@
     "option_b": "Diez días.",
     "option_c": "Quince días.",
     "option_d": "Veinte días.",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Laboral"
   },
   {
     "num": 21,
@@ -196,8 +206,8 @@
     "option_b": "Seis horas.",
     "option_c": "Siete horas.",
     "option_d": "Ocho horas",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Laboral"
   },
   {
     "num": 22,
@@ -206,8 +216,8 @@
     "option_b": "Dentro de los primeros quince días.",
     "option_c": "Al finalizar el primer mes.",
     "option_d": "En los primeros tres días.",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 23,
@@ -216,8 +226,8 @@
     "option_b": "Secretarias de gerencia.",
     "option_c": "Empleados con funciones de confianza y dirección.",
     "option_d": "Trabajadores con contratos a jornada parcial.",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Laboral"
   },
   {
     "num": 24,
@@ -226,8 +236,8 @@
     "option_b": "Prestación de servicios lícitos y personales, dependencia y remuneración.",
     "option_c": "Contrato escrito, afiliación al IESS y jornada de ocho horas.",
     "option_d": "Voluntad de las partes, objeto lícito y causa lícita.",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Laboral"
   },
   {
     "num": 25,
@@ -236,8 +246,8 @@
     "option_b": "Empleador y Trabajador",
     "option_c": "Trabajador y obrero",
     "option_d": "Gerente y dirigente sindical",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Laboral"
   },
   {
     "num": 26,
@@ -246,8 +256,8 @@
     "option_b": "Es un beneficio opcional",
     "option_c": "Depende del empleador",
     "option_d": "No es obligatorio",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 27,
@@ -256,8 +266,8 @@
     "option_b": "Es impuesta por el empleador",
     "option_c": "Es obligatoria",
     "option_d": "Es unilateral del empleador",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 28,
@@ -266,8 +276,8 @@
     "option_b": "In dubio pro legislatore",
     "option_c": "In dubio pro reo",
     "option_d": "In dubio pro administrado",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 29,
@@ -276,8 +286,8 @@
     "option_b": "Normas entre Estado y trabajador",
     "option_c": "Normas de conducta general",
     "option_d": "Normas comerciales",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 30,
@@ -286,8 +296,8 @@
     "option_b": "Genera estabilidad laboral plena",
     "option_c": "Es equivalente al contrato de trabajo",
     "option_d": "Es obligatorio",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 31,
@@ -296,8 +306,8 @@
     "option_b": "Solo el error",
     "option_c": "Solo el dolo",
     "option_d": "Ninguna",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 32,
@@ -306,8 +316,8 @@
     "option_b": "Aplica de forma absoluta",
     "option_c": "No aplica en laboral",
     "option_d": "Es opcional",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 33,
@@ -316,8 +326,8 @@
     "option_b": "Acto unilateral",
     "option_c": "Acto administrativo",
     "option_d": "Acto informal",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 34,
@@ -326,8 +336,8 @@
     "option_b": "Es una norma jurídica",
     "option_c": "Es una ley",
     "option_d": "Es un contrato",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 35,
@@ -336,8 +346,8 @@
     "option_b": "Solo normas",
     "option_c": "Solo principios",
     "option_d": "Solo valores",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 36,
@@ -346,8 +356,8 @@
     "option_b": "Se debe ser duro con las personas",
     "option_c": "Se debe evitar el diálogo",
     "option_d": "Ninguna",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 37,
@@ -356,8 +366,8 @@
     "option_b": "Comunicación unilateral",
     "option_c": "Comunicación informal",
     "option_d": "Ninguna",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 38,
@@ -366,8 +376,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 39,
@@ -376,8 +386,8 @@
     "option_b": "Siempre se resuelve internamente",
     "option_c": "No requiere intervención",
     "option_d": "Ninguna",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 40,
@@ -386,8 +396,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 41,
@@ -396,8 +406,8 @@
     "option_b": "Validez",
     "option_c": "Eficacia parcial",
     "option_d": "Ninguna",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 42,
@@ -406,8 +416,8 @@
     "option_b": "Puede renunciar a todos sus derechos",
     "option_c": "Puede eliminar sus beneficios",
     "option_d": "Puede pactar condiciones inferiores",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 43,
@@ -416,8 +426,8 @@
     "option_b": "Genera estabilidad absoluta",
     "option_c": "Es indefinido",
     "option_d": "Es permanente",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 44,
@@ -426,8 +436,8 @@
     "option_b": "Es un derecho absoluto del empleador",
     "option_c": "No tiene efectos",
     "option_d": "Es obligatorio",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 45,
@@ -436,8 +446,18 @@
     "option_b": "Todos son mensuales",
     "option_c": "Ninguno es obligatorio",
     "option_d": "Todos son opcionales",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
+  },
+  {
+    "num": 46,
+    "question": "Relacione concepto con definición: 1. Irrenunciabilidad a) Pago por trabajo 2. Estabilidad b) Dependencia laboral 3. Remuneración c) Protección del empleo 4. Subordinación d) Prohibición de renuncia Opciones:",
+    "option_a": "1d, 2c, 3a, 4b",
+    "option_b": "1c, 2d, 3a, 4b",
+    "option_c": "1d, 2b, 3a, 4c",
+    "option_d": "1b, 2c, 3d, 4a",
+    "correct": "b",
+    "category": "Derecho Laboral"
   },
   {
     "num": 47,
@@ -446,8 +466,8 @@
     "option_b": "2, 1, 3, 4",
     "option_c": "1, 3, 2, 4",
     "option_d": "1, 2, 4, 3",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 48,
@@ -456,8 +476,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 49,
@@ -466,8 +486,8 @@
     "option_b": "Prevalece el contrato escrito",
     "option_c": "Prevalece la voluntad del empleador",
     "option_d": "Ninguna",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 50,
@@ -476,8 +496,8 @@
     "option_b": "Favorecer al empleador",
     "option_c": "Eliminar derechos",
     "option_d": "Ninguna",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Laboral"
   },
   {
     "num": 51,
@@ -486,8 +506,8 @@
     "option_b": "La capacidad de una persona para realizar un invento y patentarlo.",
     "option_c": "Es el proceso de identificar, crear y desarrollar una oportunidad de negocio que genera valor económico y/o social, asumiendo sus riesgos.",
     "option_d": "Trabajar de manera independiente para evitar un jefe y tener horarios flexibles.",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Emprendimiento"
   },
   {
     "num": 52,
@@ -496,8 +516,8 @@
     "option_b": "Emprendimiento social",
     "option_c": "Emprendimiento tradicional",
     "option_d": "Emprendimiento de autoempleo",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Emprendimiento"
   },
   {
     "num": 53,
@@ -506,8 +526,8 @@
     "option_b": "Capacidad de redactar un balance financiero.",
     "option_c": "Liderazgo y comunicación efectiva para guiar a su equipo.",
     "option_d": "Dominio de un segundo idioma técnico.",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Emprendimiento"
   },
   {
     "num": 54,
@@ -516,8 +536,8 @@
     "option_b": "Los emprendedores nacen, no se hacen; es un don innato.",
     "option_c": "Es importante identificar una oportunidad de negocio.",
     "option_d": "La perseverancia ayuda a superar los obstáculos.",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Emprendimiento"
   },
   {
     "num": 55,
@@ -526,8 +546,8 @@
     "option_b": "Aversión total al riesgo y preferencia por la estabilidad absoluta.",
     "option_c": "Iniciativa y proactividad para buscar soluciones.",
     "option_d": "Curiosidad y aprendizaje continuo.",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Emprendimiento"
   },
   {
     "num": 56,
@@ -536,8 +556,8 @@
     "option_b": "Exclusivamente al número de empleos directos que genera.",
     "option_c": "Los cambios positivos que genera en la comunidad, economía o medio ambiente, más allá de lo económico.",
     "option_d": "El valor de la marca en el mercado internacional.",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Emprendimiento"
   },
   {
     "num": 57,
@@ -546,8 +566,8 @@
     "option_b": "Observar problemas cotidianos, tendencias de mercado y necesidades insatisfechas de los consumidores.",
     "option_c": "Esperar a que una idea innovadora llegue de manera repentina.",
     "option_d": "Invertir únicamente en los sectores con mayor tradición familiar.",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Emprendimiento"
   },
   {
     "num": 58,
@@ -556,8 +576,8 @@
     "option_b": "Fijar los precios más bajos del mercado sin importar los costos.",
     "option_c": "Identificar las fortalezas y debilidades de los rivales para encontrar un espacio diferenciado en el mercado.",
     "option_d": "Copiar las estrategias de marketing de la competencia directa.",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Emprendimiento"
   },
   {
     "num": 59,
@@ -566,8 +586,8 @@
     "option_b": "El conjunto de beneficios y características que hacen que un producto o servicio sea atractivo y útil para un cliente específico.",
     "option_c": "El eslogan publicitario más pegadizo de la empresa.",
     "option_d": "El logotipo y la identidad visual de la marca.",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Emprendimiento"
   },
   {
     "num": 60,
@@ -576,8 +596,8 @@
     "option_b": "Tradicional y tecnológico.",
     "option_c": "Social y de autoempleo.",
     "option_d": "De autoempleo y tradicional.",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Emprendimiento"
   },
   {
     "num": 61,
@@ -586,8 +606,8 @@
     "option_b": "¿Cómo redactar los estatutos legales de la empresa?",
     "option_c": "¿Cómo la empresa crea, entrega y captura valor?",
     "option_d": "¿Cuál es la fecha exacta de la próxima expansión internacional?",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Emprendimiento"
   },
   {
     "num": 62,
@@ -596,8 +616,8 @@
     "option_b": "Garantiza que su negocio no tendrá competencia.",
     "option_c": "Le asegura financiamiento inmediato de bancos.",
     "option_d": "Es un requisito obligatorio para crear una empresa.",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Emprendimiento"
   },
   {
     "num": 63,
@@ -606,8 +626,8 @@
     "option_b": "Es una hoja de ruta dinámica que describe la estrategia, el mercado, la viabilidad financiera y la operación del negocio.",
     "option_c": "Es un requisito legal para pagar impuestos.",
     "option_d": "Es un contrato entre los socios fundadores únicamente.",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Emprendimiento"
   },
   {
     "num": 64,
@@ -616,8 +636,8 @@
     "option_b": "Evaluar la situación interna (FOD) y externa (A) de la empresa para tomar decisiones estratégicas.",
     "option_c": "Calcular el punto de equilibrio financiero.",
     "option_d": "Establecer la misión y visión de la empresa.",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Emprendimiento"
   },
   {
     "num": 65,
@@ -626,8 +646,8 @@
     "option_b": "Vender el producto antes de haberlo fabricado.",
     "option_c": "Contrastar las hipótesis del emprendedor con la opinión y necesidades reales de los potenciales clientes.",
     "option_d": "Obtener una lista de correos para spam publicitario.",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Emprendimiento"
   },
   {
     "num": 66,
@@ -636,8 +656,8 @@
     "option_b": "Una versión preliminar y simplificada del producto o servicio que permite probar su funcionalidad y aceptación con usuarios reales.",
     "option_c": "Un dibujo técnico para una patente.",
     "option_d": "El plan de marketing detallado.",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Emprendimiento"
   },
   {
     "num": 67,
@@ -646,8 +666,18 @@
     "option_b": "Conciso, claro, atractivo y capaz de captar la atención del inversor en pocos minutos.",
     "option_c": "Exclusivamente financiero, mostrando tablas de proyecciones.",
     "option_d": "Un monólogo sin posibilidad de preguntas.",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Emprendimiento"
+  },
+  {
+    "num": 68,
+    "question": "Un \"Pitch\" efectivo para presentar una idea de negocio debe ser:",
+    "option_a": "Extenso y lleno de detalles técnicos para demostrar conocimiento.",
+    "option_b": "Conciso, claro, atractivo y capaz de captar la atención del inversor en pocos minutos.",
+    "option_c": "Exclusivamente financiero, mostrando tablas de proyecciones.",
+    "option_d": "Un monólogo sin posibilidad de preguntas.",
+    "correct": "b",
+    "category": "Emprendimiento"
   },
   {
     "num": 69,
@@ -656,8 +686,8 @@
     "option_b": "Gastar todo el presupuesto en publicidad.",
     "option_c": "Evitar tener que hacer un plan de negocios.",
     "option_d": "Registrar la marca a nivel internacional.",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Emprendimiento"
   },
   {
     "num": 70,
@@ -666,8 +696,8 @@
     "option_b": "Diversificar sus productos sin un plan definido.",
     "option_c": "Crecer físicamente abriendo una tienda en cada ciudad.",
     "option_d": "Reducir su plantilla de trabajadores al mínimo.",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Emprendimiento"
   },
   {
     "num": 71,
@@ -676,8 +706,8 @@
     "option_b": "Reducir los precios para ganar más clientes.",
     "option_c": "Ofrecer nuevos productos o entrar en nuevos mercados, distintos a los actuales.",
     "option_d": "Mejorar la calidad del producto estrella de la empresa.",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Emprendimiento"
   },
   {
     "num": 72,
@@ -686,8 +716,8 @@
     "option_b": "Permiten mantener el mismo modelo de negocio por décadas.",
     "option_c": "Son estrategias que solo aplican a las grandes corporaciones.",
     "option_d": "Ayudan a evitar la competencia sin necesidad de esforzarse.",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Emprendimiento"
   },
   {
     "num": 73,
@@ -696,8 +726,8 @@
     "option_b": "Depender completamente de otras empresas para sobrevivir.",
     "option_c": "Perder el enfoque en su negocio principal.",
     "option_d": "Asegurarse de no tener que innovar.",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Emprendimiento"
   },
   {
     "num": 74,
@@ -706,8 +736,8 @@
     "option_b": "Económica, social y ambiental.",
     "option_c": "Financiera, tecnológica y publicitaria.",
     "option_d": "Legal, fiscal y administrativa.",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Emprendimiento"
   },
   {
     "num": 75,
@@ -716,8 +746,8 @@
     "option_b": "La biografía detallada de todos los fundadores.",
     "option_c": "Comunicar claramente el problema que se resuelve, la propuesta de valor única y el modelo de negocio.",
     "option_d": "Entregar un documento escrito muy extenso y sin exponer.",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Emprendimiento"
   },
   {
     "num": 76,
@@ -726,8 +756,8 @@
     "option_b": "La acción de amparo se presenta de manera uniforme en todos los países de la región",
     "option_c": "La acción de amparo adopta diversas formas según el ordenamiento jurídico de cada país",
     "option_d": "La acción de amparo solo protege derechos patrimoniales",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 77,
@@ -736,8 +766,8 @@
     "option_b": "La acción de protección sustituye y evoluciona la acción de amparo prevista en 1998",
     "option_c": "La acción de amparo sigue vigente con el mismo alcance que en 1998",
     "option_d": "La acción de protección solo aplica en materia administrativa",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 78,
@@ -746,8 +776,8 @@
     "option_b": "Imponer sanciones automáticas a quienes reclamen la protección de sus derechos fundamentales sin pruebas suficientes.",
     "option_c": "Limitar el acceso a la justicia para evitar abusos en el uso de los derechos fundamentales.",
     "option_d": "Priorizar los derechos constitucionales sobre los intereses del Estado para mantener el orden social.",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 79,
@@ -756,8 +786,8 @@
     "option_b": "Actúan como límites frente al abuso del poder",
     "option_c": "Sustituyen a las funciones legislativa y ejecutiva",
     "option_d": "Eliminan la necesidad de control judicial",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 80,
@@ -766,8 +796,8 @@
     "option_b": "Jueces de instancia de cualquier materia",
     "option_c": "Jueces de lo Contencioso Administrativo",
     "option_d": "Jueces de la Corte Nacional de Justicia según el fuero",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 81,
@@ -776,8 +806,8 @@
     "option_b": "Revocar actos ilegales que no contengan violaciones a la Constitución",
     "option_c": "Garantizar la tutela judicial efectiva ante los jueces constitucionales",
     "option_d": "Ninguna",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 82,
@@ -786,8 +816,8 @@
     "option_b": "1, 3",
     "option_c": "2, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Laboral",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 83,
@@ -796,8 +826,8 @@
     "option_b": "No intervienen en ningún aspecto relacionado con garantías jurisdiccionales",
     "option_c": "Conocen la cuantificación y ejecución de reparaciones económicas derivadas de estas garantías",
     "option_d": "Resuelven apelaciones de acciones de protección en todos los casos",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 84,
@@ -806,8 +836,8 @@
     "option_b": "Ninguna",
     "option_c": "Su obligación es resolver en la misma audiencia, y otorgar a las partes la oportunidad de apelar su decisión de manera oral, sin perjuicio de notificar la sentencia escrita.",
     "option_d": "Debe notificar la sentencia de forma escrita, pudiendo apelar a la misma en el término de tres días",
-    "category": "Derecho Laboral",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 85,
@@ -816,8 +846,8 @@
     "option_b": "La reparación integral es un derecho del accionante dentro de la acción de protección",
     "option_c": "La reparación integral solo aplica en materia penal",
     "option_d": "La reparación integral depende exclusivamente de la voluntad del juez",
-    "category": "Derecho Laboral",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 86,
@@ -826,8 +856,8 @@
     "option_b": "Iura novit curia",
     "option_c": "Non bis in idem",
     "option_d": "In dubio pro legislatore",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 87,
@@ -836,8 +866,8 @@
     "option_b": "Se archiva el proceso",
     "option_c": "La audiencia se realiza sin la presencia de la parte accionada, siempre y cuando haya sido notificada en legal y debida forma",
     "option_d": "Se declara la nulidad del proceso",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 88,
@@ -846,8 +876,8 @@
     "option_b": "Código Orgánico Administrativo",
     "option_c": "Ley Orgánica de Transformación Digital y Audiovisual",
     "option_d": "Ninguna",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 89,
@@ -856,8 +886,8 @@
     "option_b": "Solo las instituciones públicas pueden presentar la acción",
     "option_c": "No es indispensable el patrocinio de un abogado para presentar la acción de protección",
     "option_d": "La acción solo puede ser presentada por jueces",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 90,
@@ -866,8 +896,8 @@
     "option_b": "Necesidad",
     "option_c": "Proporcionalidad",
     "option_d": "Integridad",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 91,
@@ -876,8 +906,8 @@
     "option_b": "Actuar de manera pasiva frente a la vulneración",
     "option_c": "Determinar de manera creativa las medidas de reparación integral",
     "option_d": "Delegar la reparación a la administración pública",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 92,
@@ -886,8 +916,8 @@
     "option_b": "La Corte Constitucional del Ecuador",
     "option_c": "El Tribunal Distrital de lo Contencioso Administrativo",
     "option_d": "El Tribunal Distrital de lo Contencioso Tributario",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 93,
@@ -896,8 +926,8 @@
     "option_b": "Garantías de no repetición",
     "option_c": "Rehabilitación médica",
     "option_d": "Medidas de restitución",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 94,
@@ -906,8 +936,8 @@
     "option_b": "Medidas de prevención",
     "option_c": "Medidas cautelares",
     "option_d": "Medidas de no repetición",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 95,
@@ -916,8 +946,8 @@
     "option_b": "Reparar integralmente los daños ocasionados",
     "option_c": "Declarar la nulidad de todas las actuaciones administrativas",
     "option_d": "Sustituir las decisiones de la administración pública",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 96,
@@ -926,8 +956,8 @@
     "option_b": "En todo acto discriminatorio cometido por cualquier persona",
     "option_c": "Cuando exista cualquier tipo de conflicto entre particulares",
     "option_d": "Únicamente cuando lo autorice un juez ordinario",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 97,
@@ -936,8 +966,8 @@
     "option_b": "4, 1, 2, 3",
     "option_c": "1, 4, 3, 2",
     "option_d": "1, 2, 4, 3",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 98,
@@ -946,8 +976,8 @@
     "option_b": "2, 3, 5",
     "option_c": "1, 2, 4",
     "option_d": "2, 4, 5",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 99,
@@ -956,8 +986,8 @@
     "option_b": "1a, 2b, 3c, 4d",
     "option_c": "1d, 2a, 3b, 4c",
     "option_d": "1b, 2c, 3d, 4a",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 100,
@@ -966,8 +996,8 @@
     "option_b": "1b, 2c, 3d, 4a",
     "option_c": "1a, 2c, 3b, 4d",
     "option_d": "1d, 2a, 3c, 4b",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 101,
@@ -976,8 +1006,8 @@
     "option_b": "Que la investigación se centra en la reconstrucción física verificable del hecho",
     "option_c": "Que el delito es irrelevante dentro del proceso penal",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 102,
@@ -986,8 +1016,8 @@
     "option_b": "Correspondencia material",
     "option_c": "Control de error",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Criminalística"
   },
   {
     "num": 103,
@@ -996,8 +1026,8 @@
     "option_b": "La evidencia depende de la memoria humana",
     "option_c": "El testimonio es subjetivo y la evidencia es objetivable",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Criminalística"
   },
   {
     "num": 104,
@@ -1006,8 +1036,8 @@
     "option_b": "Porque condiciona irreversiblemente todo el proceso posterior",
     "option_c": "Porque permite identificar al culpable",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 105,
@@ -1016,8 +1046,8 @@
     "option_b": "Inferencia científica con margen de error",
     "option_c": "Decisión judicial",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 106,
@@ -1026,8 +1056,8 @@
     "option_b": "Reducir el tiempo",
     "option_c": "Generar sesgo confirmatorio",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Criminalística"
   },
   {
     "num": 107,
@@ -1036,8 +1066,8 @@
     "option_b": "Porque el estado original desaparece tras la intervención",
     "option_c": "Porque limita la investigación",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 108,
@@ -1046,8 +1076,8 @@
     "option_b": "Registrar de forma permanente el estado original",
     "option_c": "Determinar culpabilidad",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 109,
@@ -1056,8 +1086,8 @@
     "option_b": "Contexto probatorio",
     "option_c": "Material genético",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 110,
@@ -1066,8 +1096,8 @@
     "option_b": "Garantizar autenticidad del indicio",
     "option_c": "Analizar evidencia",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 111,
@@ -1076,8 +1106,8 @@
     "option_b": "Ciencias exactas puras",
     "option_c": "Ciencias normativas",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Criminalística"
   },
   {
     "num": 112,
@@ -1086,8 +1116,8 @@
     "option_b": "Integración de diversas ciencias naturales",
     "option_c": "Dependencia del testimonio",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 113,
@@ -1096,8 +1126,8 @@
     "option_b": "Confirmar testimonios",
     "option_c": "Verificar hipótesis mediante condiciones físicas",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Criminalística"
   },
   {
     "num": 114,
@@ -1106,8 +1136,8 @@
     "option_b": "La evidencia material tiene mayor valor",
     "option_c": "Se anulan ambas",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 115,
@@ -1116,8 +1146,8 @@
     "option_b": "Inductivo simple",
     "option_c": "Abductivo",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Criminalística"
   },
   {
     "num": 116,
@@ -1126,8 +1156,8 @@
     "option_b": "Introducir certeza científica",
     "option_c": "Sustituir al juez",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 117,
@@ -1136,8 +1166,8 @@
     "option_b": "Dependencia excesiva de testimonios",
     "option_c": "Ausencia de delito",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 118,
@@ -1146,8 +1176,8 @@
     "option_b": "Retarda el proceso",
     "option_c": "Produce certeza falsa",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Criminalística"
   },
   {
     "num": 119,
@@ -1156,8 +1186,8 @@
     "option_b": "Que la judicial depende del proceso",
     "option_c": "Que la histórica depende del juez",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 120,
@@ -1166,8 +1196,8 @@
     "option_b": "Identificación genética",
     "option_c": "Determinación de culpabilidad",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Criminalística"
   },
   {
     "num": 121,
@@ -1176,8 +1206,8 @@
     "option_b": "Porque permite verificación objetiva",
     "option_c": "Porque lo invalida automáticamente",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 122,
@@ -1186,8 +1216,8 @@
     "option_b": "Acusar al sospechoso",
     "option_c": "Eliminar hipótesis erróneas",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Criminalística"
   },
   {
     "num": 123,
@@ -1196,8 +1226,8 @@
     "option_b": "Se pierde validez probatoria",
     "option_c": "Se acelera el proceso",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 124,
@@ -1206,8 +1236,8 @@
     "option_b": "Identificar origen biológico",
     "option_c": "Establecer culpabilidad",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Criminalística"
   },
   {
     "num": 125,
@@ -1216,8 +1246,8 @@
     "option_b": "Verdad absoluta",
     "option_c": "Decisión judicial",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Criminalística"
   },
   {
     "num": 126,
@@ -1226,8 +1256,8 @@
     "option_b": "El conjunto de normas jurídicas, principios y valores que regulan la conducta del ser humano que vive en sociedad",
     "option_c": "El conjunto de normas jurídicas, principios y valores que regulan la conducta del ser humano y el órgano administrativo",
     "option_d": "El conjunto de normas jurídicas, principios y valores que regulan la conducta del Estado y sus funciones",
-    "category": "Derecho Administrativo",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 127,
@@ -1236,8 +1266,8 @@
     "option_b": "La Administración Pública se compone de personas naturales y jurídicas, así como órganos del Estado",
     "option_c": "La Administración Pública se compone únicamente de instituciones privadas",
     "option_d": "La Administración Pública se limita a los ciudadanos",
-    "category": "Derecho Administrativo",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 128,
@@ -1246,8 +1276,8 @@
     "option_b": "El acto administrativo se perfecciona con la notificación al administrado",
     "option_c": "El acto administrativo se perfecciona con su publicación en medios de comunicación",
     "option_d": "El acto administrativo no requiere notificación",
-    "category": "Derecho Administrativo",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 129,
@@ -1256,8 +1286,8 @@
     "option_b": "Seguridad pública",
     "option_c": "Responsabilidad extracontractual",
     "option_d": "Orden público",
-    "category": "Derecho Administrativo",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 130,
@@ -1266,8 +1296,8 @@
     "option_b": "Silogismo",
     "option_c": "Engaño",
     "option_d": "Persuasión",
-    "category": "Derecho Administrativo",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 131,
@@ -1276,8 +1306,8 @@
     "option_b": "La Administración Pública puede ser ejercida por distintas funciones del Estado",
     "option_c": "Solo la Función Judicial ejerce actividad administrativa",
     "option_d": "La Administración Pública no pertenece al Estado",
-    "category": "Derecho Administrativo",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 132,
@@ -1286,8 +1316,8 @@
     "option_b": "La Administración Pública solo emite actos de carácter general",
     "option_c": "La Administración Pública emite actos con efectos individuales y generales",
     "option_d": "La Administración Pública no emite actos jurídicos",
-    "category": "Derecho Administrativo",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 133,
@@ -1296,8 +1326,8 @@
     "option_b": "Actos administrativos, hechos administrativos, contratos administrativos, memorandos",
     "option_c": "Actos de inicio, hechos administrativos, contratos administrativos, actos de simple administración",
     "option_d": "Actos administrativos, notificaciones, contratos administrativos, actos de simple administración",
-    "category": "Derecho Administrativo",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 134,
@@ -1306,8 +1336,8 @@
     "option_b": "Los actos administrativos son susceptibles de impugnación",
     "option_c": "Solo los actos judiciales pueden ser impugnados",
     "option_d": "Los actos administrativos solo pueden ser modificados por la misma autoridad",
-    "category": "Derecho Administrativo",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 135,
@@ -1316,8 +1346,8 @@
     "option_b": "Derecho Administrativo Especial",
     "option_c": "Procedimiento de ejecución coactiva",
     "option_d": "Ninguna",
-    "category": "Derecho Administrativo",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 136,
@@ -1326,8 +1356,8 @@
     "option_b": "Que es nacido de la Constitución",
     "option_c": "Que es creado exclusivamente por el legislador",
     "option_d": "Ninguna",
-    "category": "Derecho Administrativo",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 137,
@@ -1336,8 +1366,8 @@
     "option_b": "El denunciante no es parte en el procedimiento administrativo sancionador",
     "option_c": "El denunciante actúa como juez",
     "option_d": "El denunciante reemplaza a la autoridad",
-    "category": "Derecho Administrativo",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 138,
@@ -1346,8 +1376,8 @@
     "option_b": "Refuerza la separación entre función instructora y sancionadora",
     "option_c": "Elimina la fase de instrucción",
     "option_d": "Otorga funciones sancionadoras al denunciante",
-    "category": "Derecho Administrativo",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 139,
@@ -1356,8 +1386,8 @@
     "option_b": "Son facultativas y dependen de la autoridad",
     "option_c": "Sustituyen al procedimiento sancionador",
     "option_d": "Son realizadas por los ciudadanos",
-    "category": "Derecho Administrativo",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 140,
@@ -1366,8 +1396,8 @@
     "option_b": "Contestación al acto de inicio",
     "option_c": "Argumentación final",
     "option_d": "En cualquier momento",
-    "category": "Derecho Administrativo",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 141,
@@ -1376,8 +1406,18 @@
     "option_b": "Puede denominarse derecho penal administrativo",
     "option_c": "No puede denominarse proceso administrativo sancionador",
     "option_d": "No tiene denominación jurídica",
-    "category": "Derecho Administrativo",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Administrativo"
+  },
+  {
+    "num": 142,
+    "question": "Dentro del Código Orgánico Administrativo existen medidas cautelares destinadas a asegurar bienes o situaciones jurídicas. ¿Cuál de las siguientes medidas no son medidas cautelares contempladas en el COA? 1. Restricción 2. Retiro 3. Secuestro 4. Descerrajamiento Opciones de respuesta:",
+    "option_a": "1 y 4",
+    "option_b": "2 y 4",
+    "option_c": "1 y 2",
+    "option_d": "Ninguna",
+    "correct": "a",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 143,
@@ -1386,8 +1426,8 @@
     "option_b": "Actuación previa",
     "option_c": "In situ",
     "option_d": "Ninguna",
-    "category": "Derecho Administrativo",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 144,
@@ -1396,8 +1436,8 @@
     "option_b": "Tiene diferencias respecto a su aplicación en materia penal",
     "option_c": "Solo aplica en materia penal",
     "option_d": "No existe flagrancia en materia administrativa",
-    "category": "Derecho Administrativo",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 145,
@@ -1406,8 +1446,8 @@
     "option_b": "El dictamen debe ser notificado para garantizar el derecho a la defensa",
     "option_c": "El dictamen solo es interno",
     "option_d": "El dictamen sustituye la resolución",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 146,
@@ -1416,8 +1456,8 @@
     "option_b": "La administración solo puede actuar conforme a la ley",
     "option_c": "La administración actúa según su discrecionalidad absoluta",
     "option_d": "La administración no está sujeta a control",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 147,
@@ -1426,8 +1466,8 @@
     "option_b": "Opinión del ciudadano",
     "option_c": "Publicidad en redes sociales",
     "option_d": "Aprobación judicial previa",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 148,
@@ -1436,8 +1476,8 @@
     "option_b": "1a, 2b, 3c, 4d",
     "option_c": "1c, 2b, 3a, 4d",
     "option_d": "1d, 2a, 3b, 4c",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "a",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 149,
@@ -1446,8 +1486,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 150,
@@ -1456,8 +1496,8 @@
     "option_b": "Control administrativo",
     "option_c": "Control judicial",
     "option_d": "Control social",
-    "category": "Derecho Penal",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Administrativo"
   },
   {
     "num": 151,
@@ -1466,8 +1506,8 @@
     "option_b": "En materia ambiental no se aplica ningún tipo de responsabilidad",
     "option_c": "En materia ambiental se aplica la responsabilidad objetiva",
     "option_d": "La responsabilidad ambiental depende únicamente de la intención del autor",
-    "category": "Derecho Penal",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 152,
@@ -1476,8 +1516,8 @@
     "option_b": "Restauración",
     "option_c": "Reparación integral",
     "option_d": "Reivindicación",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 153,
@@ -1486,8 +1526,8 @@
     "option_b": "Constitución de 2008",
     "option_c": "Opinión Consultiva OC-23/17",
     "option_d": "Carta de los derechos de la Pachamama",
-    "category": "Derecho Internacional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 154,
@@ -1496,8 +1536,8 @@
     "option_b": "Visión biocéntrica",
     "option_c": "Visión positivista",
     "option_d": "Visión economicista",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 155,
@@ -1506,8 +1546,8 @@
     "option_b": "La naturaleza puede ser representada en juicio para la defensa de sus derechos",
     "option_c": "Solo el Estado puede accionar en materia ambiental",
     "option_d": "La naturaleza solo tiene protección administrativa",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 156,
@@ -1516,8 +1556,8 @@
     "option_b": "La sanción penal reemplaza la responsabilidad administrativa",
     "option_c": "La sanción penal no excluye la obligación de restauración",
     "option_d": "Solo existe responsabilidad civil",
-    "category": "Derecho Internacional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 157,
@@ -1526,8 +1566,8 @@
     "option_b": "2, 1, 3, 4",
     "option_c": "1, 3, 2, 4",
     "option_d": "1, 2, 4, 3",
-    "category": "Derecho Internacional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 158,
@@ -1536,8 +1576,8 @@
     "option_b": "El daño grave se determina únicamente por criterios económicos",
     "option_c": "No toda alteración en bosques nativos constituye daño grave, depende de su magnitud e impacto",
     "option_d": "El daño ambiental no tiene clasificación",
-    "category": "Derecho Internacional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 159,
@@ -1546,8 +1586,8 @@
     "option_b": "Incendios forestales y de vegetación",
     "option_c": "Delitos contra la fauna silvestre",
     "option_d": "Delitos contra el suelo",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 160,
@@ -1556,8 +1596,8 @@
     "option_b": "Solo en el ámbito administrativo",
     "option_c": "En el ámbito penal y administrativo",
     "option_d": "Exclusivamente en el ámbito privado",
-    "category": "Derecho Internacional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 161,
@@ -1566,8 +1606,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Internacional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 162,
@@ -1576,8 +1616,8 @@
     "option_b": "4, 1, 2, 3",
     "option_c": "1, 2, 4, 3",
     "option_d": "2, 1, 4, 3",
-    "category": "Derecho Internacional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 163,
@@ -1586,8 +1626,8 @@
     "option_b": "1b, 2a, 3d, 4c",
     "option_c": "1a, 2c, 3b, 4d",
     "option_d": "1d, 2b, 3a, 4c",
-    "category": "Derecho Internacional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 164,
@@ -1596,8 +1636,8 @@
     "option_b": "Solo responsabilidad civil",
     "option_c": "Responsabilidad administrativa, civil y posible penal",
     "option_d": "Ninguna consecuencia",
-    "category": "Derecho Internacional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 165,
@@ -1606,8 +1646,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Internacional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 166,
@@ -1616,8 +1656,8 @@
     "option_b": "Permite actuar ante la falta de certeza científica cuando exista riesgo de daño grave o irreversible",
     "option_c": "Se aplica únicamente en materia penal",
     "option_d": "Exige indemnización previa al daño",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 167,
@@ -1626,8 +1666,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 3",
-    "category": "Derecho Internacional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 168,
@@ -1636,8 +1676,8 @@
     "option_b": "2, 1, 3, 4",
     "option_c": "1, 3, 2, 4",
     "option_d": "1, 2, 4, 3",
-    "category": "Derecho Internacional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 169,
@@ -1646,8 +1686,8 @@
     "option_b": "La naturaleza es sujeto de derechos",
     "option_c": "Solo el Estado tiene derechos sobre la naturaleza",
     "option_d": "La naturaleza solo tiene protección internacional",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 170,
@@ -1656,8 +1696,8 @@
     "option_b": "1d, 2c, 3b, 4a",
     "option_c": "1c, 2b, 3d, 4a",
     "option_d": "1a, 2d, 3c, 4b",
-    "category": "Derecho Internacional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 171,
@@ -1666,8 +1706,8 @@
     "option_b": "Trasladar el costo del daño ambiental al responsable",
     "option_c": "Evitar la intervención del Estado",
     "option_d": "Garantizar beneficios económicos a las empresas",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 172,
@@ -1676,8 +1716,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Internacional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 173,
@@ -1686,8 +1726,8 @@
     "option_b": "Precaución",
     "option_c": "Seguridad jurídica",
     "option_d": "Irretroactividad",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 174,
@@ -1696,8 +1736,8 @@
     "option_b": "2, 1, 3, 4",
     "option_c": "1, 3, 2, 4",
     "option_d": "1, 2, 4, 3",
-    "category": "Derecho Internacional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 175,
@@ -1706,8 +1746,8 @@
     "option_b": "Incluye medidas de restauración, compensación y garantías de no repetición",
     "option_c": "Solo aplica en materia penal",
     "option_d": "Depende exclusivamente del acuerdo entre las partes",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Ambiental"
   },
   {
     "num": 176,
@@ -1716,8 +1756,8 @@
     "option_b": "Únicamente al marido en un matrimonio eclesiástico.",
     "option_c": "Al conviviente en casos de unión de hecho que cumpla los requisitos legales.",
     "option_d": "Al tutor legal nombrado por un juez.",
-    "category": "Derecho Internacional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho de Familia"
   },
   {
     "num": 177,
@@ -1726,8 +1766,8 @@
     "option_b": "Por haber sido concebida una persona dentro de un matrimonio verdadero o putativo",
     "option_c": "Por la voluntad de los abuelos",
     "option_d": "Por un contrato privado de servicios",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 178,
@@ -1736,8 +1776,8 @@
     "option_b": "Debe ser estable, monogámica y reconocida legalmente",
     "option_c": "Debe tener al menos 10 años de duración",
     "option_d": "Debe ser aprobada por la iglesia",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 179,
@@ -1746,8 +1786,8 @@
     "option_b": "Por testamento de terceros",
     "option_c": "Por haber sido declarada judicialmente hijo de determinado padre o madre",
     "option_d": "Por adopción informal",
-    "category": "Derecho Internacional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho de Familia"
   },
   {
     "num": 180,
@@ -1756,8 +1796,8 @@
     "option_b": "Si nace después de expirados los 180 días subsiguientes al matrimonio",
     "option_c": "Si nace exactamente al año de la boda",
     "option_d": "Si los padres viven en la misma casa",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 181,
@@ -1766,8 +1806,8 @@
     "option_b": "Al conviviente en casos de unión de hecho legalmente reconocida",
     "option_c": "Al padrino del niño",
     "option_d": "Al representante legal de la empresa",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 182,
@@ -1776,8 +1816,8 @@
     "option_b": "Sí, podrá reconocerse voluntariamente",
     "option_c": "Solo si el hijo dejó herencia",
     "option_d": "Solo si el juez lo ordena de oficio",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 183,
@@ -1786,8 +1826,8 @@
     "option_b": "No le conferirá derechos en la sucesión intestada del reconocido",
     "option_c": "Le otorga el 50% de los bienes",
     "option_d": "Le obliga a pagar las deudas del fallecido únicamente",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 184,
@@ -1796,8 +1836,8 @@
     "option_b": "Es irrevocable",
     "option_c": "Es negociable",
     "option_d": "Puede anularse por voluntad del padre en cualquier momento",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 185,
@@ -1806,8 +1846,8 @@
     "option_b": "Al hijo, quien podrá impugnarlo en cualquier tiempo",
     "option_c": "A los abuelos maternos",
     "option_d": "Al Ministerio de Inclusión Económica y Social",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 186,
@@ -1816,8 +1856,8 @@
     "option_b": "En cualquier tiempo",
     "option_c": "Solo al cumplir la mayoría de edad",
     "option_d": "Nunca, si el padre ya firmó",
-    "category": "Derecho Internacional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 187,
@@ -1826,8 +1866,8 @@
     "option_b": "9 meses",
     "option_c": "12 meses",
     "option_d": "18 meses",
-    "category": "Derecho Internacional",
-    "correct": "d"
+    "correct": "d",
+    "category": "Derecho de Familia"
   },
   {
     "num": 188,
@@ -1836,8 +1876,8 @@
     "option_b": "Taller de formación",
     "option_c": "Registro web MIES",
     "option_d": "Fase judicial",
-    "category": "Derecho Internacional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho de Familia"
   },
   {
     "num": 189,
@@ -1846,8 +1886,8 @@
     "option_b": "Art. 200",
     "option_c": "Art. 349",
     "option_d": "Art. 500",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho de Familia"
   },
   {
     "num": 190,
@@ -1856,8 +1896,8 @@
     "option_b": "En congruos y necesarios",
     "option_c": "En básicos y suplementarios",
     "option_d": "En mensuales y anuales",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 191,
@@ -1866,8 +1906,8 @@
     "option_b": "Cargos impuestos a ciertas personas a favor de aquellos que no pueden gobernarse por sí mismos",
     "option_c": "Penas privativas de libertad",
     "option_d": "Títulos de propiedad inmobiliaria",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 192,
@@ -1876,8 +1916,8 @@
     "option_b": "Que no se halle bajo potestad del padre o la madre",
     "option_c": "Que sea mayor de 65 años obligatoriamente",
     "option_d": "Que tenga un título universitario",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 193,
@@ -1886,8 +1926,8 @@
     "option_b": "Administrar competentemente sus negocios",
     "option_c": "Donar sus bienes al Estado",
     "option_d": "Disolver todas sus empresas",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 194,
@@ -1896,8 +1936,8 @@
     "option_b": "Impugnación de la Paternidad",
     "option_c": "La herencia",
     "option_d": "La nacionalidad",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 195,
@@ -1906,8 +1946,8 @@
     "option_b": "MIES",
     "option_c": "Corte Nacional de Justicia",
     "option_d": "Policía Nacional - DINAPEN",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 196,
@@ -1916,8 +1956,8 @@
     "option_b": "En casos de unión de hecho que reúna los requisitos previstos en el Código",
     "option_c": "Solo si hay un contrato de arrendamiento conjunto",
     "option_d": "Solo si el conviviente es extranjero",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 197,
@@ -1926,8 +1966,8 @@
     "option_b": "Por su nacionalidad y domicilio",
     "option_c": "Por su profesión y estado civil",
     "option_d": "Por su capacidad económica",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 198,
@@ -1936,8 +1976,8 @@
     "option_b": "Una sugerencia del Congreso para la buena convivencia social.",
     "option_c": "Un conjunto de normas que solo obligan a los ciudadanos ecuatorianos.",
     "option_d": "Una disposición del Presidente que regula los contratos privados.",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho de Familia"
   },
   {
     "num": 199,
@@ -1946,8 +1986,8 @@
     "option_b": "Las meras expectativas de un ciudadano se consideran derechos adquiridos.",
     "option_c": "La ley puede modificar actos válidamente ejecutados bajo una ley anterior sin restricciones.",
     "option_d": "La ley no dispone sino para lo venidero y no tiene efecto retroactivo.",
-    "category": "Derecho Civil",
-    "correct": "d"
+    "correct": "d",
+    "category": "Derecho de Familia"
   },
   {
     "num": 200,
@@ -1956,8 +1996,8 @@
     "option_b": "Solo aquellos individuos que poseen un domicilio fijo en el país.",
     "option_c": "Todos los individuos de la especie humana, cualesquiera que sean su edad, sexo o condición.",
     "option_d": "Solo los ecuatorianos por nacimiento o naturalización.",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho de Familia"
   },
   {
     "num": 201,
@@ -1966,8 +2006,8 @@
     "option_b": "La simple importación normativa no asegura resultados positivos sin considerar el contexto",
     "option_c": "Todas las normas extranjeras son aplicables automáticamente",
     "option_d": "El contexto no influye en la eficacia normativa",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Comparado"
   },
   {
     "num": 202,
@@ -1976,8 +2016,8 @@
     "option_b": "Comparar similitudes y diferencias para encontrar soluciones a problemas jurídicos",
     "option_c": "Unificar todos los sistemas jurídicos",
     "option_d": "Sustituir el derecho interno",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Comparado"
   },
   {
     "num": 203,
@@ -1986,8 +2026,8 @@
     "option_b": "Influencia de tratados internacionales",
     "option_c": "Tensiones entre derecho escrito y derecho vivo",
     "option_d": "Todas",
-    "category": "Derecho Civil",
-    "correct": "d"
+    "correct": "d",
+    "category": "Derecho Comparado"
   },
   {
     "num": 204,
@@ -1996,8 +2036,8 @@
     "option_b": "Common Law",
     "option_c": "Consuetudinario",
     "option_d": "Ninguna",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Comparado"
   },
   {
     "num": 205,
@@ -2006,8 +2046,8 @@
     "option_b": "Una decisión judicial puede obligar a futuros jueces mediante precedente",
     "option_c": "Solo la ley escrita es obligatoria",
     "option_d": "No existe jerarquía judicial",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Comparado"
   },
   {
     "num": 206,
@@ -2016,8 +2056,8 @@
     "option_b": "Garantiza que las normas se ajusten a la Constitución en el Civil Law",
     "option_c": "Es exclusivo del poder legislativo",
     "option_d": "No tiene relación con la Constitución",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Comparado"
   },
   {
     "num": 207,
@@ -2026,8 +2066,8 @@
     "option_b": "Eliminación del poder judicial",
     "option_c": "Ausencia de normas",
     "option_d": "Supremacía absoluta del precedente",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Comparado"
   },
   {
     "num": 208,
@@ -2036,8 +2076,8 @@
     "option_b": "Civil Law",
     "option_c": "Stare decisis",
     "option_d": "Consuetudinario",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Comparado"
   },
   {
     "num": 209,
@@ -2046,8 +2086,8 @@
     "option_b": "Estructural",
     "option_c": "Histórico",
     "option_d": "Todas",
-    "category": "Derecho Civil",
-    "correct": "d"
+    "correct": "d",
+    "category": "Derecho Comparado"
   },
   {
     "num": 210,
@@ -2056,8 +2096,8 @@
     "option_b": "América Latina sigue el Common Law",
     "option_c": "No existe influencia extranjera",
     "option_d": "Solo se aplica derecho consuetudinario",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Comparado"
   },
   {
     "num": 211,
@@ -2066,8 +2106,8 @@
     "option_b": "Bloque de constitucionalidad",
     "option_c": "Jerarquía normativa",
     "option_d": "Derecho supranacional",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Comparado"
   },
   {
     "num": 212,
@@ -2076,8 +2116,8 @@
     "option_b": "Control de convencionalidad",
     "option_c": "Control administrativo",
     "option_d": "Control legislativo",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Comparado"
   },
   {
     "num": 213,
@@ -2086,8 +2126,8 @@
     "option_b": "Solo describe normas",
     "option_c": "Evita el análisis",
     "option_d": "Es exclusivamente histórico",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Comparado"
   },
   {
     "num": 214,
@@ -2096,8 +2136,8 @@
     "option_b": "Derechos del hombre",
     "option_c": "Derecho municipal",
     "option_d": "Derecho penal clásico",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Comparado"
   },
   {
     "num": 215,
@@ -2106,8 +2146,8 @@
     "option_b": "Debe analizarse, adaptarse e incluso innovarse",
     "option_c": "No requiere análisis",
     "option_d": "Es automática",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Comparado"
   },
   {
     "num": 216,
@@ -2116,8 +2156,8 @@
     "option_b": "Copiar sin análisis",
     "option_c": "Aplicar directamente la norma",
     "option_d": "Ninguna",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Comparado"
   },
   {
     "num": 217,
@@ -2126,8 +2166,8 @@
     "option_b": "Delincuencia organizada",
     "option_c": "Digitalización e inteligencia artificial",
     "option_d": "Todas",
-    "category": "Derecho Civil",
-    "correct": "d"
+    "correct": "d",
+    "category": "Derecho Comparado"
   },
   {
     "num": 218,
@@ -2136,8 +2176,8 @@
     "option_b": "Tiene creciente influencia en el Civil Law",
     "option_c": "Solo influye en Common Law",
     "option_d": "Es irrelevante",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Comparado"
   },
   {
     "num": 219,
@@ -2146,8 +2186,8 @@
     "option_b": "Kimel vs. Argentina",
     "option_c": "Baena Ricardo vs. Panamá",
     "option_d": "Ninguna",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Comparado"
   },
   {
     "num": 220,
@@ -2156,8 +2196,8 @@
     "option_b": "Puede adquirir fuerza vinculante similar al precedente",
     "option_c": "Solo es orientativa",
     "option_d": "No tiene efectos jurídicos",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Comparado"
   },
   {
     "num": 221,
@@ -2166,8 +2206,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 3",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Comparado"
   },
   {
     "num": 222,
@@ -2176,8 +2216,8 @@
     "option_b": "1, 2, 3, 4",
     "option_c": "2, 3, 1, 4",
     "option_d": "1, 3, 2, 4",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Comparado"
   },
   {
     "num": 223,
@@ -2186,8 +2226,8 @@
     "option_b": "1b, 2c, 3a, 4d",
     "option_c": "1c, 2a, 3b, 4d",
     "option_d": "1d, 2b, 3c, 4a",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Comparado"
   },
   {
     "num": 224,
@@ -2196,8 +2236,8 @@
     "option_b": "Ausencia de análisis comparado",
     "option_c": "Exceso de legislación",
     "option_d": "Problema constitucional",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Comparado"
   },
   {
     "num": 225,
@@ -2206,8 +2246,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 3",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Comparado"
   },
   {
     "num": 226,
@@ -2216,8 +2256,8 @@
     "option_b": "Residualidad",
     "option_c": "Ordinaria",
     "option_d": "Ninguna",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Comparado"
   },
   {
     "num": 227,
@@ -2226,8 +2266,8 @@
     "option_b": "Solicitud verbal",
     "option_c": "Petición simple sin respaldo",
     "option_d": "Solicitud únicamente privada",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Comparado"
   },
   {
     "num": 228,
@@ -2236,8 +2276,8 @@
     "option_b": "Solicitud genérica",
     "option_c": "Solicitud pública",
     "option_d": "Ninguna",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Comparado"
   },
   {
     "num": 229,
@@ -2246,8 +2286,8 @@
     "option_b": "La naturaleza es sujeto de derechos",
     "option_c": "Solo el Estado tiene derechos",
     "option_d": "La naturaleza tiene protección administrativa únicamente",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Comparado"
   },
   {
     "num": 230,
@@ -2256,8 +2296,8 @@
     "option_b": "Es subsidiaria",
     "option_c": "Es ordinaria",
     "option_d": "Ninguna de las anteriores",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Comparado"
   },
   {
     "num": 231,
@@ -2266,8 +2306,8 @@
     "option_b": "Se resuelven mediante auto o resolución, no sentencia",
     "option_c": "Son equivalentes a una acción de protección",
     "option_d": "No requieren decisión judicial",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 232,
@@ -2276,8 +2316,8 @@
     "option_b": "Toda información estatal es reservada",
     "option_c": "Solo es pública si lo decide la autoridad",
     "option_d": "Ninguna",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 233,
@@ -2286,8 +2326,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 234,
@@ -2296,8 +2336,8 @@
     "option_b": "Es una ley ordinaria",
     "option_c": "Es un reglamento",
     "option_d": "Es un acuerdo político",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 235,
@@ -2306,8 +2346,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 236,
@@ -2316,8 +2356,8 @@
     "option_b": "Pertenece a la Función Judicial",
     "option_c": "Es parte del poder legislativo",
     "option_d": "Es un órgano administrativo",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 237,
@@ -2326,8 +2366,8 @@
     "option_b": "Hans Kelsen",
     "option_c": "Montesquieu",
     "option_d": "Ferrajoli",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 238,
@@ -2336,8 +2376,8 @@
     "option_b": "Centralización absoluta",
     "option_c": "Autoridad única",
     "option_d": "Ninguna",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 239,
@@ -2346,8 +2386,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 240,
@@ -2356,8 +2396,8 @@
     "option_b": "Es un proceso administrativo",
     "option_c": "Es un recurso judicial",
     "option_d": "Es un mecanismo legislativo",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 241,
@@ -2366,8 +2406,8 @@
     "option_b": "Sistema positivo",
     "option_c": "Centralización normativa",
     "option_d": "Ninguna",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 242,
@@ -2376,8 +2416,8 @@
     "option_b": "Código Napoleónico",
     "option_c": "Leyes de Indias",
     "option_d": "Carta de los Derechos de la Naturaleza",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 243,
@@ -2386,8 +2426,8 @@
     "option_b": "La ley",
     "option_c": "La jurisprudencia",
     "option_d": "Todas",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 244,
@@ -2396,8 +2436,8 @@
     "option_b": "Organización del Estado",
     "option_c": "Funciones públicas",
     "option_d": "Competencias",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 245,
@@ -2406,8 +2446,8 @@
     "option_b": "Derechos fundamentales",
     "option_c": "Garantías jurisdiccionales",
     "option_d": "Todas",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 246,
@@ -2416,8 +2456,8 @@
     "option_b": "1a, 2b, 3c, 4d",
     "option_c": "1d, 2c, 3a, 4b",
     "option_d": "1b, 2a, 3c, 4d",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 247,
@@ -2426,8 +2466,8 @@
     "option_b": "2, 1, 3, 4",
     "option_c": "1, 3, 2, 4",
     "option_d": "1, 2, 4, 3",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 248,
@@ -2436,8 +2476,8 @@
     "option_b": "Acción de protección",
     "option_c": "Acción de acceso a la información pública",
     "option_d": "Acción extraordinaria",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 249,
@@ -2446,8 +2486,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 250,
@@ -2456,8 +2496,8 @@
     "option_b": "Debe ser evolutiva y garantista",
     "option_c": "Debe ser literal únicamente",
     "option_d": "No admite interpretación",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 251,
@@ -2466,8 +2506,8 @@
     "option_b": "Los jueces pueden inaplicar normas en casos concretos mediante control difuso",
     "option_c": "Solo el Ejecutivo ejerce control constitucional",
     "option_d": "Ninguna autoridad puede ejercer control constitucional",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 252,
@@ -2476,8 +2516,8 @@
     "option_b": "Corte Constitucional",
     "option_c": "Tribunal Constitucional",
     "option_d": "Ninguna",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 253,
@@ -2486,8 +2526,8 @@
     "option_b": "In dubio pro legislatore",
     "option_c": "In dubio pro reo",
     "option_d": "In dubio pro operario",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 254,
@@ -2496,8 +2536,8 @@
     "option_b": "Estado de normalidad",
     "option_c": "Estado administrativo",
     "option_d": "Ninguna",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 255,
@@ -2506,8 +2546,8 @@
     "option_b": "Utilidad, lógica y pertinencia",
     "option_c": "Legalidad, oportunidad y mérito",
     "option_d": "Ninguna",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 256,
@@ -2516,8 +2556,8 @@
     "option_b": "Realiza control formal, material y automático",
     "option_c": "Solo controla si existe demanda",
     "option_d": "No tiene competencia",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 257,
@@ -2526,8 +2566,8 @@
     "option_b": "El toque de queda es una medida dentro del estado de excepción, no un estado autónomo",
     "option_c": "Es un derecho fundamental",
     "option_d": "No tiene base constitucional",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 258,
@@ -2536,8 +2576,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 259,
@@ -2546,8 +2586,8 @@
     "option_b": "Es la Carta Magna que contiene derechos y obligaciones",
     "option_c": "Es un reglamento supremo",
     "option_d": "Es una Carta Fundamental de derechos, delitos y deberes",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 260,
@@ -2556,8 +2596,8 @@
     "option_b": "La ley es superior",
     "option_c": "La jurisprudencia es superior",
     "option_d": "Todas",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 261,
@@ -2566,8 +2606,8 @@
     "option_b": "Solo se suspende temporalmente",
     "option_c": "Se mantiene vigente",
     "option_d": "Ninguna",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 262,
@@ -2576,8 +2616,8 @@
     "option_b": "En caso de duda se presume la constitucionalidad de la norma",
     "option_c": "Se favorece al ciudadano",
     "option_d": "Se elimina la norma",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 263,
@@ -2586,8 +2626,8 @@
     "option_b": "Obliga a declarar inconstitucionalidad",
     "option_c": "Elimina la norma",
     "option_d": "Sustituye al legislador",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 264,
@@ -2596,8 +2636,8 @@
     "option_b": "Centralización del poder",
     "option_c": "Supremacía del Ejecutivo",
     "option_d": "Ninguna",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 265,
@@ -2606,8 +2646,8 @@
     "option_b": "Solo el Presidente",
     "option_c": "Solo jueces",
     "option_d": "Solo abogados",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 266,
@@ -2616,8 +2656,8 @@
     "option_b": "No requiere afectación directa",
     "option_c": "Solo aplica a funcionarios",
     "option_d": "Es restringida",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 267,
@@ -2626,8 +2666,8 @@
     "option_b": "Actos normativos y administrativos de efectos individuales",
     "option_c": "Actos normativos y de simple administración con de efectos generales",
     "option_d": "Ninguna",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 268,
@@ -2636,8 +2676,8 @@
     "option_b": "Puede existir inconstitucionalidad total, parcial o interpretación conforme",
     "option_c": "Solo se archiva",
     "option_d": "No produce efectos",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 269,
@@ -2646,8 +2686,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 270,
@@ -2656,8 +2696,8 @@
     "option_b": "Derecho de petición",
     "option_c": "Derecho de opinión",
     "option_d": "Ninguna",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 271,
@@ -2666,8 +2706,8 @@
     "option_b": "1c, 2b, 3d, 4a",
     "option_c": "1b, 2d, 3c, 4a",
     "option_d": "1a, 2c, 3b, 4d",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 272,
@@ -2676,8 +2716,8 @@
     "option_b": "Elevar una consulta de norma a la Corte Constitucional",
     "option_c": "Aplicarla porque la Constitución lo obliga",
     "option_d": "Ignorarla",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 273,
@@ -2686,8 +2726,8 @@
     "option_b": "Tiene límites materiales y temporales",
     "option_c": "No requiere control",
     "option_d": "Es indefinido",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 274,
@@ -2696,8 +2736,8 @@
     "option_b": "Garantizar la supremacía de la Constitución",
     "option_c": "Ejecutar políticas públicas",
     "option_d": "Legislar",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 275,
@@ -2706,8 +2746,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Constitucional"
   },
   {
     "num": 276,
@@ -2716,8 +2756,8 @@
     "option_b": "La organización esencial y primera organización social del desarrollo humano.",
     "option_c": "Un grupo basado únicamente en intereses patrimoniales.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 277,
@@ -2726,8 +2766,8 @@
     "option_b": "El derecho a la autonomía absoluta sin deberes sociales.",
     "option_c": "Derecho a la protección de la sociedad y del Estado.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho de Familia"
   },
   {
     "num": 278,
@@ -2736,8 +2776,8 @@
     "option_b": "Medir la distancia geográfica entre los miembros de la familia.",
     "option_c": "Determinar el nivel de ingresos de los parientes.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho de Familia"
   },
   {
     "num": 279,
@@ -2746,8 +2786,8 @@
     "option_b": "Las distancias o espacios existentes entre dos parientes.",
     "option_c": "El número de hijos en una familia nuclear.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 280,
@@ -2756,8 +2796,8 @@
     "option_b": "Padres e hijos.",
     "option_c": "Hermanos y tíos.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 281,
@@ -2766,8 +2806,8 @@
     "option_b": "Tercer grado de consanguinidad.",
     "option_c": "Segundo grado de consanguinidad.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho de Familia"
   },
   {
     "num": 282,
@@ -2776,8 +2816,8 @@
     "option_b": "Segundo grado de afinidad.",
     "option_c": "Tercer grado de afinidad.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho de Familia"
   },
   {
     "num": 283,
@@ -2786,8 +2826,8 @@
     "option_b": "Los hermanos del cónyuge.",
     "option_c": "Los tíos del cónyuge.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 284,
@@ -2796,8 +2836,8 @@
     "option_b": "El conjunto de derechos que tienen los padres sobre sus hijos no emancipados.",
     "option_c": "La facultad de los hijos de administrar sus propios bienes.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 285,
@@ -2806,8 +2846,8 @@
     "option_b": "Como un deber exclusivo de la madre hasta los 12 años.",
     "option_c": "Como un conjunto de derechos y obligaciones referentes al cuidado y desarrollo integral de los padres relativos a sus hijos",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho de Familia"
   },
   {
     "num": 286,
@@ -2816,8 +2856,8 @@
     "option_b": "La patria potestad es el conjunto global de derechos y obligaciones; la tenencia es el cuidado físico y crianza de uno de los progenitores",
     "option_c": "La tenencia solo la ejerce el Estado.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 287,
@@ -2826,8 +2866,8 @@
     "option_b": "\"Los padres están obligados al cuidado de sus hijos\".",
     "option_c": "\"La patria potestad de los que no han cumplido doce años se confiará a la madre\" y \"se preferirá a la madre\".,",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho de Familia"
   },
   {
     "num": 288,
@@ -2836,8 +2876,8 @@
     "option_b": "En el interés superior del niño, la igualdad y la corresponsabilidad parental.",
     "option_c": "En el interés superior del niño, y la identidad parental",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 289,
@@ -2846,8 +2886,8 @@
     "option_b": "25 años",
     "option_c": "21 años",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 290,
@@ -2856,8 +2896,8 @@
     "option_b": "No, solo después del parto.",
     "option_c": "C) Solo si están casadas legalmente.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho de Familia"
   },
   {
     "num": 291,
@@ -2866,8 +2906,8 @@
     "option_b": "Es obligatoria para el Juez, a menos que sea manifiestamente perjudicial para su desarrollo.,",
     "option_c": "No se toma en cuenta hasta que cumplan 18 años.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 292,
@@ -2876,8 +2916,8 @@
     "option_b": "Obligaba a los padres a vivir con sus hijos",
     "option_c": "Perpetuaba estereotipos de género sobre el rol de cuidado \"natural\" de la mujer",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho de Familia"
   },
   {
     "num": 293,
@@ -2886,8 +2926,8 @@
     "option_b": "El interés superior del niño",
     "option_c": "El bienestar emocional exclusivo de la madre y sus hijos.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 294,
@@ -2896,8 +2936,8 @@
     "option_b": "El pago de deudas de los padres.",
     "option_c": "La carrera universitaria futura del menor.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho de Familia"
   },
   {
     "num": 295,
@@ -2906,8 +2946,8 @@
     "option_b": "El Juez, de acuerdo a las reglas generales.",
     "option_c": "El pariente con más estabilidad económica que garantice los derechos del niño.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 296,
@@ -2916,8 +2956,8 @@
     "option_b": "Tercer grado de afinidad.",
     "option_c": "Segundo grado de afinidad.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 297,
@@ -2926,8 +2966,8 @@
     "option_b": "Derecho a ser escuchado y a que su opinión sea valorada.",
     "option_c": "Derecho al libre tránsito.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho de Familia"
   },
   {
     "num": 298,
@@ -2936,8 +2976,8 @@
     "option_b": "Régimen supervisado exclusivo",
     "option_c": "Régimen flexible bajo supervisión parental",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho de Familia"
   },
   {
     "num": 299,
@@ -2946,18 +2986,518 @@
     "option_b": "LA citación al demandado",
     "option_c": "La presentación de la demanda",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho de Familia"
   },
   {
     "num": 300,
     "question": "El incidente de rebaja de pensión surte efecto desde:",
+    "option_a": "La resolución judicial",
+    "option_b": "La citación al demandado",
+    "option_c": "La presentación de la demanda",
+    "option_d": "",
+    "correct": "c",
+    "category": "Derecho de Familia"
+  },
+  {
+    "num": 301,
+    "question": "Según la Constitución de 2008, ¿cuáles son considerados deberes del Estado en materia mercantil, en el marco del Derecho Internacional Privado (DIP)?",
+    "option_a": "Establecer aranceles preferenciales para productos extranjeros",
+    "option_b": "Garantizar la soberanía nacional, promover la integración latinoamericana y caribeña, y asegurar la vigencia de los derechos económicos.",
+    "option_c": "Fomentar la inversión extranjera sin restricciones",
+    "option_d": "Proteger exclusivamente a las empresas nacionales de la competencia internacional",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 302,
+    "question": "Según el texto, ¿cuál es el antecedente principal de los problemas del Derecho Internacional Privado (DIP)?",
+    "option_a": "La falta de tratados internacionales.",
+    "option_b": "La existencia de relaciones jurídicas que pueden estar sometidas a la ley de más de un Estado",
+    "option_c": "La divergencia de opiniones doctrinales.",
+    "option_d": "La inexistencia de legislación interna en los estados.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 303,
+    "question": "Según Sánchez de Bustamante, el DIP busca principalmente:",
+    "option_a": "Establecer un sistema legal único para todos los estados.",
+    "option_b": "Resolver conflictos entre leyes nacionales e internacionales.",
+    "option_c": "Determinar los límites en el espacio de la competencia legislativa de los Estados",
+    "option_d": "Unificar los códigos civiles de los diferentes países.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 304,
+    "question": "La definición de DIP propuesta por Yaguas Messia, según Miaja de la Muela, abarca aspectos:",
+    "option_a": "Exclusivamente privados",
+    "option_b": "Exclusivamente públicos",
+    "option_c": "Tanto públicos como privados",
+    "option_d": "Principalmente económicos.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 305,
+    "question": "¿Cuál es el contenido fundamental del concepto tradicional del DIP según el texto?",
+    "option_a": "Los derechos de los extranjeros.",
+    "option_b": "La determinación de la nacionalidad",
+    "option_c": "Los conflictos de leyes: los límites espaciales de la ley",
+    "option_d": "La tutela de los derechos adquiridos.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 306,
+    "question": "Según el texto, ¿cuáles son los capítulos clásicos del Derecho Internacional Privado?",
+    "option_a": "Nacionalidad, contratos internacionales y derecho procesal.",
+    "option_b": "Derechos humanos, inversión extranjera y conflictos de jurisdicción",
+    "option_c": "Nacionalidad, derechos de los extranjeros y conflictos de leyes",
+    "option_d": "Derecho de familia, sucesiones y obligaciones.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 307,
+    "question": "El estudio del DIP puede abordarse desde las siguientes perspectivas, según el texto",
+    "option_a": "Histórica y comparada.",
+    "option_b": "Sociológica y económica",
+    "option_c": "Como Derecho Natural y bajo el aspecto positivo",
+    "option_d": "Filosófica y política.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 308,
+    "question": "¿Qué se entiende por la \"parte general\" del DIP según el texto?",
+    "option_a": "El estudio de las normas específicas de cada rama del derecho.",
+    "option_b": "El análisis del derecho especial ecuatoriano.",
+    "option_c": "Las normas de mayor extensión, aplicables a muchas materias",
+    "option_d": "Los tratados internacionales y su aplicación.",
+    "correct": "c",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 309,
+    "question": "Según el texto, ¿cuáles son fuentes del Derecho Internacional Privado normalmente admitidas?",
+    "option_a": "La costumbre internacional y los principios generales del derecho",
+    "option_b": "La legislación interna de los estados y los tratados internacionales",
+    "option_c": "Las decisiones judiciales de tribunales internacionales y la equidad.",
+    "option_d": "La jurisprudencia de tribunales extranjeros y la analogía.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 310,
+    "question": "El Estatuto del Tribunal Internacional de Justicia señala como fuentes de obligatoria aplicación para sus sentencias:",
+    "option_a": "La legislación interna de los estados y la doctrina.",
+    "option_b": "La jurisprudencia nacional y los tratados bilaterales.",
+    "option_c": "Los convenios internacionales, la costumbre internacional y los principios generales del Derecho",
+    "option_d": "Las disposiciones de organismos internacionales y la jurisprudencia nacional",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 311,
+    "question": "La nacionalidad se define como un vínculo jurídico y político que relaciona a las personas con un Estado, lo cual origina:",
+    "option_a": "La igualdad de derechos entre nacionales y extranjeros.",
+    "option_b": "La aplicación uniforme de las leyes en todo el territorio.",
+    "option_c": "Un estatuto que les distingue de la situación de los extranjeros a los nacionales",
+    "option_d": "La exención de obligaciones fiscales.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 312,
+    "question": "¿cuál es una razón fundamental por la que el estudio de la nacionalidad se incluye en el Derecho Internacional Privado (DIP)?",
+    "option_a": "Porque es un tema exclusivo del Derecho Constitucional.",
+    "option_b": "Porque elimina la necesidad de tratados internacionales.",
+    "option_c": "Porque distingue a nacionales y extranjeros que, al relacionarse jurídicamente, originan conflictos de leyes",
+    "option_d": "Porque unifica los registros civiles de los diferentes países.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 313,
+    "question": "¿cuáles son las dos principales orientaciones doctrinales sobre el fundamento jurídico de la nacionalidad?",
+    "option_a": "Territorialista y personalista",
+    "option_b": "Contractual y de la soberanía del Estado.",
+    "option_c": "Consuetudinaria y jurisprudencial.",
+    "option_d": "Ius sanguinis e ius soli.",
+    "correct": "a",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 314,
+    "question": "el sistema del ius sanguinis para determinar la nacionalidad tiene su origen en",
+    "option_a": "El derecho feudal",
+    "option_b": "El Derecho Romano antiguo y se renovó en la Edad Media con los pueblos germanos",
+    "option_c": "Las constituciones modernas americanas",
+    "option_d": "Los tratados internacionales del siglo XX.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 315,
+    "question": "¿qué principio para la transmisión de la nacionalidad de origen recomendó el Instituto de Derecho Internacional en sus sesiones de Cambridge y Venecia?",
+    "option_a": "La transmisión indefinida en el extranjero.",
+    "option_b": "La obligatoriedad de adquirir la nacionalidad del país de residencia.",
+    "option_c": "Que la nacionalidad de origen no puede transmitirse indefinidamente en el extranjero.",
+    "option_d": "La aplicación exclusiva del ius soli para los descendientes de emigrantes.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 316,
+    "question": "¿qué sistema de determinación de la nacionalidad es patrocinado principalmente por los países de inmigración?",
+    "option_a": "El sistema mixto.",
+    "option_b": "El principio del ius soli.",
+    "option_c": "El principio del ius sanguinis.",
+    "option_d": "El principio de la nacionalidad automática.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 317,
+    "question": "la doctrina de la \"nacionalidad automática\" de Zevallos considera la nacionalidad como el conjunto de derechos y deberes de orden político que dependen de:",
+    "option_a": "El lugar de nacimiento en el territorio del Estado.",
+    "option_b": "La ascendencia de los padres nacionales.",
+    "option_c": "La vinculación real y aún sentimental de un individuo con un país.",
+    "option_d": "La manifestación expresa de voluntad a través de la naturalización.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 318,
+    "question": "la doctrina de la \"ciudadanía automática\" propuesta por Orlando y Garay distingue entre nacionalidad, basada en el ius sanguinis, y ciudadanía, vinculada al:",
+    "option_a": "Lugar de nacimiento.",
+    "option_b": "Vínculo económico con el Estado.",
+    "option_c": "Ejercicio de los derechos políticos.",
+    "option_d": "Cumplimiento de obligaciones militares.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 319,
+    "question": "una teoría para determinar la nacionalidad de las personas jurídicas la hace depender de",
+    "option_a": "La nacionalidad de la mayoría de sus accionistas",
+    "option_b": "El lugar donde se realizan principalmente sus actividades comerciales",
+    "option_c": "El lugar donde se constituyen las personas jurídicas",
+    "option_d": "La nacionalidad de su representante legal.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 320,
+    "question": "Según el punto 25 del texto y la información proporcionada sobre el Código Sánchez de Bustamante, ¿cuál de las siguientes categorías de personas jurídicas no presenta dificultad de calificación para el derecho ecuatoriano, ya que su nomenclatura es idéntica a la usada en Ecuador?",
+    "option_a": "Asociaciones",
+    "option_b": "Corporaciones y fundaciones",
+    "option_c": "Sociedades civiles, mercantiles o industriales que no sean anónimas.",
+    "option_d": "Sociedades anónimas",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 321,
+    "question": "¿En qué consiste el reenvío como forma de reconocimiento de la ley extranjera?",
+    "option_a": "Cuando se aplica la ley de un tercer Estado, (reenvío de segundo grado), se está aplicando una ley extranjera por la doble causa de la remisión de la ley nacional.",
+    "option_b": "Cuando se presenta el reconocimiento de los derechos adquiridos, se reduce en ciertos casos a la remisión de la ley nacional, o a la aplicación de los tratados o de los principios generales del derecho.",
+    "option_c": "Cuando el propio derecho interno de un Estado se remite con frecuencia a otras leyes extranjeras. La remisión puede ser expresa,",
+    "option_d": "Cuando los tratados internacionales eliminan prácticamente los conflictos de leyes,",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 322,
+    "question": "La remisión de normas a la norma extranjera puede operar de dos modos:",
+    "option_a": "de forma expresa, 2) de forma tácita",
+    "option_b": "de forma expresa, 2) de forma convencional",
+    "option_c": "de forma convencional, 2) de forma tácita",
+    "option_d": "por remisión, 2) por reenvío",
+    "correct": "a",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 323,
+    "question": "¿Cuál es el principal problema que surge de la remisión tácita de la norma?",
+    "option_a": "La aparición de conflictos y controversias sobre el alcance de la norma internacional o si realmente hubo remisión de norma en una materia no específica.",
+    "option_b": "La remisión de la norma tácita genera efectos específicos sobre un determinado cuerpo de leyes nacionales que quedan sin efecto, anteponiéndose la ley extranjera",
+    "option_c": "La remisión tácita significa la aplicación de principios internacionales, mismos que llegan a tener mayor jerarquía que la norma constitucional local.",
+    "option_d": "La remisión de la norma es el reconocimiento de derechos que un ordenamiento jurídico no ha reconocido en su ordenamiento local, generando posibles vulneraciones a la seguridad jurídica.",
+    "correct": "a",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 324,
+    "question": "¿En qué caso de aplicación de la ley extranjera se puede presentar este elemento? \"hace aplicable el derecho extranjero en ciertos casos no previstos ni por los tratados ni por las leyes internas.\"",
+    "option_a": "Remisión de la ley nacional",
+    "option_b": "Reconocimiento de derechos internacionales adquiridos",
+    "option_c": "Reenvío",
+    "option_d": "Aplicación de los principios generales del Derecho",
+    "correct": "c",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 325,
+    "question": "¿Cuál es el objeto principal del Derecho Internacional Privado?",
+    "option_a": "Regular las relaciones entre Estados soberanos",
+    "option_b": "Establecer normas penales internacionales",
+    "option_c": "Determinar la ley aplicable y la jurisdicción en relaciones privadas con elementos extranjeros",
+    "option_d": "Crear tratados internacionales obligatorios",
+    "correct": "c",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 326,
+    "question": "Según Antonio Gramsci, ¿qué aspecto es fundamental para cambiar el mundo desde el plano cultural, a diferencia del enfoque marxista en los modos de producción?",
+    "option_a": "La implementación de una dictadura del proletariado",
+    "option_b": "El control directo y violento del Estado",
+    "option_c": "La crítica al sistema y la acción en el plano cultural.",
+    "option_d": "La acumulación de capital económico.",
+    "correct": "c",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 327,
+    "question": "¿Qué concepto utiliza Gramsci para referirse al conjunto de valores, ideas y creencias que imponen una visión de cómo debe ser el mundo y protegen la dominación de un grupo sobre otro?",
+    "option_a": "Infraestructura",
+    "option_b": "Superestructura",
+    "option_c": "Hegemonía",
+    "option_d": "Anomia.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 328,
+    "question": "De acuerdo con Gramsci, ¿cuál de las siguientes es un ejemplo de una idea hegemónica que puede ocultar una relación de dominación?",
+    "option_a": "El derecho a la propiedad intelectual.",
+    "option_b": "La importancia de la participación ciudadana.",
+    "option_c": "La afirmación de que “la mujer puede prestar atención a muchas cosas al mismo tiempo”",
+    "option_d": "La defensa de la libertad de expresión.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 329,
+    "question": "¿Cuál es el método que propone Gramsci para que las clases oprimidas se defiendan contra la dominación cultural, sin necesidad de una revolución armada?",
+    "option_a": "La lucha económica en los sindicatos",
+    "option_b": "La toma del poder político por la fuerza.",
+    "option_c": "La \"contrahegemonía\", construyendo valores e ideas contrarias al sentido común dominante.",
+    "option_d": "La supresión de los medios de comunicación.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 330,
+    "question": "Michel Foucault afirma que el poder no es algo que se posea, sino algo que se ejerce. ¿Cómo describe la naturaleza de este ejercicio del poder?",
+    "option_a": "Es un mandato vertical que siempre impone la autoridad estatal",
+    "option_b": "Es una fuerza concentrada en el sillón presidencial o en la corona.",
+    "option_c": "Es una \"trama de poder microscópico, capilar\" que se reproduce en cada relación social.",
+    "option_d": "Se limita a la represión y la coacción directa sobre los ciudadanos.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 331,
+    "question": "Foucault introduce el concepto de \"poder pastoral\" para explicar cómo las personas se comportan bien sin necesidad de ser forzadas. Esto se debe a que:",
+    "option_a": "Son controladas directamente por el Estado",
+    "option_b": "Reciben castigos físicos por desviarse de la norma",
+    "option_c": "Interiorizan un \"juez interior\" y adoptan las ideas que la mayoría considera correctas y normales",
+    "option_d": "Son manipuladas por líderes carismáticos.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 332,
+    "question": "La tríada \"verdad-saber-poder\" de Michel Foucault sugiere que:",
+    "option_a": "La verdad siempre está separada del poder y del saber.",
+    "option_b": "El saber científico es independiente de las estructuras de poder.",
+    "option_c": "Estos tres elementos están interconectados y se retroalimentan, siendo el poder funcional a las clases dominantes porque las verdades y saberes de una época suelen convenirles.",
+    "option_d": "El poder es el único elemento que determina la verdad y el saber.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 333,
+    "question": "Según Foucault, las sociedades modernas crean individuos \"normalizados\". ¿Cómo se logra esto?",
+    "option_a": "A través de la coerción directa y la fuerza policial constante.",
+    "option_b": "Por medio de una estricta planificación económica estatal",
+    "option_c": "Mediante la enseñanza en diversas instituciones (escuela, familia, iglesia) que moldean al individuo para cumplir las normas y adaptarse.",
+    "option_d": "Exclusivamente a través de la manipulación de los medios de comunicación.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 334,
+    "question": "Además del capital económico (dinero), ¿qué otros dos tipos de capital \"simbólico\" identifica Pierre Bourdieu que son fundamentales en la posición social de un individuo",
+    "option_a": "Capital político y capital de infraestructura.",
+    "option_b": "Capital biológico y capital emocional",
+    "option_c": "Capital cultural y capital social.",
+    "option_d": "Capital productivo y capital de consumo.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 335,
+    "question": "El \"habitus\", concepto clave de Bourdieu, se refiere a",
+    "option_a": "Un conjunto de leyes escritas que regulan el comportamiento social.",
+    "option_b": "La capacidad innata de las personas para adaptarse a cualquier entorno.",
+    "option_c": "Un esquema generativo inconsciente, producto de la interiorización de la estructura social, que moldea los gustos, pensamientos y acciones de los individuos de una misma clase social.",
+    "option_d": "Un conflicto constante entre diferentes grupos sociales por el poder.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 336,
+    "question": "¿Cómo explica Bourdieu que los jóvenes, al tener menos capital específico, suelen inclinarse por \"estrategias de subversión\" en los campos sociales",
+    "option_a": "Porque no han sido socializados correctamente en las normas dominantes",
+    "option_b": "Porque poseen una naturaleza más rebelde e impulsiva",
+    "option_c": "Porque monopolizan menos capital específico y, para entrar en el juego social, buscan modificar algunas de sus pautas.",
+    "option_d": "Porque buscan romper con todas las reglas establecidas sin un propósito claro.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 337,
+    "question": "Zygmunt Bauman utiliza las metáforas de \"modernidad sólida\" (1900-1960) y \"modernidad líquida\" (actual) para describir los cambios sociales. ¿Cuál es una característica distintiva de la \"modernidad líquida\"?",
+    "option_a": "La estabilidad en las relaciones laborales y personales",
+    "option_b": "La construcción de instituciones duraderas e inquebrantables",
+    "option_c": "La fluidez, el movimiento constante y la adaptación, afectando la precariedad laboral y la fragilidad de los vínculos.",
+    "option_d": "La primacía de los dogmas religiosos sobre la razón.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 338,
+    "question": "En la \"modernidad líquida\", Bauman señala que las relaciones humanas se vuelven endebles y se aplica la \"lógica del consumo\". ¿A qué se refiere con esto?",
+    "option_a": "Que las personas ya no establecen relaciones significativas.",
+    "option_b": "Que las relaciones se basan en intercambios económicos directos.",
+    "option_c": "Que las personas \"comprarán y consumirán\" parejas, amistades y trabajos, cansándose y buscando algo nuevo rápidamente.",
+    "option_d": "Que la solidaridad social aumenta debido a la incertidumbre.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 339,
+    "question": "¿Cómo describe Zygmunt Bauman el papel del Estado en la \"modernidad líquida\" respecto a sus servicios públicos tradicionales?",
+    "option_a": "Se ha fortalecido y ha asumido más responsabilidades",
+    "option_b": "Ha desaparecido por completo, dejando un vacío de poder",
+    "option_c": "Se ha convertido en \"instituciones zombies\", donde sus servicios son ineficaces y el mercado ofrece soluciones alternativas.",
+    "option_d": "Mantiene su estructura sólida y centralizada.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 340,
+    "question": "En la modernidad líquida, ¿cómo han cambiado los líderes de masas y la naturaleza de la autoridad, según Bauman?",
+    "option_a": "Los líderes son figuras autoritarias que imponen su voluntad.",
+    "option_b": "La autoridad se ha centralizado aún más en el Estado",
+    "option_c": "Los grandes líderes son reemplazados por formas personalizadas de \"autoayuda\" y las autoridades seducen en lugar de mandar.",
+    "option_d": "Las figuras de autoridad son más estables y permanentes.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 341,
+    "question": "La transición de la \"modernidad sólida\" a la \"modernidad líquida\", según Bauman, se debe principalmente a:",
+    "option_a": "Los avances tecnológicos y la globalización.",
+    "option_b": "Un cambio masivo en la ideología política",
+    "option_c": "La conversión de los ciudadanos en consumidores por parte del mercado, aplicando la lógica del consumo a todos los ámbitos de la vida",
+    "option_d": "La disminución de la población mundial.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 342,
+    "question": "¿Qué se entiende por \"capital cultural\" en la teoría de Pierre Bourdieu?",
+    "option_a": "La cantidad de dinero acumulado por una persona.",
+    "option_b": "La red de contactos y relaciones sociales de un individuo.",
+    "option_c": "Los conocimientos, habilidades y refinamientos (ej. saber de arte, poseer un título profesional) que una persona posee y son valorados en un campo social.",
+    "option_d": "La capacidad de liderazgo y persuasión de un individuo.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 343,
+    "question": "Según Foucault, ¿qué función cumple el poder más allá de la represión?",
+    "option_a": "La acumulación de riquezas para la clase dominante.",
+    "option_b": "La consolidación de las monarquías absolutas.",
+    "option_c": "Moldear a las personas para que hagan lo que otros quieren \"de buena gana\", a través de mecanismos sutiles de control.",
+    "option_d": "Garantizar la igualdad de oportunidades en la sociedad.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 344,
+    "question": "¿Cuál de los siguientes no es considerado un \"sociólogo moderno\" en el contexto de la historia de la sociología del Derecho?",
+    "option_a": "Antonio Gramsci.",
+    "option_b": "Michel Foucault.",
+    "option_c": "Emile Durkheim.",
+    "option_d": "Zygmunt Bauman.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 345,
+    "question": "¿Cuál de los siguientes es considerado un \"sociólogo moderno\" en el contexto de la historia de la sociología jurídica?",
+    "option_a": "Emile Durkheim",
+    "option_b": "Karl Marx",
+    "option_c": "Antonio Gramsci",
+    "option_d": "Thomas Hobbes",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 346,
+    "question": "¿Qué factor es crucial para que el poder sea efectivo según autores como Ferrer?",
+    "option_a": "La riqueza de quien ejerce el poder.",
+    "option_b": "La capacidad física del que manda",
+    "option_c": "La legitimidad que los demás reconocen en quien ejerce el poder.",
+    "option_d": "La habilidad de manipular a los demás.",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 347,
+    "question": "¿Cuál debe ser el propósito de la sociología del derecho?",
+    "option_a": "El apoyo incondicional a las políticas de mercado",
+    "option_b": "La creación de nuevas leyes",
+    "option_c": "El conocimiento de las implicaciones sociedad/derecho y la solución de problemas de esta interacción",
+    "option_d": "La sustitución de la política tradicional",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 348,
+    "question": "¿Qué ocurre cuando las metas establecidas por la sociedad no pueden alcanzarse desde la posición social que se tiene, según Robert Merton?",
+    "option_a": "Las personas se conforman con lo que tienen",
+    "option_b": "Se generan nuevas normas y valores",
+    "option_c": "Se produce un sentimiento de anomia",
+    "option_d": "Se desestima el éxito económico como meta",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 349,
+    "question": "¿Qué significa \"anomia\" según Robert Merton?",
+    "option_a": "Conjunto de normas y valores compartidos por la mayoría",
+    "option_b": "Posición social de las personas en la pirámide social",
+    "option_c": "La falta de normas, interpretada como frustración y angustia",
+    "option_d": "Esfuerzo por alcanzar objetivos socialmente aprobados",
+    "correct": "b",
+    "category": "Derecho Internacional"
+  },
+  {
+    "num": 350,
+    "question": "Según Sykes y Matza, ¿cómo se considera el delincuente en relación con los valores fundamentales de la sociedad?",
     "option_a": "El delincuente no tiene conocimiento de los valores honrados",
     "option_b": "El delincuente siempre se jacta en público de sus actividades ilícitas",
     "option_c": "El delincuente comparte los valores fundamentales de la sociedad pero decide infringirlos",
     "option_d": "El delincuente desconoce completamente las normas sociales",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "b",
+    "category": "Derecho Internacional"
   },
   {
     "num": 351,
@@ -2966,8 +3506,8 @@
     "option_b": "Muebles e inmuebles",
     "option_c": "Fungibles y no fungibles",
     "option_d": "Principales y accesorios",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Civil"
   },
   {
     "num": 352,
@@ -2976,8 +3516,8 @@
     "option_b": "Semovientes",
     "option_c": "Inmuebles",
     "option_d": "Fungibles",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Civil"
   },
   {
     "num": 353,
@@ -2986,8 +3526,8 @@
     "option_b": "Cosas que pueden trasladarse por una fuerza externa",
     "option_c": "Cosas que no pueden transportarse de un lugar a otro",
     "option_d": "Derechos personales sobre una cosa",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Civil"
   },
   {
     "num": 354,
@@ -2996,8 +3536,8 @@
     "option_b": "Bienes nacionales de uso público",
     "option_c": "Inmuebles por destinación o adherencia",
     "option_d": "Cosas incorporales",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Civil"
   },
   {
     "num": 355,
@@ -3006,8 +3546,8 @@
     "option_b": "Frutos pendientes",
     "option_c": "Frutos naturales",
     "option_d": "Frutos percibidos",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Civil"
   },
   {
     "num": 356,
@@ -3016,8 +3556,8 @@
     "option_b": "Incorporales",
     "option_c": "Inmuebles",
     "option_d": "Fungibles",
-    "category": "Derecho Civil",
-    "correct": "d"
+    "correct": "d",
+    "category": "Derecho Civil"
   },
   {
     "num": 357,
@@ -3026,8 +3566,8 @@
     "option_b": "El que se tiene sobre una cosa sin respecto a determinada persona",
     "option_c": "La facultad de exigir una obligación de dar o hacer",
     "option_d": "Un contrato de compraventa inscrito",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Civil"
   },
   {
     "num": 358,
@@ -3036,8 +3576,8 @@
     "option_b": "El derecho de servidumbre activa",
     "option_c": "El derecho de usufructo",
     "option_d": "El que tiene un prestamista contra su deudor",
-    "category": "Derecho Civil",
-    "correct": "d"
+    "correct": "d",
+    "category": "Derecho Civil"
   },
   {
     "num": 359,
@@ -3046,8 +3586,8 @@
     "option_b": "Propiedad",
     "option_c": "Mera tenencia",
     "option_d": "Usufructo",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Civil"
   },
   {
     "num": 360,
@@ -3056,8 +3596,8 @@
     "option_b": "No se puede disponer de la cosa",
     "option_c": "Solo puede ejercerse sobre bienes muebles",
     "option_d": "Requiere siempre la autorización del Estado",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Civil"
   },
   {
     "num": 361,
@@ -3066,8 +3606,8 @@
     "option_b": "Bienes del Estado",
     "option_c": "Bienes nacionales de uso público",
     "option_d": "Bienes de propiedad privada",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Civil"
   },
   {
     "num": 362,
@@ -3076,8 +3616,8 @@
     "option_b": "Bienes de uso público",
     "option_c": "Bienes mostrencos",
     "option_d": "Bienes del Estado o fiscales",
-    "category": "Derecho Civil",
-    "correct": "d"
+    "correct": "d",
+    "category": "Derecho Civil"
   },
   {
     "num": 363,
@@ -3086,8 +3626,8 @@
     "option_b": "Venta, permuta, donación y arrendamiento",
     "option_c": "Posesión, tenencia y usufructo",
     "option_d": "Inscripción, registro y protocolización",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Civil"
   },
   {
     "num": 364,
@@ -3096,8 +3636,8 @@
     "option_b": "Tradición",
     "option_c": "Prescripción",
     "option_d": "Ocupación",
-    "category": "Derecho Civil",
-    "correct": "d"
+    "correct": "d",
+    "category": "Derecho Civil"
   },
   {
     "num": 365,
@@ -3106,8 +3646,8 @@
     "option_b": "Ocupación",
     "option_c": "Accesión",
     "option_d": "Sucesión",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Civil"
   },
   {
     "num": 366,
@@ -3116,8 +3656,8 @@
     "option_b": "Es la tenencia de una cosa con ánimo de señor y dueño",
     "option_c": "Es el transcurso del tiempo para ganar un derecho",
     "option_d": "Es el modo por el cual el dueño de una cosa pasa a serlo de lo que ella produce",
-    "category": "Derecho Civil",
-    "correct": "d"
+    "correct": "d",
+    "category": "Derecho Civil"
   },
   {
     "num": 367,
@@ -3126,8 +3666,8 @@
     "option_b": "En la entrega que el dueño hace de una cosa a otro, habiendo facultad e intención de transferir",
     "option_c": "En la ocupación material de un bien raíz",
     "option_d": "En la sentencia judicial de un juez civil",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Civil"
   },
   {
     "num": 368,
@@ -3136,8 +3676,8 @@
     "option_b": "Que la cosa sea un bien nacional",
     "option_c": "Un título translativo de dominio, como venta, permuta o donación",
     "option_d": "La mera tenencia de la cosa",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Civil"
   },
   {
     "num": 369,
@@ -3146,8 +3686,18 @@
     "option_b": "La tenencia de una cosa determinada con ánimo de señor o dueño",
     "option_c": "El uso de un bien por permiso del propietario",
     "option_d": "La propiedad inscrita de un bien mueble",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Civil"
+  },
+  {
+    "num": 370,
+    "question": "¿Qué es la posesión según el Código Civil?",
+    "option_a": "La entrega de una cosa reconociendo dominio ajeno",
+    "option_b": "La tenencia de una cosa determinada con ánimo de señor o dueño",
+    "option_c": "El uso de un bien por permiso del propietario",
+    "option_d": "La propiedad inscrita de un bien mueble",
+    "correct": "b",
+    "category": "Derecho Civil"
   },
   {
     "num": 371,
@@ -3156,8 +3706,8 @@
     "option_b": "Se presume que es un mero tenedor",
     "option_c": "Se presume que actúa de mala fe",
     "option_d": "No tiene derecho a la protección de la ley",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Civil"
   },
   {
     "num": 372,
@@ -3166,8 +3716,8 @@
     "option_b": "Mera tenencia y justo título",
     "option_c": "Justo título y buena fe",
     "option_d": "Ánimo de señor y dueño únicamente",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Civil"
   },
   {
     "num": 373,
@@ -3176,8 +3726,8 @@
     "option_b": "Tener la cosa con ánimo de dueño",
     "option_c": "Poseer la cosa con justo título",
     "option_d": "Haber adquirido la cosa por prescripción",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Civil"
   },
   {
     "num": 374,
@@ -3186,8 +3736,8 @@
     "option_b": "Corpus y animus",
     "option_c": "Uso y goce",
     "option_d": "Título y modo",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Civil"
   },
   {
     "num": 375,
@@ -3196,8 +3746,8 @@
     "option_b": "La tenencia de una cosa con ánimo de dueño",
     "option_c": "Un contrato de compraventa a plazos",
     "option_d": "Un derecho real de gozar de una cosa con cargo de conservar su forma y sustancia",
-    "category": "Derecho Civil",
-    "correct": "d"
+    "correct": "d",
+    "category": "Derecho Civil"
   },
   {
     "num": 376,
@@ -3206,8 +3756,8 @@
     "option_b": "El Derecho Penal mantiene su función de tutela de bienes jurídicos, pero su legitimidad depende de limitar racionalmente la violencia estatal mediante principios constitucionales.",
     "option_c": "El Derecho Penal se convierte exclusivamente en un instrumento de resocialización y deja sin efecto la necesidad de sancionar conductas graves.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 377,
@@ -3216,8 +3766,8 @@
     "option_b": "Que su intensidad justifica que la política criminal prescinda de límites cuando exista alta percepción social de inseguridad.",
     "option_c": "Que basta con la existencia de una ley penal formal para considerar constitucionalmente válido cualquier castigo impuesto por el Estado.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 378,
@@ -3226,8 +3776,8 @@
     "option_b": "Porque toda conducta socialmente inconveniente debe ser convertida en delito si la opinión pública la percibe como ofensiva.",
     "option_c": "Porque la noción de bien jurídico elimina toda necesidad de analizar derechos fundamentales dentro del sistema penal.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 379,
@@ -3236,8 +3786,8 @@
     "option_b": "La eficacia disuasoria depende más de la certeza de la aplicación de la pena que de su mera severidad, especialmente en contextos de impunidad estructural.",
     "option_c": "La prevención general solo opera en delitos patrimoniales y carece de relevancia en cualquier otra forma de criminalidad.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 380,
@@ -3246,8 +3796,8 @@
     "option_b": "El fracaso de la rehabilitación no afecta la validez del castigo, porque la prisión solo debe entenderse como sufrimiento retributivo.",
     "option_c": "La pena puede conservar legalidad formal, pero debilitar su legitimidad material si en la práctica reproduce violencia, reincidencia y desocialización.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Penal"
   },
   {
     "num": 381,
@@ -3256,8 +3806,8 @@
     "option_b": "La mejor manera de limitar el poder punitivo es ampliar el catálogo de delitos para hacer más previsible la reacción estatal.",
     "option_c": "La función garantista exige eliminar toda referencia a bienes jurídicos y concentrarse exclusivamente en la voluntad del legislador.",
     "option_d": "",
-    "category": "Derecho Civil",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 382,
@@ -3266,8 +3816,8 @@
     "option_b": "Sustituye por completo la función de protección de bienes jurídicos y convierte al Derecho Penal en una rama exclusivamente propagandística.",
     "option_c": "Elimina la necesidad de control constitucional, puesto que sus efectos se ubican en el plano político y no jurídico.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 383,
@@ -3276,8 +3826,8 @@
     "option_b": "Flexibilidad judicial, analogía in malam partem y potestad reglamentaria complementaria para crear delitos urgentes.",
     "option_c": "Irretroactividad de la ley penal favorable y facultad de la Fiscalía para suplir vacíos normativos mediante imputaciones extensivas.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 384,
@@ -3286,8 +3836,8 @@
     "option_b": "Porque impide adaptar forzadamente tipos penales existentes a supuestos no previstos por el legislador cuando ello perjudica al procesado.",
     "option_c": "Porque obliga a absolver toda conducta nueva incluso si luego es tipificada expresamente por el legislador.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 385,
@@ -3296,8 +3846,8 @@
     "option_b": "El sistema jurídico debe agotar, cuando sea posible, mecanismos preventivos, administrativos, civiles o restaurativos antes de acudir a la sanción penal.",
     "option_c": "La pena privativa de libertad debe ser la reacción ordinaria del Estado frente al conflicto social para evitar sensación de impunidad.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 386,
@@ -3306,8 +3856,8 @@
     "option_b": "Que toda creación legislativa en materia penal es ilegítima y constituye automáticamente una violación al principio democrático.",
     "option_c": "Que el simbolismo penal solo existe cuando los medios de comunicación comentan una sentencia de gran impacto público.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 387,
@@ -3316,8 +3866,8 @@
     "option_b": "Que, al tratarse de una medida cautelar, solo puede aplicarse excepcionalmente y nunca como castigo anticipado o neutralización automática del sospechoso.",
     "option_c": "Que su carácter cautelar permite restringir la presunción de inocencia cuando el discurso político de seguridad así lo exija.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 388,
@@ -3326,8 +3876,8 @@
     "option_b": "La gravedad objetiva del hecho, la magnitud del daño al bien jurídico y el grado de culpabilidad del autor.",
     "option_c": "La popularidad de la reforma penal y la sensibilidad mediática del caso concreto.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 389,
@@ -3336,8 +3886,8 @@
     "option_b": "Obliga siempre a imponer prisión cuando el legislador la haya previsto como respuesta principal al delito.",
     "option_c": "Permite al juez sacrificar garantías procesales si con ello se refuerza la confianza ciudadana en la respuesta penal.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 390,
@@ -3346,8 +3896,8 @@
     "option_b": "Se rompe la correspondencia entre gravedad real del hecho y respuesta punitiva, castigando con intensidad desmedida sin base empírica suficiente.",
     "option_c": "Se garantiza automáticamente la disminución del delito, pues la severidad de la pena compensa cualquier defecto institucional.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 391,
@@ -3356,8 +3906,8 @@
     "option_b": "Que, una vez ejecutoriada la condena, el Estado solo debe asegurar el encierro, sin estar obligado a proteger salud, vida o integridad.",
     "option_c": "Que quien se encuentra bajo custodia estatal depende del Estado para su protección, de modo que este debe garantizar condiciones compatibles con la dignidad humana.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Penal"
   },
   {
     "num": 392,
@@ -3366,8 +3916,8 @@
     "option_b": "Las deficiencias penitenciarias son administrativas y, por tanto, no afectan en ningún caso la legitimidad del sistema penal ni la validez de las sentencias condenatorias.",
     "option_c": "La dignidad humana opera como criterio político abstracto, pero no como parámetro relevante para valorar la ejecución concreta de la pena.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 393,
@@ -3376,8 +3926,8 @@
     "option_b": "Los derechos humanos pertenecen a la persona por su condición humana y no por su conducta moral, de modo que la pena puede restringir libertad, pero no suprimir dignidad.",
     "option_c": "El respeto a los derechos del condenado responde exclusivamente a razones utilitarias vinculadas al ahorro de recursos penitenciarios.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 394,
@@ -3386,8 +3936,8 @@
     "option_b": "Difundir públicamente a la persona detenida como culpable consumado o usar la prisión preventiva como pena anticipada frente a la presión social.",
     "option_c": "Exigir control judicial de la prueba y asegurar defensa técnica desde las primeras etapas del proceso penal.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 395,
@@ -3396,8 +3946,8 @@
     "option_b": "Porque su única finalidad es retrasar la imposición de la pena y favorecer estratégicamente al imputado.",
     "option_c": "Porque solo resultan exigibles en delitos de menor gravedad y pueden ser flexibilizadas en casos de conmoción social.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 396,
@@ -3406,8 +3956,8 @@
     "option_b": "Que el legislador pierda la capacidad de sancionar criminalidad organizada con tipos penales específicos y técnicas de investigación complejas.",
     "option_c": "Que el sistema procesal se vuelva excesivamente garantista y deje sin protección a las víctimas de delitos graves.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 397,
@@ -3416,8 +3966,8 @@
     "option_b": "La utilización del castigo como mensaje político y mediático de seguridad inmediata, mediante aumento de penas o eliminación de beneficios sin evaluación suficiente de eficacia y constitucionalidad.",
     "option_c": "La reducción del catálogo penal para concentrarse exclusivamente en bienes jurídicos esenciales y disminuir el uso de prisión.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 398,
@@ -3426,8 +3976,8 @@
     "option_b": "Que la legitimidad constitucional de una reforma penal depende principalmente de su aceptación inmediata por la mayoría de la opinión pública.",
     "option_c": "Que las tensiones entre seguridad y derechos se resuelven suprimiendo el control constitucional sobre las reformas penales.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 399,
@@ -3436,8 +3986,8 @@
     "option_b": "Reemplazar la necesidad de análisis constitucional por una mecánica puramente formal de subsunción legal.",
     "option_c": "Actuar como filtros sucesivos que impiden sancionar si la conducta no encaja estrictamente en la ley, no lesiona injustificadamente un bien jurídico o no es personalmente reprochable.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Penal"
   },
   {
     "num": 400,
@@ -3446,8 +3996,8 @@
     "option_b": "Porque sustituye por completo a la antijuridicidad y culpabilidad, haciendo innecesario el resto de la teoría del delito.",
     "option_c": "Porque autoriza al intérprete a extender el tipo penal cuando el resultado social del hecho parezca suficientemente grave.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 401,
@@ -3456,8 +4006,8 @@
     "option_b": "La reacción solo sería legítima si, además de responder a la demanda social, respeta legalidad, proporcionalidad, mínima intervención y demuestra utilidad real en la protección de bienes jurídicos.",
     "option_c": "La reacción debe admitirse siempre que exista mayoría política, aunque no exista evidencia empírica sobre su eficacia preventiva.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 402,
@@ -3466,8 +4016,8 @@
     "option_b": "La analogía es válida cuando el bien jurídico lesionado sea importante y la finalidad de castigo resulte moralmente convincente.",
     "option_c": "La analogía es procedente siempre que la Fiscalía argumente que existe una nueva modalidad delictiva no prevista por el legislador.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 403,
@@ -3476,8 +4026,8 @@
     "option_b": "La falta de rehabilitación carece de relevancia porque la única función constitucional de la pena es producir sufrimiento equivalente al daño causado.",
     "option_c": "Aunque la prisión pueda seguir siendo legalmente aplicable, su legitimidad material se debilita si deja de ser idónea, necesaria y compatible con la dignidad humana.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Penal"
   },
   {
     "num": 404,
@@ -3486,8 +4036,8 @@
     "option_b": "La primera postura, porque la única misión del Derecho Penal es reaccionar frente al delito mediante penas ejemplares.",
     "option_c": "Ninguna, porque el Derecho Penal es una simple técnica procedimental sin contenido garantista propio.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 405,
@@ -3496,8 +4046,8 @@
     "option_b": "Es incorrecta, porque el bien jurídico funciona también como criterio material de contención y exige una afectación relevante de intereses fundamentales.",
     "option_c": "Es correcta siempre que la conducta sea rechazada por los medios de comunicación y genere percepción de inseguridad.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 406,
@@ -3506,8 +4056,8 @@
     "option_b": "La prevención general positiva solo depende del miedo irracional de la población y no de la confianza en la vigencia de la norma.",
     "option_c": "La eficacia disuasoria depende más de la certeza de aplicación de la sanción que del simple incremento abstracto de las penas.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Penal"
   },
   {
     "num": 407,
@@ -3516,8 +4066,8 @@
     "option_b": "Que una pena puede tornarse ilegítima cuando sacrifica diferenciación, proporcionalidad y racionalidad garantista en nombre de una respuesta uniforme.",
     "option_c": "Que la Constitución solo protege a quienes nunca han sido procesados penalmente.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 408,
@@ -3526,8 +4076,8 @@
     "option_b": "Porque permiten condenar con mayor rapidez al acusado una vez que exista sospecha policial suficiente.",
     "option_c": "Porque sustituyen por completo el análisis de derechos fundamentales en el proceso penal.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 409,
@@ -3536,8 +4086,8 @@
     "option_b": "Que deshumaniza, debilita la condición de persona y abre espacio a formas inhumanas de ejercicio del poder punitivo.",
     "option_c": "Que fortalece la igualdad material porque permite sanciones diferenciadas contra grupos considerados amenazantes.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 410,
@@ -3546,8 +4096,8 @@
     "option_b": "La función simbólica siempre es irrelevante porque toda norma penal produce únicamente efectos procesales.",
     "option_c": "La función simbólica legitima cualquier reforma mientras existan campañas comunicacionales favorables.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 411,
@@ -3556,8 +4106,8 @@
     "option_b": "Porque la filosofía reemplaza por completo a la ley penal positiva y vuelve innecesaria la dogmática.",
     "option_c": "Porque la filosofía solo sirve para la historia del pensamiento, pero no para la argumentación judicial concreta.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 412,
@@ -3566,8 +4116,8 @@
     "option_b": "Que ese método incurre en un normativismo cerrado que corre el riesgo de legitimar un poder punitivo ilusorio y desconectado de sus efectos reales.",
     "option_c": "Que ese método es obligatorio en todo Estado constitucional, ya que el deber ser excluye necesariamente el análisis del ser.",
     "option_d": "",
-    "category": "Derecho Penal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 413,
@@ -3576,8 +4126,8 @@
     "option_b": "Que el Derecho Penal constitucional está subordinado a dignidad humana, debido proceso y límites materiales al castigo.",
     "option_c": "Que en ambos casos el castigo tiene la misma legitimidad, variando únicamente el estilo discursivo con que se presenta.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 414,
@@ -3586,8 +4136,8 @@
     "option_b": "Que el COIP autoriza a las agencias estatales a actuar libremente mientras invoquen seguridad pública.",
     "option_c": "Que la función principal del código consiste en desplazar a la Constitución como fuente de control del ius puniendi.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 415,
@@ -3596,8 +4146,8 @@
     "option_b": "La tensión entre tipicidad y antijuridicidad, resuelta siempre a favor de la fuerza pública.",
     "option_c": "La tensión entre jurisdicción ordinaria y arbitraje penal, que se supera con más estados de excepción.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 416,
@@ -3606,8 +4156,8 @@
     "option_b": "Porque la legitimidad penal no depende solo de respaldo político, sino de conformidad con derechos fundamentales y límites constitucionales.",
     "option_c": "Porque la democracia prohíbe toda criminalización de nuevas conductas.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 417,
@@ -3616,8 +4166,8 @@
     "option_b": "La prisión conserva intacta su eficacia resocializadora incluso en entornos dominados por estructuras criminales internas.",
     "option_c": "La finalidad preventiva individual se debilita, pues sin condiciones institucionales adecuadas la pena puede producir efectos criminógenos.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Penal"
   },
   {
     "num": 418,
@@ -3626,8 +4176,8 @@
     "option_b": "Esa idea es correcta, porque todo conflicto social puede resolverse con mayor tipificación penal.",
     "option_c": "Esa idea es parcialmente válida solo si se amplía el uso de la prisión preventiva como herramienta de administración social.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 419,
@@ -3636,8 +4186,8 @@
     "option_b": "Se reduce el riesgo de arbitrariedad, dado que toda ambigüedad beneficia necesariamente al procesado.",
     "option_c": "Se debilita la seguridad jurídica y se facilita una expansión interpretativa incompatible con la legalidad estricta.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Penal"
   },
   {
     "num": 420,
@@ -3646,8 +4196,8 @@
     "option_b": "Porque toda interpretación penal debe ser sustituida por convicciones personales del juzgador.",
     "option_c": "Porque la técnica jurídica es irrelevante frente a la intuición moral espontánea.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 421,
@@ -3656,8 +4206,8 @@
     "option_b": "La necesidad de ampliar la ciudadanía penal selectiva para responder con mayor eficiencia al miedo social.",
     "option_c": "El perfeccionamiento de la política criminal porque el Estado puede seleccionar con más precisión a quién proteger y a quién excluir.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 422,
@@ -3666,8 +4216,8 @@
     "option_b": "Es problemático, porque desplaza el juicio sobre el acto cometido hacia un reproche por condición, expectativa o perfil, debilitando responsabilidad y debido proceso.",
     "option_c": "Es deseable, porque anticipa la defensa social y elimina la necesidad de análisis de culpabilidad.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 423,
@@ -3676,8 +4226,8 @@
     "option_b": "Que la excepcionalidad militar debe convertirse en regla ordinaria porque la seguridad prevalece siempre sobre el constitucionalismo.",
     "option_c": "Que los derechos fundamentales se suspenden automáticamente cuando la tasa de homicidios aumenta.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Penal"
   },
   {
     "num": 424,
@@ -3686,8 +4236,8 @@
     "option_b": "Que la condición de persona actúa como presupuesto insuperable del trato jurídico y excluye construcciones penales basadas en la deshumanización.",
     "option_c": "Que solo quien respeta plenamente la ley merece ser tratado como persona dentro del sistema penal.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "b"
+    "correct": "b",
+    "category": "Derecho Penal"
   },
   {
     "num": 425,
@@ -3696,8 +4246,8 @@
     "option_b": "El Derecho Penal debe asumir un rol moralizador amplio para corregir toda desviación social, aun sin lesión relevante de bienes jurídicos.",
     "option_c": "El Derecho Penal legítimo es un derecho de límites, garantías y racionalidad crítica, orientado a proteger bienes jurídicos sin dejar desprotegida a la persona frente al Estado.",
     "option_d": "",
-    "category": "Derecho Constitucional",
-    "correct": "c"
+    "correct": "c",
+    "category": "Derecho Penal"
   },
   {
     "num": 426,
@@ -3706,8 +4256,8 @@
     "option_b": "Acción, jurisdicción y audiencia",
     "option_c": "Acción, jurisdiccional y proceso",
     "option_d": "Demanda, jurisdicción y proceso",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 427,
@@ -3716,8 +4266,8 @@
     "option_b": "El procedimiento es el fin del proceso",
     "option_c": "La audiencia es el proceso",
     "option_d": "Ninguna",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 428,
@@ -3726,8 +4276,8 @@
     "option_b": "Es facultad de las partes",
     "option_c": "Es función administrativa",
     "option_d": "Ninguna",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 429,
@@ -3736,8 +4286,8 @@
     "option_b": "Actor",
     "option_c": "Demandado",
     "option_d": "Secretario",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 430,
@@ -3746,8 +4296,8 @@
     "option_b": "Objeción",
     "option_c": "Impugnación",
     "option_d": "Dispositivo",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 431,
@@ -3756,8 +4306,8 @@
     "option_b": "Principio de intimidad",
     "option_c": "Principio de discrecionalidad",
     "option_d": "Ninguna",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 432,
@@ -3766,8 +4316,8 @@
     "option_b": "Es una facultad opcional",
     "option_c": "Es una norma secundaria",
     "option_d": "Ninguna",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 433,
@@ -3776,8 +4326,8 @@
     "option_b": "Solo las personas naturales",
     "option_c": "Solo personas jurídicas",
     "option_d": "Ninguna",
-    "category": "Derecho Penal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 434,
@@ -3786,8 +4336,8 @@
     "option_b": "Demanda",
     "option_c": "Acto de proposición",
     "option_d": "Tutela judicial efectiva",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 435,
@@ -3796,8 +4346,8 @@
     "option_b": "Ser mayor de edad",
     "option_c": "No ser interdicto",
     "option_d": "Todas",
-    "category": "Derecho Procesal",
-    "correct": "d"
+    "correct": "d",
+    "category": "Derecho Procesal"
   },
   {
     "num": 436,
@@ -3806,8 +4356,8 @@
     "option_b": "Inmediación",
     "option_c": "Dispositivo",
     "option_d": "Celeridad",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 437,
@@ -3816,8 +4366,8 @@
     "option_b": "El juez inicia de oficio siempre",
     "option_c": "Las pruebas solo de oficio",
     "option_d": "Ninguna",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 438,
@@ -3826,8 +4376,8 @@
     "option_b": "Solo judicial",
     "option_c": "Solo administrativa",
     "option_d": "Ninguna",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 439,
@@ -3836,8 +4386,8 @@
     "option_b": "Ambos son iguales",
     "option_c": "No tienen relación",
     "option_d": "Ninguna",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 440,
@@ -3846,8 +4396,18 @@
     "option_b": "Repercusión",
     "option_c": "Sugestión",
     "option_d": "Impugnación",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
+  },
+  {
+    "num": 441,
+    "question": "Seleccione sujetos procesales válidos: 1. Personas naturales 2. Animales domésticos 3. Colectivos 4. Personas jurídicas Opciones:",
+    "option_a": "1, 2, 3",
+    "option_b": "1, 3, 4",
+    "option_c": "2, 3, 4",
+    "option_d": "1, 2, 4",
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 442,
@@ -3856,8 +4416,8 @@
     "option_b": "Por voluntad de las partes",
     "option_c": "Por cualquier causa",
     "option_d": "Ninguna",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 443,
@@ -3866,8 +4426,8 @@
     "option_b": "Siempre se delega",
     "option_c": "Es libre",
     "option_d": "Ninguna",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 444,
@@ -3876,8 +4436,8 @@
     "option_b": "Siempre hay fuero",
     "option_c": "Es opcional",
     "option_d": "Ninguna",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 445,
@@ -3886,8 +4446,18 @@
     "option_b": "Fuero como sinónimo competencia",
     "option_c": "Fuero como sinónimo privilegio",
     "option_d": "Ninguna",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
+  },
+  {
+    "num": 446,
+    "question": "Relacione concepto con definición: 1. Acción 2. Jurisdicción 3. Proceso 4. Competencia",
+    "option_a": "1b, 2a, 3d, 4c",
+    "option_b": "1a, 2b, 3d, 4c",
+    "option_c": "1b, 2c, 3a, 4d",
+    "option_d": "1d, 2a, 3b, 4c",
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 447,
@@ -3896,8 +4466,8 @@
     "option_b": "2, 1, 3, 4",
     "option_c": "1, 3, 2, 4",
     "option_d": "1, 2, 4, 3",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 448,
@@ -3906,8 +4476,8 @@
     "option_b": "Es válido",
     "option_c": "No tiene efectos",
     "option_d": "Es nulo",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 449,
@@ -3916,8 +4486,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 2, 4",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 450,
@@ -3926,8 +4496,8 @@
     "option_b": "Solo acceso",
     "option_c": "Solo sentencia",
     "option_d": "Ninguna",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Derecho Procesal"
   },
   {
     "num": 451,
@@ -3936,8 +4506,8 @@
     "option_b": "División de poderes",
     "option_c": "Derecho divino de los reyes",
     "option_d": "Contrato social",
-    "category": "Derecho Procesal",
-    "correct": "c"
+    "correct": "c",
+    "category": "Historia del Derecho"
   },
   {
     "num": 452,
@@ -3946,8 +4516,8 @@
     "option_b": "Declaración de los Derechos del Hombre y del Ciudadano",
     "option_c": "Código Napoleónico",
     "option_d": "Tratado de Versalles",
-    "category": "Derecho Procesal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Historia del Derecho"
   },
   {
     "num": 453,
@@ -3956,8 +4526,8 @@
     "option_b": "Ley de las XII Tablas",
     "option_c": "Edicto de Milán",
     "option_d": "Corpus Iuris Civilis (parcial)",
-    "category": "Derecho Procesal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Historia del Derecho"
   },
   {
     "num": 454,
@@ -3966,8 +4536,8 @@
     "option_b": "Propiedad de la tierra y relaciones de vasallaje",
     "option_c": "Industrialización",
     "option_d": "Democracia representativa",
-    "category": "Derecho Procesal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Historia del Derecho"
   },
   {
     "num": 455,
@@ -3976,8 +4546,8 @@
     "option_b": "Hobbes",
     "option_c": "Montesquieu",
     "option_d": "Locke",
-    "category": "Derecho Procesal",
-    "correct": "c"
+    "correct": "c",
+    "category": "Historia del Derecho"
   },
   {
     "num": 456,
@@ -3986,8 +4556,8 @@
     "option_b": "Surgimiento del proletariado urbano",
     "option_c": "Eliminación del comercio",
     "option_d": "Desaparición del Estado",
-    "category": "Derecho Procesal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Historia del Derecho"
   },
   {
     "num": 457,
@@ -3996,8 +4566,8 @@
     "option_b": "La sociedad surge de un acuerdo entre individuos",
     "option_c": "El poder es hereditario",
     "option_d": "La ley depende de la religión",
-    "category": "Derecho Procesal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Historia del Derecho"
   },
   {
     "num": 458,
@@ -4006,8 +4576,8 @@
     "option_b": "ONU",
     "option_c": "Unión Europea",
     "option_d": "Corte Penal Internacional",
-    "category": "Derecho Procesal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Historia del Derecho"
   },
   {
     "num": 459,
@@ -4016,8 +4586,8 @@
     "option_b": "Uniformar leyes civiles y garantizar igualdad jurídica",
     "option_c": "Eliminar el derecho escrito",
     "option_d": "Promover el feudalismo",
-    "category": "Derecho Procesal",
-    "correct": "b"
+    "correct": "b",
+    "category": "Historia del Derecho"
   },
   {
     "num": 460,
@@ -4026,8 +4596,8 @@
     "option_b": "Segunda Guerra Mundial",
     "option_c": "Guerra Fría",
     "option_d": "Revolución Francesa",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 461,
@@ -4036,8 +4606,8 @@
     "option_b": "2, 4, 1, 3",
     "option_c": "4, 1, 2, 3",
     "option_d": "2, 1, 4, 3",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 462,
@@ -4046,8 +4616,8 @@
     "option_b": "1, 2, 3, 4",
     "option_c": "2, 3, 1, 4",
     "option_d": "3, 2, 1, 4",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 463,
@@ -4056,8 +4626,8 @@
     "option_b": "1, 4, 3, 2",
     "option_c": "4, 3, 1, 2",
     "option_d": "1, 3, 2, 4",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 464,
@@ -4066,8 +4636,8 @@
     "option_b": "4, 1, 2, 3",
     "option_c": "1, 2, 4, 3",
     "option_d": "4, 2, 1, 3",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 465,
@@ -4076,8 +4646,8 @@
     "option_b": "1, 2, 3, 4",
     "option_c": "2, 1, 3, 4",
     "option_d": "3, 1, 2, 4",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 466,
@@ -4086,8 +4656,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 4, 5",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 467,
@@ -4096,8 +4666,8 @@
     "option_b": "2, 3, 4",
     "option_c": "1, 3, 5",
     "option_d": "2, 4, 5",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 468,
@@ -4106,8 +4676,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 3, 4",
     "option_d": "1, 4, 5",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 469,
@@ -4116,8 +4686,8 @@
     "option_b": "1, 3, 4",
     "option_c": "2, 4, 5",
     "option_d": "1, 4, 5",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 470,
@@ -4126,8 +4696,8 @@
     "option_b": "1, 3, 5",
     "option_c": "2, 3, 4",
     "option_d": "1, 4, 5",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 471,
@@ -4136,8 +4706,8 @@
     "option_b": "1a, 2b, 3c",
     "option_c": "1c, 2a, 3b",
     "option_d": "1b, 2a, 3c",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 472,
@@ -4146,8 +4716,8 @@
     "option_b": "1a, 2b, 3c",
     "option_c": "1c, 2a, 3b",
     "option_d": "1b, 2a, 3c",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 473,
@@ -4156,8 +4726,8 @@
     "option_b": "1a, 2b, 3c",
     "option_c": "1c, 2a, 3b",
     "option_d": "1b, 2a, 3c",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 474,
@@ -4166,17 +4736,267 @@
     "option_b": "1a, 2b, 3c",
     "option_c": "1c, 2a, 3b",
     "option_d": "1b, 2a, 3c",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "a",
+    "category": "Historia del Derecho"
   },
   {
     "num": 475,
     "question": "Relacione concepto con definición: 1. Estado 2. Nación 3. Soberanía",
+    "option_a": "1b, 2c, 3a",
+    "option_b": "1a, 2b, 3c",
+    "option_c": "1c, 2a, 3b",
+    "option_d": "1b, 2a, 3c",
+    "correct": "a",
+    "category": "Historia del Derecho"
+  },
+  {
+    "num": 476,
+    "question": "Desde la perspectiva funcionalista del derecho (Durkheim, Weber, Parsons), ¿cuál es el papel que juega el derecho en el mantenimiento del sistema social?",
+    "option_a": "Ser un instrumento de dominación de una clase social sobre otra, manteniendo la inestabilidad.",
+    "option_b": "Determinar la validez de las normas jurídicas en relación con la Norma Fundamental hipotética.",
+    "option_c": "Actuar como el mecanismo más importante para conseguir y mantener el equilibrio del sistema social, conocido como orden social",
+    "option_d": "Asegurar la obediencia incondicional a las reglas jurídicas, sin tomar en cuenta el asentimiento de los obligados.",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 477,
+    "question": "La concepción conflictualista del derecho, basada en la teoría marxista, se distingue de la funcionalista porque sostiene que la sociedad es, fundamentalmente:",
+    "option_a": "Un sistema de elementos coordinados que aspiran a la paz y a la certeza.",
+    "option_b": "Un conjunto de normas coactivas destinadas a proteger los derechos fundamentales.",
+    "option_c": "Un estado de inestabilidad, conflicto, desigualdad y lucha entre clases antagónicas.",
+    "option_d": "Un ámbito de reconocimiento de derechos fundamentales que exige la aplicación de la perspectiva argumentativa.",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 478,
+    "question": "Según el análisis de fines y medios de control social que realiza el derecho, ¿cuál es el propósito abstracto que busca alcanzar el sistema jurídico en relación con las conductas lícitas e ilícitas?",
+    "option_a": "Resolver los conflictos que afectan el orden social mediante la coerción",
+    "option_b": "Garantizar la justicia legal a través del principio de irretroactividad de las leyes",
+    "option_c": "Aumentar al máximo las conductas lícitas y deseadas, y disminuir las ilícitas o indeseadas (la desviación)",
+    "option_d": "Asegurar que el cumplimiento de las normas dependa exclusivamente de la voluntad del individuo",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 479,
+    "question": "El derecho no es el único agente de control social (otros son la moral, la religión, la educación, etc.). ¿Por qué se denomina al derecho la \"instancia formal de control social\"?",
+    "option_a": "Porque acude a la Filosofía del Derecho para encontrar su fundamento axiológico",
+    "option_b": "Porque se compone de normas que han sido promulgadas en un lenguaje escrito, como la ley",
+    "option_c": "Porque el cumplimiento de sus reglas no depende de la voluntad exclusiva del individuo, sino que puede ser impuesto coactivamente",
+    "option_d": "Porque se limita a conocer el derecho vigente y exponer el contenido de un orden jurídico determinado (Dogmática Jurídica)",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 480,
+    "question": "La concepción conflictualista (Marx) atribuye al derecho una doble función: la de dominación y la ideológica. ¿A qué se refiere la función ideológica?",
+    "option_a": "A que el derecho es un factor positivo para la sociedad porque logra la certeza y la seguridad",
+    "option_b": "A que el derecho, a través de la coerción, somete directamente a las clases menos aventajadas a las dominantes",
+    "option_c": "A que el derecho enmascara la explotación capitalista, dando la apariencia de que las relaciones sociales se realizan entre partes que gozan de igualdad y libertad",
+    "option_d": "A que el derecho está subordinado al Derecho Natural o a los valores morales y principios de justicia",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 481,
+    "question": "La perspectiva funcional desde donde puede definirse el derecho se caracteriza por formularse la siguiente pregunta principal:",
+    "option_a": "¿Cuáles son los elementos o componentes estructurales del derecho?",
+    "option_b": "¿Cómo debería ser el derecho o cuándo un derecho es justo?",
+    "option_c": "¿Cuál es la función o finalidad que cumple el derecho en la sociedad?",
+    "option_d": "¿Qué papel desempeña el razonamiento argumentativo en la solución de problemas prácticos?",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 482,
+    "question": "La concepción funcionalista (Max Weber) define al derecho como un \"sistema de control social\". ¿Qué logro se consigue con este mecanismo en la sociedad?",
+    "option_a": "La desaparición del derecho en el proyecto comunista, una vez alcanzada la igualdad social",
+    "option_b": "La unificación de la jurisprudencia contradictoria mediante recursos de casación y fallos plenarios",
+    "option_c": "Conseguir y mantener el orden social, ya sea impidiendo conflictos o resolviéndolos cuando estos se presentan",
+    "option_d": "Distinguir los juicios de realidad de los juicios de valor en la aplicación judicial",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 483,
+    "question": "En el marco del análisis de los fines y medios (a priori o a posteriori) del derecho como sistema de control social, ¿cuáles son las cuatro formas en que el derecho puede operar, según Manuel Atienza?",
+    "option_a": "Determinar, interpretar, integrar y argumentar la norma",
+    "option_b": "Declarar, restringir, ampliar e integrar el alcance de la norma jurídica",
+    "option_c": "Previniendo, reprimiendo, promocionando y premiando la conducta",
+    "option_d": "Creando, aplicando, ejecutando y derogando normas jurídicas",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 484,
+    "question": "Además de la resolución de conflictos y la conservación del orden, ¿cuál de las siguientes funciones concretas se atribuyen al derecho en relación con la sociedad, según la postura funcionalista?",
+    "option_a": "La unificación de las ramas del derecho público y privado",
+    "option_b": "La negación de la costumbre jurídica como regulación válida",
+    "option_c": "La función de certeza y seguridad, y de garante de la libertad e igualdad",
+    "option_d": "La dominación y la disimulación de la explotación de una clase sobre otra",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 485,
+    "question": "La concepción conflictualista sostiene que la función del derecho es \"netamente negativa\" para la sociedad, debido a que el derecho constituye:",
+    "option_a": "Un conjunto de reglas primarias que solo imponen deberes, sin conferir potestades",
+    "option_b": "Un sistema de normas que se rigen por la lógica deductiva (sistema estático)",
+    "option_c": "Un instrumento que contribuye a mantener las desigualdades y los conflictos entre las clases que componen la sociedad",
+    "option_d": "Un marco de posibilidades de aplicación donde el órgano de aplicación debe optar por un acto volitivo",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 486,
+    "question": "¿Qué denominación se utiliza para referirse a aquellos conceptos que están presentes en todo ordenamiento jurídico y que se encuentran implícitos en la estructura normativa?",
+    "option_a": "Conceptos contingentes, como la hipoteca o el testamento",
+    "option_b": "Expresiones de uso circunscripto o especializado dentro de una rama del derecho",
+    "option_c": "Conceptos jurídicos fundamentales, que constituyen la base teórica para la construcción de muchos otros",
+    "option_d": "Principios constitucionales y valores jurídicos.",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 487,
+    "question": "¿Cómo se clasifican primariamente los hechos jurídicos según si interviene o no la acción humana?",
+    "option_a": "Hechos lícitos y hechos ilícitos",
+    "option_b": "Hechos positivos y hechos negativos",
+    "option_c": "Hechos no humanos (naturales) y hechos humanos",
+    "option_d": "Actos de administración y actos de disposición.",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 488,
+    "question": "¿Cuáles son los elementos internos que, al manifestarse por un hecho exterior, configuran un acto voluntario para la persona humana?",
+    "option_a": "Capacidad, legalidad y coercibilidad",
+    "option_b": "Exterioridad, intención y fin inmediato",
+    "option_c": "Discernimiento, intención y libertad",
+    "option_d": "Coherencia, integridad y justicia.",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 489,
+    "question": "¿Cuál es el núcleo de la estructura de la relación jurídica, constituido por el contenido u objeto de la obligación?",
+    "option_a": "Los sujetos intervinientes, es decir, el sujeto activo y el pasivo",
+    "option_b": "La causa que da origen a la relación, que es un hecho jurídico.",
+    "option_c": "Las prestaciones, que pueden ser de dar, de hacer o de no hacer.",
+    "option_d": "El vínculo jurídico definido por las normas.",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 490,
+    "question": "En una relación jurídica de crédito, ¿quién es el sujeto pasivo?",
+    "option_a": "El titular del derecho subjetivo principal",
+    "option_b": "Quien tiene la prerrogativa de exigir el cumplimiento del deber",
+    "option_c": "El deudor, quien tiene el deber jurídico o la obligación principal",
+    "option_d": "El responsable subsidiario en caso de incumplimiento.",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 491,
+    "question": "¿Qué se entiende por \"situación jurídica\" en el ámbito del derecho?",
+    "option_a": "La posición individualizada que una persona ocupa en un solo acto jurídico particular.",
+    "option_b": "La facultad de un sujeto para exigir de otro el cumplimiento de un deber, como pretensión.",
+    "option_c": "El conjunto de derechos subjetivos, deberes jurídicos y relaciones jurídicas que tiene por titular a una persona, por su condición, actividad o rol social.",
+    "option_d": "El estado de la persona en cuanto a su capacidad de ejercicio de sus derechos.",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 492,
+    "question": "De las siguientes, ¿Cuál es la definición más acertada de \"sujeto de derecho\"?",
+    "option_a": "La persona humana, desde el momento de su concepción y bajo la condición de nacer con vida",
+    "option_b": "Solamente las personas jurídicas, públicas o privadas, que poseen aptitud para adquirir derechos y contraer obligaciones",
+    "option_c": "La persona, humana o jurídica, destinataria de las normas jurídicas y titular de los derechos y/o deberes que ellas regulan",
+    "option_d": "Quien goza de la capacidad de obrar y puede ejercer un derecho subjetivo.",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 493,
+    "question": "¿Cuál es el concepto de \"derecho subjetivo\" en su acepción de pretensión?",
+    "option_a": "La posibilidad de obrar dentro de los límites de lo permitido legalmente.",
+    "option_b": "La capacidad de realizar actos jurídicos para los cuales se tiene capacidad",
+    "option_c": "La facultad de una persona para exigir de otra el cumplimiento de un determinado deber jurídico",
+    "option_d": "El conjunto de normas que rigen la convivencia humana (derecho objetivo).",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 494,
+    "question": "¿Qué teoría clásica define el derecho subjetivo como un poder o señorío de la voluntad reconocido por el ordenamiento jurídico?",
+    "option_a": "La Teoría Negativista",
+    "option_b": "La Teoría del Interés, propuesta por Rudolf von Ihering",
+    "option_c": "La Teoría de la Voluntad, cuyo principal expositor fue Bernardo Windscheid",
+    "option_d": "La Teoría Ecléctica, de Georg Jellinek.",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 495,
+    "question": "¿Cuál es la principal distinción entre los derechos subjetivos absolutos y los derechos subjetivos relativos?",
+    "option_a": "Los derechos absolutos son siempre patrimoniales y los relativos son extrapatrimoniales",
+    "option_b": "Los derechos absolutos solo competen al Estado y los relativos a los particulares",
+    "option_c": "Los absolutos se ejercen frente a la totalidad de las personas, mientras que los relativos se ejercen frente a un sujeto pasivo individualizado",
+    "option_d": "Los absolutos tienen un carácter imprescriptible y los relativos no.",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 496,
+    "question": "¿A qué categoría de derechos subjetivos pertenece el derecho de dominio o propiedad?",
+    "option_a": "Derechos personalísimos (de la personalidad).",
+    "option_b": "Derechos creditorios o de obligación",
+    "option_c": "Derechos reales",
+    "option_d": "Derechos de familia.",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 497,
+    "question": "¿Cuál es la acción que debe ponerse en marcha necesariamente para obtener el cumplimiento coactivo del deber jurídico o la aplicación de la sanción?",
+    "option_a": "El ejercicio del derecho subjetivo.",
+    "option_b": "El acto de coacción ejercido directamente por el Estado",
+    "option_c": "La acción procesal, que se articula ante los órganos jurisdiccionales competentes",
+    "option_d": "La coerción, como posibilidad jurídica de la coacción",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 498,
+    "question": "¿Qué se entiende por \"coerción\" en el contexto de la sanción jurídica?",
+    "option_a": "El acto que priva al responsable de un bien (libertad, propiedad, etc.).",
+    "option_b": "La aplicación efectiva y concreta de la sanción por parte de la autoridad administrativa.",
+    "option_c": "La posibilidad jurídica de la coacción (coacción en potencia), siendo el elemento esencial de toda sanción",
+    "option_d": "La sanción de carácter interno o subjetivo.",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 499,
+    "question": "¿Cuál es una de las propiedades necesarias de la sanción jurídica?",
+    "option_a": "El contenido de la sanción debe ser necesariamente la privación de la libertad.",
+    "option_b": "Se impone solo por el órgano legislativo o por los particulares en un contrato.",
+    "option_c": "Se ejerce por una autoridad competente (usualmente jueces o funcionarios administrativos).",
+    "option_d": "Es el resultado de una conducta conforme a la norma",
+    "correct": "b",
+    "category": "Filosofía del Derecho"
+  },
+  {
+    "num": 500,
+    "question": "¿Cuál es la finalidad específica de la \"pena\" como tipo de sanción exclusiva del Derecho Penal?",
     "option_a": "La reparación patrimonial del daño causado a la víctima",
     "option_b": "La privación de un bien con la finalidad principal de anular el acto jurídico.",
     "option_c": "La privación de un bien con una finalidad de prevención individual o especial, y social o general",
     "option_d": "La imposición de trabajos forzados o tormentos.",
-    "category": "Derecho Procesal",
-    "correct": "a"
+    "correct": "c",
+    "category": "Filosofía del Derecho"
   }
 ]
