@@ -9,11 +9,11 @@
       <a href="{{ url_for('admin_questions') }}" class="admin-link">Preguntas</a>
       <a href="{{ url_for('admin_import') }}" class="admin-link">Importar CSV</a>
       <a href="{{ url_for('admin_stats') }}" class="admin-link active">Historial</a>
-      <a href="{{ url_for('admin_reload_questions') }}" class="admin-link" style="background:#e8f5e9;color:#2e7d32">🔄 Actualizar BD</a>
+      <a href="{{ url_for('admin_reload_questions') }}" class="admin-link" style="background:#e8f5e9;color:#2e7d32;border:1px solid #a5d6a7">🔄 Actualizar BD</a>
     </div>
   </div>
 
-  <!-- Resumen rápido -->
+  <!-- Tarjetas resumen -->
   <div class="admin-stats-grid" style="margin-bottom:1.5rem">
     <div class="stat-card">
       <div class="stat-card-icon">📝</div>
@@ -39,21 +39,23 @@
     {% endif %}
   </div>
 
-  <!-- Búsqueda y filtros -->
+  <!-- Búsqueda -->
   <div class="admin-toolbar">
     <form method="GET" class="search-form">
-      <input type="text" name="search" value="{{ search }}" placeholder="🔍 Buscar por nombre…"/>
+      <input type="text" name="search" value="{{ search }}"
+             placeholder="🔍 Buscar por nombre de estudiante…"/>
       <select name="result">
-        <option value="" {% if not result %}selected{% endif %}>Todos los resultados</option>
-        <option value="passed" {% if result=='passed' %}selected{% endif %}>✅ Solo aprobados</option>
-        <option value="failed" {% if result=='failed' %}selected{% endif %}>❌ Solo reprobados</option>
+        <option value=""       {% if not result        %}selected{% endif %}>Todos</option>
+        <option value="passed" {% if result == 'passed'%}selected{% endif %}>✅ Aprobados</option>
+        <option value="failed" {% if result == 'failed'%}selected{% endif %}>❌ Reprobados</option>
       </select>
       <button type="submit" class="btn-search">Filtrar</button>
       <a href="{{ url_for('admin_stats') }}" class="btn-clear">✕ Limpiar</a>
     </form>
+    <span style="color:#6b7280;font-size:.9rem">{{ sessions|length }} registro(s)</span>
   </div>
 
-  <!-- Tabla -->
+  <!-- Tabla de exámenes -->
   <div class="table-wrap">
     <table class="admin-table">
       <thead>
@@ -68,16 +70,12 @@
         </tr>
       </thead>
       <tbody>
-        {% for e in sessions.items %}
+        {% for e in sessions %}
         <tr>
           <td>{{ e.id }}</td>
           <td><strong>{{ e.student_name }}</strong></td>
           <td>{{ e.score }} / {{ e.total }}</td>
-          <td>
-            {% if e.total %}
-              {{ (e.score / e.total * 100)|round|int }}%
-            {% else %}–{% endif %}
-          </td>
+          <td>{% if e.total %}{{ (e.score / e.total * 100)|round|int }}%{% else %}–{% endif %}</td>
           <td>
             {% if e.passed %}
               <span class="badge badge-pass">✅ APROBADO</span>
@@ -87,7 +85,8 @@
           </td>
           <td>{{ e.end_time.strftime('%d/%m/%Y %H:%M') if e.end_time else '–' }}</td>
           <td style="white-space:nowrap">
-            <a href="{{ url_for('admin_exam_detail', session_id=e.id) }}" class="btn-edit">📊 Ver detalle</a>
+            <a href="{{ url_for('admin_exam_detail', session_id=e.id) }}"
+               class="btn-edit">📊 Ver detalle</a>
             <form method="POST"
                   action="{{ url_for('admin_delete_exam', session_id=e.id) }}"
                   style="display:inline"
@@ -97,26 +96,19 @@
           </td>
         </tr>
         {% else %}
-        <tr><td colspan="7" style="text-align:center;padding:2rem;color:#6b7280">
-          No se encontraron exámenes{% if search %} para "{{ search }}"{% endif %}.
-        </td></tr>
+        <tr>
+          <td colspan="7" style="text-align:center;padding:2.5rem;color:#6b7280;font-size:1rem">
+            {% if search %}
+              No se encontraron exámenes para "<strong>{{ search }}</strong>".
+            {% else %}
+              Aún no se han registrado exámenes. Los exámenes aparecerán aquí automáticamente cuando los estudiantes los completen.
+            {% endif %}
+          </td>
+        </tr>
         {% endfor %}
       </tbody>
     </table>
   </div>
-
-  <!-- Paginación -->
-  {% if sessions.pages > 1 %}
-  <div class="pagination">
-    {% if sessions.has_prev %}
-      <a href="{{ url_for('admin_stats', page=sessions.prev_num, search=search, result=result) }}">&laquo; Anterior</a>
-    {% endif %}
-    <span>Página {{ sessions.page }} de {{ sessions.pages }} ({{ sessions.total }} registros)</span>
-    {% if sessions.has_next %}
-      <a href="{{ url_for('admin_stats', page=sessions.next_num, search=search, result=result) }}">Siguiente &raquo;</a>
-    {% endif %}
-  </div>
-  {% endif %}
 
 </div>
 {% endblock %}

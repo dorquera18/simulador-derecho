@@ -41,7 +41,6 @@ class Question(db.Model):
     category   = db.Column(db.String(100), default='General')
 
 class ExamSession(db.Model):
-    """Guarda PERMANENTEMENTE cada examen rendido en la base de datos."""
     __tablename__ = 'exam_sessions'
     id           = db.Column(db.Integer, primary_key=True)
     student_name = db.Column(db.String(200), nullable=False)
@@ -50,7 +49,7 @@ class ExamSession(db.Model):
     score        = db.Column(db.Integer, default=0)
     total        = db.Column(db.Integer, default=100)
     passed       = db.Column(db.Boolean, default=False)
-    answers_json = db.Column(db.Text)   # JSON con detalle completo de cada respuesta
+    answers_json = db.Column(db.Text)
 
     def get_answers(self):
         try:
@@ -96,7 +95,7 @@ def load_questions_from_json():
             category=q.get('category', 'General'),
         ))
     db.session.commit()
-    print(f"[DB] Recargadas {len(qs)} preguntas desde JSON.")
+    print(f"[DB] Recargadas {len(qs)} preguntas.")
     return len(qs)
 
 
@@ -146,12 +145,10 @@ def start_exam():
     if not name:
         flash('Por favor ingrese su nombre para continuar.', 'error')
         return redirect(url_for('index'))
-
     all_questions = Question.query.all()
     if len(all_questions) < 5:
         flash('No hay suficientes preguntas. Contacte al administrador.', 'error')
         return redirect(url_for('index'))
-
     selected = random.sample(all_questions, min(100, len(all_questions)))
     exam_questions = []
     for q in selected:
@@ -173,7 +170,6 @@ def start_exam():
             'option_c': remapped.get('c', ''), 'option_d': remapped.get('d', ''),
             'correct': new_correct,
         })
-
     session['exam_name']      = name
     session['exam_questions'] = exam_questions
     session['exam_start']     = datetime.utcnow().isoformat()
@@ -222,11 +218,9 @@ def submit_exam():
     from flask import session
     if 'exam_questions' not in session:
         return redirect(url_for('index'))
-
     questions    = session['exam_questions']
     answers      = session.get('exam_answers', {})
     student_name = session.get('exam_name', 'Estudiante')
-
     score   = 0
     results = []
     for i, q in enumerate(questions):
@@ -236,81 +230,51 @@ def submit_exam():
         if is_correct:
             score += 1
         results.append({
-            'num':        i + 1,
-            'question':   q['question'],
-            'category':   q['category'],
-            'given':      given,
-            'correct':    correct,
-            'is_correct': is_correct,
-            'option_a':   q['option_a'],
-            'option_b':   q['option_b'],
-            'option_c':   q['option_c'],
-            'option_d':   q['option_d'],
+            'num': i+1, 'question': q['question'], 'category': q['category'],
+            'given': given, 'correct': correct, 'is_correct': is_correct,
+            'option_a': q['option_a'], 'option_b': q['option_b'],
+            'option_c': q['option_c'], 'option_d': q['option_d'],
         })
-
     total    = len(questions)
     passed   = score >= 70
     end_time = datetime.utcnow()
-
-    # ── GUARDAR PERMANENTEMENTE EN LA BASE DE DATOS ──────────────────────────
+    # GUARDAR PERMANENTEMENTE EN BD
     record = ExamSession(
-        student_name = student_name,
-        start_time   = datetime.fromisoformat(session['exam_start']),
-        end_time     = end_time,
-        score        = score,
-        total        = total,
-        passed       = passed,
-        answers_json = json.dumps(results, ensure_ascii=False),
+        student_name=student_name,
+        start_time=datetime.fromisoformat(session['exam_start']),
+        end_time=end_time, score=score, total=total, passed=passed,
+        answers_json=json.dumps(results, ensure_ascii=False),
     )
     db.session.add(record)
     db.session.commit()
-    # ─────────────────────────────────────────────────────────────────────────
-
     # Limpiar sesión del examen
     session.pop('exam_questions', None)
     session.pop('exam_answers',   None)
     session.pop('exam_name',      None)
     session.pop('exam_start',     None)
-
-    # Solo guardar el ID del examen en sesión — los datos vienen de la BD
+    # Solo guardar el ID — los datos vienen de BD
     session['last_exam_id'] = record.id
-
     return redirect(url_for('results'))
 
 
 @app.route('/results')
 @app.route('/results/<int:exam_id>')
 def results(exam_id=None):
-    """Muestra resultados. Lee siempre desde la BD, nunca desde sesión."""
     from flask import session
-
-    # Obtener el ID del examen: parámetro URL o sesión
     if exam_id is None:
         exam_id = session.get('last_exam_id')
-
     if not exam_id:
         flash('No se encontró el examen. Por favor inicie uno nuevo.', 'error')
         return redirect(url_for('index'))
-
-    # Cargar desde BD
     record = ExamSession.query.get(exam_id)
     if not record:
         flash('No se encontró el examen en la base de datos.', 'error')
         return redirect(url_for('index'))
-
-    answers     = record.get_answers()
-    by_category = record.get_by_category()
-
     return render_template('results.html',
-        exam_id      = record.id,
-        student_name = record.student_name,
-        score        = record.score,
-        total        = record.total,
-        passed       = record.passed,
-        end_time     = record.end_time,
-        results      = answers,
-        by_category  = by_category,
-    )
+        exam_id=record.id, student_name=record.student_name,
+        score=record.score, total=record.total, passed=record.passed,
+        end_time=record.end_time,
+        results=record.get_answers(), by_category=record.get_by_category())
 
 
 # ─── RUTAS ADMIN ──────────────────────────────────────────────────────────────
@@ -462,11 +426,9 @@ def admin_import():
 @app.route('/admin/stats')
 @admin_required
 def admin_stats():
-    # Búsqueda y filtros
-    search  = request.args.get('search', '').strip()
-    result  = request.args.get('result', '')   # 'passed' | 'failed' | ''
-    page    = request.args.get('page', 1, type=int)
-
+    search       = request.args.get('search', '').strip()
+    result       = request.args.get('result', '')
+    page         = request.args.get('page', 1, type=int)
     q = ExamSession.query
     if search:
         q = q.filter(ExamSession.student_name.ilike(f'%{search}%'))
@@ -474,16 +436,13 @@ def admin_stats():
         q = q.filter_by(passed=True)
     elif result == 'failed':
         q = q.filter_by(passed=False)
-
-    sessions = q.order_by(ExamSession.end_time.desc()).paginate(
-        page=page, per_page=25, error_out=False)
-
+    # ALL exams as a simple list (no pagination issues)
+    all_sessions = q.order_by(ExamSession.end_time.desc()).all()
     total_exams  = ExamSession.query.count()
     passed_count = ExamSession.query.filter_by(passed=True).count()
     failed_count = ExamSession.query.filter_by(passed=False).count()
-
     return render_template('admin/stats.html',
-        sessions=sessions, search=search, result=result,
+        sessions=all_sessions, search=search, result=result,
         total_exams=total_exams, passed_count=passed_count, failed_count=failed_count)
 
 
