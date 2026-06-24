@@ -14,10 +14,15 @@ app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'simulador-derecho-ufv-2024-secreto')
 basedir = os.path.abspath(os.path.dirname(__file__))
 
-app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{os.path.join(basedir, 'simulador.db')}"
+# Use DATABASE_URL env var if set (points to persistent disk on Render)
+# Otherwise fallback to local file for development
+_db_file = os.environ.get('DATABASE_URL', os.path.join(basedir, 'simulador.db'))
+if not _db_file.startswith('sqlite'):
+    _db_file = f'sqlite:///{_db_file}'
+app.config['SQLALCHEMY_DATABASE_URI'] = _db_file
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SESSION_TYPE'] = 'filesystem'
-app.config['SESSION_FILE_DIR'] = os.path.join(basedir, 'flask_sessions')
+app.config['SESSION_FILE_DIR'] = os.path.join('/tmp', 'flask_sessions_simulador')
 app.config['SESSION_PERMANENT'] = False
 app.config['SESSION_USE_SIGNER'] = True
 app.config['SESSION_FILE_THRESHOLD'] = 500
@@ -473,3 +478,39 @@ with app.app_context():
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=False)
+
+
+# RUTA AÑADIDA AL FINAL — reemplaza la función admin_stats existente
+# y agrega diagnóstico
+
+@app.route('/admin/debug')
+@admin_required  
+def admin_debug():
+    """Diagnóstico: muestra estado real de la BD."""
+    total_q  = Question.query.count()
+    total_ex = ExamSession.query.count()
+    exams    = ExamSession.query.order_by(ExamSession.id.desc()).limit(20).all()
+    db_uri   = app.config['SQLALCHEMY_DATABASE_URI']
+    lines    = [
+        "=== DIAGNÓSTICO BASE DE DATOS ===",
+        f"Ruta BD: {db_uri}",
+        f"Total preguntas: {total_q}",
+        f"Total exámenes guardados: {total_ex}",
+        "",
+        "--- Últimos 20 exámenes ---",
+    ]
+    if exams:
+        for e in exams:
+            lines.append(
+                f"ID={e.id} | Estudiante='{e.student_name}' | "
+                f"Puntaje={e.score}/{e.total} | "
+                f"{'APROBADO' if e.passed else 'REPROBADO'} | "
+                f"Fecha={e.end_time} | "
+                f"Respuestas={'SI' if e.answers_json else 'NO'}"
+            )
+    else:
+        lines.append("*** LA TABLA exam_sessions ESTÁ VACÍA ***")
+        lines.append("Razón probable: Render reinició y la BD se borró,")
+        lines.append("o los exámenes se guardaron en una instancia diferente.")
+    return "<pre style='font-family:monospace;padding:2rem;font-size:14px;line-height:1.6'>" + \
+           "\n".join(lines) + "</pre>"
