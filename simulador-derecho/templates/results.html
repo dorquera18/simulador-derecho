@@ -6,11 +6,15 @@
 
   <!-- Score Hero -->
   <div class="score-hero {% if passed %}score-pass{% else %}score-fail{% endif %}">
-    {% if passed %}
-      <div class="confetti" id="confetti"></div>
-    {% endif %}
     <div class="score-hero-inner">
       <h1 class="student-name-result">{{ student_name }}</h1>
+      {% if end_time %}
+      <p style="opacity:.7;font-size:.9rem;margin-bottom:.5rem">
+        📅 {{ end_time.strftime('%d/%m/%Y a las %H:%M') }}
+        &nbsp;|&nbsp; 🔖 Examen #{{ exam_id }}
+      </p>
+      {% endif %}
+
       <div class="score-circle {% if passed %}circle-pass{% else %}circle-fail{% endif %}">
         <span class="score-number" id="score-anim" data-target="{{ score }}">0</span>
         <span class="score-total">/ {{ total }}</span>
@@ -18,25 +22,32 @@
 
       {% if passed %}
         <div class="result-badge pass-badge">🎓 ¡APROBADO!</div>
-        <p class="result-msg">¡Felicitaciones! Has superado el Examen Complexivo de Derecho con <strong>{{ score }} puntos</strong>.</p>
+        <p class="result-msg">¡Felicitaciones! Has superado el Examen Complexivo con <strong>{{ score }} puntos</strong>.</p>
       {% else %}
         <div class="result-badge fail-badge">📚 NO APROBADO</div>
         <p class="result-msg">Obtuviste <strong>{{ score }} puntos</strong>. Necesitas al menos 70 para aprobar. ¡Sigue practicando!</p>
       {% endif %}
 
-      <!-- Score bar -->
       <div class="score-bar-outer">
         <div class="score-bar-fill {% if passed %}bar-pass{% else %}bar-fail{% endif %}"
-             id="score-bar"
-             style="width: 0%"
+             id="score-bar" style="width:0%"
              data-pct="{{ (score / total * 100)|round|int }}"></div>
-        <span class="score-bar-label">Mínimo: 70%</span>
+        <span class="score-bar-label">Mínimo aprobatorio: 70%</span>
         <div class="score-bar-min-mark"></div>
+      </div>
+
+      <!-- Link permanente para revisar este examen -->
+      <div class="permalink-box">
+        🔗 Link permanente de este examen:
+        <input type="text" id="permalink" readonly
+               value="{{ request.host_url }}results/{{ exam_id }}"
+               onclick="this.select()" />
+        <button onclick="copyLink()" class="btn-copy">Copiar</button>
       </div>
     </div>
   </div>
 
-  <!-- Category breakdown -->
+  <!-- Resultados por área -->
   <div class="results-section">
     <h2 class="section-heading">📊 Resultados por Área</h2>
     <div class="category-grid">
@@ -46,7 +57,7 @@
         <div class="cat-result-score">{{ data.correct }} / {{ data.total }}</div>
         <div class="cat-bar-outer">
           <div class="cat-bar-fill {% if data.correct / data.total >= 0.7 %}bar-good{% else %}bar-bad{% endif %}"
-               style="width: {{ (data.correct / data.total * 100)|round|int }}%"></div>
+               style="width:{{ (data.correct / data.total * 100)|round|int }}%"></div>
         </div>
         <div class="cat-pct">{{ (data.correct / data.total * 100)|round|int }}%</div>
       </div>
@@ -54,20 +65,26 @@
     </div>
   </div>
 
-  <!-- Actions -->
+  <!-- Acciones -->
   <div class="results-actions">
     <a href="{{ url_for('index') }}" class="btn-retry">🔄 Realizar otro examen</a>
-    <button onclick="window.print()" class="btn-print">🖨️ Imprimir resultados</button>
+    <button onclick="window.print()" class="btn-print">🖨️ Imprimir</button>
   </div>
 
-  <!-- Detailed review -->
+  <!-- Revisión detallada -->
   <div class="results-section">
-    <h2 class="section-heading">📝 Revisión Detallada</h2>
-    <p class="review-hint">Haga clic en cada pregunta para ver el detalle.</p>
+    <h2 class="section-heading">📝 Revisión Detallada de Respuestas</h2>
 
-    <div class="review-list">
+    <div class="review-filters">
+      <button onclick="filterReview('all')"     class="btn-filter active"         id="rfbtn-all">Todas ({{ results|length }})</button>
+      <button onclick="filterReview('wrong')"   class="btn-filter btn-filter-wrong" id="rfbtn-wrong">❌ Incorrectas ({{ results|selectattr('is_correct','equalto',false)|list|length }})</button>
+      <button onclick="filterReview('correct')" class="btn-filter btn-filter-ok"   id="rfbtn-correct">✅ Correctas ({{ results|selectattr('is_correct')|list|length }})</button>
+    </div>
+
+    <div class="review-list" id="review-list">
       {% for r in results %}
-      <details class="review-item {% if r.is_correct %}review-correct{% else %}review-wrong{% endif %}">
+      <details class="review-item {% if r.is_correct %}review-correct{% else %}review-wrong{% endif %}"
+               data-correct="{{ r.is_correct|lower }}">
         <summary class="review-summary">
           <span class="review-icon">{% if r.is_correct %}✅{% else %}❌{% endif %}</span>
           <span class="review-qnum">Pregunta {{ r.num }}</span>
@@ -78,22 +95,24 @@
           <p class="review-full-q">{{ r.question }}</p>
           <div class="review-options">
             {% for letter, opt_text in [('a', r.option_a), ('b', r.option_b), ('c', r.option_c), ('d', r.option_d)] %}
+            {% if opt_text %}
             <div class="review-option
               {% if letter == r.correct %}opt-correct{% endif %}
-              {% if letter == r.given and not r.is_correct %}opt-wrong-given{% endif %}
-            ">
+              {% if letter == r.given and not r.is_correct %}opt-wrong-given{% endif %}">
               <span class="opt-mark">
                 {% if letter == r.correct %}✔{% elif letter == r.given %}✘{% else %}&nbsp;{% endif %}
               </span>
               <span class="opt-letter">{{ letter|upper }})</span>
               <span>{{ opt_text }}</span>
             </div>
+            {% endif %}
             {% endfor %}
           </div>
           {% if not r.is_correct %}
           <p class="review-note">
-            Tu respuesta: <strong>{{ r.given|upper if r.given else '(sin responder)' }}</strong> &nbsp;|&nbsp;
-            Respuesta correcta: <strong>{{ r.correct|upper }}</strong>
+            Tu respuesta: <strong class="ans-wrong">{{ r.given|upper if r.given else '(sin responder)' }}</strong>
+            &nbsp;|&nbsp;
+            Respuesta correcta: <strong class="ans-right">{{ r.correct|upper }}</strong>
           </p>
           {% endif %}
         </div>
@@ -102,73 +121,132 @@
     </div>
   </div>
 
-</div><!-- /results-page -->
+</div>
 {% endblock %}
 
 {% block scripts %}
+<style>
+.permalink-box {
+  background: rgba(255,255,255,.15);
+  border-radius: 8px;
+  padding: .6rem 1rem;
+  margin-top: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  flex-wrap: wrap;
+  font-size: .85rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.permalink-box input {
+  flex: 1;
+  min-width: 200px;
+  background: rgba(255,255,255,.9);
+  border: none;
+  border-radius: 6px;
+  padding: .35rem .7rem;
+  font-size: .82rem;
+  color: #1a237e;
+  cursor: pointer;
+}
+.btn-copy {
+  background: var(--gold);
+  color: var(--navy);
+  border: none;
+  border-radius: 6px;
+  padding: .35rem .9rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: .82rem;
+}
+.review-filters {
+  display: flex;
+  gap: .8rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.2rem;
+}
+.btn-filter {
+  padding: .5rem 1.2rem;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all .15s;
+}
+.btn-filter.active           { background: var(--navy); color: #fff; border-color: var(--navy); }
+.btn-filter-wrong.active     { background: var(--red2); color: #fff; border-color: var(--red2); }
+.btn-filter-ok.active        { background: var(--green2); color: #fff; border-color: var(--green2); }
+.ans-wrong { color: #b91c1c; }
+.ans-right { color: #065f46; }
+</style>
 <script>
-// Animate score number
+// Animación puntaje
 const scoreEl = document.getElementById('score-anim');
-const target = parseInt(scoreEl.dataset.target);
-let current = 0;
-const duration = 1500;
-const steps = 60;
-const increment = target / steps;
-const interval = duration / steps;
-
-const counter = setInterval(() => {
-  current = Math.min(current + increment, target);
-  scoreEl.textContent = Math.round(current);
-  if (current >= target) clearInterval(counter);
+const target  = parseInt(scoreEl.dataset.target);
+let cur = 0;
+const steps    = 60;
+const interval = 1500 / steps;
+const inc      = target / steps;
+const counter  = setInterval(() => {
+  cur = Math.min(cur + inc, target);
+  scoreEl.textContent = Math.round(cur);
+  if (cur >= target) clearInterval(counter);
 }, interval);
 
-// Animate score bar
+// Barra de puntaje
 setTimeout(() => {
   const bar = document.getElementById('score-bar');
   if (bar) bar.style.width = bar.dataset.pct + '%';
 }, 300);
 
-// Confetti for pass
+// Filtro revisión
+function filterReview(type) {
+  document.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
+  document.getElementById('rfbtn-' + type).classList.add('active');
+  document.querySelectorAll('#review-list .review-item').forEach(item => {
+    const ok = item.dataset.correct === 'true';
+    item.style.display = (type === 'all' || (type === 'correct' && ok) || (type === 'wrong' && !ok)) ? '' : 'none';
+  });
+}
+
+// Copiar link
+function copyLink() {
+  const inp = document.getElementById('permalink');
+  inp.select();
+  navigator.clipboard.writeText(inp.value).then(() => {
+    const btn = inp.nextElementSibling;
+    btn.textContent = '¡Copiado!';
+    setTimeout(() => btn.textContent = 'Copiar', 2000);
+  });
+}
+
+// Confetti aprobado
 {% if passed %}
 (function() {
   const canvas = document.createElement('canvas');
   canvas.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999';
   document.body.appendChild(canvas);
   const ctx = canvas.getContext('2d');
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-
-  const pieces = Array.from({length: 120}, () => ({
-    x: Math.random() * canvas.width,
-    y: Math.random() * -canvas.height,
-    w: Math.random() * 10 + 5,
-    h: Math.random() * 6 + 4,
+  canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+  const pieces = Array.from({length:120}, () => ({
+    x: Math.random()*canvas.width, y: Math.random()*-canvas.height,
+    w: Math.random()*10+5, h: Math.random()*6+4,
     color: ['#f9a825','#1a237e','#4caf50','#e91e63','#03a9f4'][Math.floor(Math.random()*5)],
-    speed: Math.random() * 3 + 2,
-    angle: Math.random() * 360,
-    spin: (Math.random() - 0.5) * 5,
+    speed: Math.random()*3+2, angle: Math.random()*360, spin: (Math.random()-.5)*5,
   }));
-
   let frame = 0;
   function draw() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.clearRect(0,0,canvas.width,canvas.height);
     pieces.forEach(p => {
-      ctx.save();
-      ctx.translate(p.x, p.y);
-      ctx.rotate(p.angle * Math.PI / 180);
-      ctx.fillStyle = p.color;
-      ctx.fillRect(-p.w/2, -p.h/2, p.w, p.h);
-      ctx.restore();
-      p.y += p.speed;
-      p.angle += p.spin;
-      if (p.y > canvas.height) {
-        p.y = -20;
-        p.x = Math.random() * canvas.width;
-      }
+      ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.angle*Math.PI/180);
+      ctx.fillStyle = p.color; ctx.fillRect(-p.w/2,-p.h/2,p.w,p.h); ctx.restore();
+      p.y += p.speed; p.angle += p.spin;
+      if (p.y > canvas.height) { p.y = -20; p.x = Math.random()*canvas.width; }
     });
-    frame++;
-    if (frame < 300) requestAnimationFrame(draw);
-    else { canvas.remove(); }
+    if (++frame < 300) requestAnimationFrame(draw); else canvas.remove();
   }
   draw();
 })();

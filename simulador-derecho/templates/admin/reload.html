@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}Actualizar Base de Datos de Preguntas{% endblock %}
+{% block content %}
+<div class="admin-page">
+  <div class="admin-header">
+    <h1>🔄 Actualizar Base de Datos de Preguntas</h1>
+    <div class="admin-nav">
+      <a href="{{ url_for('admin_dashboard') }}" class="admin-link">← Volver al Dashboard</a>
+    </div>
+  </div>
+
+  <div class="form-card" style="max-width:550px">
+
+    <div style="display:flex;gap:1.5rem;margin-bottom:2rem;flex-wrap:wrap">
+      <div class="stat-card" style="flex:1;min-width:150px">
+        <div class="stat-card-icon">📁</div>
+        <div class="stat-card-num {% if json_count != db_count %}style="color:var(--gold2)"{% endif %}">
+          {{ json_count }}
+        </div>
+        <div class="stat-card-label">Preguntas en JSON<br>(archivo actualizado)</div>
+      </div>
+      <div class="stat-card" style="flex:1;min-width:150px">
+        <div class="stat-card-icon">🗄️</div>
+        <div class="stat-card-num">{{ db_count }}</div>
+        <div class="stat-card-label">Preguntas en BD<br>(actualmente en uso)</div>
+      </div>
+    </div>
+
+    {% if json_count != db_count %}
+    <div class="flash flash-warning" style="margin-bottom:1.5rem">
+      ⚠️ <strong>Diferencia detectada:</strong> El archivo JSON tiene
+      <strong>{{ json_count }}</strong> preguntas pero la base de datos tiene
+      <strong>{{ db_count }}</strong>. Haz clic en el botón para sincronizar.
+    </div>
+    {% else %}
+    <div class="flash flash-success" style="margin-bottom:1.5rem">
+      ✅ <strong>La base de datos ya está al día</strong> con {{ db_count }} preguntas.
+      Puedes forzar la recarga de todas formas si modificaste las respuestas en el JSON.
+    </div>
+    {% endif %}
+
+    <div class="import-info">
+      <h3>⚠️ Importante</h3>
+      <p>Esta acción <strong>reemplaza todas las preguntas</strong> de la base de datos con las del archivo <code>questions.json</code>.</p>
+      <p>Los <strong>resultados de exámenes anteriores NO se borran</strong>, solo se actualizan las preguntas.</p>
+    </div>
+
+    <form method="POST" onsubmit="return confirm('¿Confirmas la actualización de {{ json_count }} preguntas?')">
+      <div class="form-actions" style="margin-top:1.5rem">
+        <a href="{{ url_for('admin_dashboard') }}" class="btn-cancel">Cancelar</a>
+        <button type="submit" class="btn-save" style="background:var(--green2)">
+          🔄 Actualizar ahora ({{ json_count }} preguntas)
+        </button>
+      </div>
+    </form>
+
+  </div>
+</div>
+{% endblock %}
